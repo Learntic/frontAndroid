@@ -1,0 +1,23 @@
+com/example/lerntic/MainActivity.java
+ com.example.lerntic.MainActivity
+ com.example.lerntic.MainActivity$1
+com/example/lerntic/BuildConfig.java
+ com.example.lerntic.BuildConfig
+com/example/lerntic/ApolloConnector.java
+ com.example.lerntic.ApolloConnector
+com/example/lerntic/type/CustomType.java
+ com.example.lerntic.type.CustomType
+ com.example.lerntic.type.CustomType$1
+com/example/lerntic/FeedbacksQuery.java
+ com.example.lerntic.FeedbacksQuery
+ com.example.lerntic.FeedbacksQuery$1
+ com.example.lerntic.FeedbacksQuery$Builder
+ com.example.lerntic.FeedbacksQuery$Data
+ com.example.lerntic.FeedbacksQuery$Data$1
+ com.example.lerntic.FeedbacksQuery$Data$Mapper
+ com.example.lerntic.FeedbacksQuery$Data$Mapper$1
+ com.example.lerntic.FeedbacksQuery$FeedbackById
+ com.example.lerntic.FeedbacksQuery$FeedbackById$1
+ com.example.lerntic.FeedbacksQuery$FeedbackById$Mapper
+ com.example.lerntic.FeedbacksQuery$Variables
+ com.example.lerntic.FeedbacksQuery$Variables$1

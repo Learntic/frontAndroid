@@ -1,0 +1,9 @@
+query feedbacks($id: Int!){
+  feedbackById(id: $id) {
+    id
+    id_usuario
+    id_curso
+    opinion
+    nota
+  }
+}
