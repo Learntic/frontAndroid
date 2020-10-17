@@ -1,4 +1,4 @@
-package com.example.lerntic.objects;
+package com.example.lerntic.Model.Objects;
 
 import android.util.Log;
 

@@ -1,4 +1,4 @@
-package com.example.lerntic;
+package com.example.lerntic.Model;
 
 import com.apollographql.apollo.ApolloClient;
 

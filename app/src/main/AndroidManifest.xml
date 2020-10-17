@@ -13,7 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Controller.Quices"></activity>
+        <activity android:name=".Controller.Activities" />
+        <activity android:name=".View.Register" />
+        <activity android:name=".View.friends" />
+        <activity android:name=".View.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
