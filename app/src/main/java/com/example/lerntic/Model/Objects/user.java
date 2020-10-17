@@ -20,7 +20,7 @@ public class user {
         this.username = username;
     }
 
-    public String getPassword() {
+    public String getToken() {
         return token;
     }
 
