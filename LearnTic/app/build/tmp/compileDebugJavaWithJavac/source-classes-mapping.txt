@@ -1,13 +1,7 @@
-com/example/lerntic/MainActivity.java
- com.example.lerntic.MainActivity
- com.example.lerntic.MainActivity$1
-com/example/lerntic/BuildConfig.java
- com.example.lerntic.BuildConfig
-com/example/lerntic/ApolloConnector.java
- com.example.lerntic.ApolloConnector
-com/example/lerntic/type/CustomType.java
- com.example.lerntic.type.CustomType
- com.example.lerntic.type.CustomType$1
+com/example/lerntic/type/AccountInput.java
+ com.example.lerntic.type.AccountInput
+ com.example.lerntic.type.AccountInput$1
+ com.example.lerntic.type.AccountInput$Builder
 com/example/lerntic/FeedbacksQuery.java
  com.example.lerntic.FeedbacksQuery
  com.example.lerntic.FeedbacksQuery$1
@@ -21,3 +15,29 @@ com/example/lerntic/FeedbacksQuery.java
  com.example.lerntic.FeedbacksQuery$FeedbackById$Mapper
  com.example.lerntic.FeedbacksQuery$Variables
  com.example.lerntic.FeedbacksQuery$Variables$1
+com/example/lerntic/SignInQuery.java
+ com.example.lerntic.SignInQuery
+ com.example.lerntic.SignInQuery$1
+ com.example.lerntic.SignInQuery$Builder
+ com.example.lerntic.SignInQuery$Data
+ com.example.lerntic.SignInQuery$Data$1
+ com.example.lerntic.SignInQuery$Data$Mapper
+ com.example.lerntic.SignInQuery$Data$Mapper$1
+ com.example.lerntic.SignInQuery$SignIn
+ com.example.lerntic.SignInQuery$SignIn$1
+ com.example.lerntic.SignInQuery$SignIn$Mapper
+ com.example.lerntic.SignInQuery$Variables
+ com.example.lerntic.SignInQuery$Variables$1
+com/example/lerntic/BuildConfig.java
+ com.example.lerntic.BuildConfig
+com/example/lerntic/objects/AccountInput.java
+ com.example.lerntic.objects.AccountInput
+com/example/lerntic/ApolloConnector.java
+ com.example.lerntic.ApolloConnector
+com/example/lerntic/type/CustomType.java
+ com.example.lerntic.type.CustomType
+ com.example.lerntic.type.CustomType$1
+com/example/lerntic/MainActivity.java
+ com.example.lerntic.MainActivity
+ com.example.lerntic.MainActivity$1
+ com.example.lerntic.MainActivity$2

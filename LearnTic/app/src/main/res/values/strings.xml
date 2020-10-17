@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">LernTic</string>
+    <string name="app_name">SwArch2020</string>
+    <string name="olvide_pass"><u>Olvide mi contraseña</u></string>
 </resources>
