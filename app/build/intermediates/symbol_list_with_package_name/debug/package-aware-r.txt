@@ -1137,7 +1137,7 @@ id beginning
 id blocking
 id bottom
 id btn_SignIn
-id btn_reg
+id btn_SignUp
 id buttonPanel
 id center
 id center_horizontal

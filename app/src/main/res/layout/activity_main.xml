@@ -99,7 +99,7 @@
         tools:layout_editor_absoluteY="629dp" />
 
     <Button
-        android:id="@+id/btn_reg"
+        android:id="@+id/btn_SignUp"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_alignParentStart="true"

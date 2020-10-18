@@ -1136,7 +1136,7 @@ int id beginning 0x7f080041
 int id blocking 0x7f080042
 int id bottom 0x7f080043
 int id btn_SignIn 0x7f080044
-int id btn_reg 0x7f080045
+int id btn_SignUp 0x7f080045
 int id buttonPanel 0x7f080046
 int id center 0x7f080047
 int id center_horizontal 0x7f080048

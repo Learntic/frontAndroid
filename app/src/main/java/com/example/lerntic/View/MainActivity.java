@@ -22,12 +22,17 @@ import com.example.lerntic.R;
 import com.example.lerntic.SignInQuery;
 import com.example.lerntic.type.AccountInput;
 
+import com.example.lerntic.Model.Objects.user;
+
 public class MainActivity extends AppCompatActivity {
+
+    public user User = new user();
 
     public EditText user = null;
     public EditText pass = null;
 
-    public Button boton = null;
+    public Button botonSingIn = null;
+    public Button botonSingUp = null;
 
     private Login_controller controller_login = new Login_controller();
 
@@ -38,13 +43,31 @@ public class MainActivity extends AppCompatActivity {
 
         user = findViewById(R.id.usernameInput);
         pass = findViewById(R.id.passwordInput);
-        boton =  findViewById(R.id.btn_SignIn);
+        botonSingIn =  findViewById(R.id.btn_SignIn);
+        botonSingUp =  findViewById(R.id.btn_SignUp);
 
-        boton.setOnClickListener(new View.OnClickListener() {
+        botonSingIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                controller_login.Login_controller(user.getText().toString(),pass.getText().toString(),getApplicationContext());
+                User = controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
+                System.out.println(User.getUsername());
+                System.out.println(User.getToken());
+                openOwnCourses();
             }
         });
+
+        botonSingUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
+            }
+        });
+    }
+
+    public void openOwnCourses(){
+        Intent intent = new Intent(this, OwnCourses.class);
+        intent.putExtra("Username",User.getUsername());
+        intent.putExtra("Token",User.getToken());
+        startActivity(intent);
     }
 }

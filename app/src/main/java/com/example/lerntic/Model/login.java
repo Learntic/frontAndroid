@@ -16,10 +16,9 @@ import com.example.lerntic.type.AccountInput;
 import org.jetbrains.annotations.NotNull;
 
 public class login {
-    private final String TAG = "MainActivity";
+    private final String TAG = "login";
     public user User ;
     public Context context ;
-    user ret;
 
     public login(user User, Context context) {
         this.User = User;
@@ -31,13 +30,13 @@ public class login {
 
         String username = User.getUsername();
         String password = User.getPassword();
+        User = new user();
 
         AccountInput account = AccountInput
                 .builder()
                 .username(username)
                 .password(password)
                 .build();
-
 
         ApolloConnector.setupApollo().query(
                 SignInQuery
@@ -50,7 +49,6 @@ public class login {
                         SignInQuery.SignIn data = response.data().signIn();
                         User.setToken(data.token());
                         User.setUsername(data.username());
-                        next(User);
                     }
 
                     @Override
@@ -60,15 +58,8 @@ public class login {
                 });
     }
 
-    private void next(user User){
-        System.out.println("------>"+User.getToken());
-        System.out.println("------>"+User.getUsername());
-        this.ret = User;
-
-    }
-
     public user getUser() {
-        return ret;
+        return User;
     }
 
 
