@@ -92,10 +92,6 @@
         "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_login_bk.png"
     },
     {
-        "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_own_courses.xml.flat",
-        "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\layout\\activity_own_courses.xml"
-    },
-    {
         "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -112,16 +108,16 @@
         "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\layout\\activity_register2.xml"
     },
     {
-        "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_courses.xml.flat",
-        "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\layout\\activity_courses.xml"
-    },
-    {
         "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_login_bk.png.flat",
         "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_login_bk.png"
     },
     {
         "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_comprobar.png.flat",
         "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\drawable\\comprobar.png"
+    },
+    {
+        "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_own_courses2.xml.flat",
+        "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\layout\\activity_own_courses2.xml"
     },
     {
         "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape.xml.flat",

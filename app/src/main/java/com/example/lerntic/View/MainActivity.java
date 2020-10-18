@@ -44,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 controller_login.Login_controller(user.getText().toString(),pass.getText().toString(),getApplicationContext());
+
+
+
             }
         });
     }
