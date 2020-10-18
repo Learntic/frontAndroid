@@ -12,6 +12,8 @@ public class Login_controller {
     public login login = new login();
     public user User = new user();
 
+    public Login_controller(){};
+
     public Login_controller(String user, String pass, Context context) {
        //User =  (user) login.user_return();
         if (User.getToken()!="" && User.getUsername()!= "" ){
