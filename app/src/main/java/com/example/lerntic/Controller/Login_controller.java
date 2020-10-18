@@ -15,13 +15,16 @@ public class Login_controller {
     public login login = new login();
     public user User = new user();
 
+
     public Login_controller() {
 
     }
 
     public void Login_controller(String user, String pass, Context context) {
-        User = new user(user,pass);
+        User = new user(user,"",pass);
         User = (user) login.login(User);
+
+
         if (User.getToken()!="" && User.getUsername()!= "" ){
             next(context,User);
         }

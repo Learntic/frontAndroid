@@ -1375,9 +1375,14 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_activities
 layout activity_courses
+layout activity_friends
 layout activity_main
+layout activity_own_courses
+layout activity_quices
 layout activity_register
+layout activity_register2
 layout activity_specific__course
 layout custom_dialog
 layout design_bottom_navigation_item

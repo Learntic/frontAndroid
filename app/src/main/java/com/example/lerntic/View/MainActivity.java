@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
         user = findViewById(R.id.usernameInput);
         pass = findViewById(R.id.passwordInput);
-
         boton =  findViewById(R.id.btn_SignIn);
 
         boton.setOnClickListener(new View.OnClickListener() {
@@ -47,5 +46,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 }
