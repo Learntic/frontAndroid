@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     public EditText user = null;
     public EditText pass = null;
 
+    public Button boton = null;
+
     private Login_controller controller_login = new Login_controller();
 
     @Override
@@ -36,7 +38,14 @@ public class MainActivity extends AppCompatActivity {
         user = findViewById(R.id.usernameInput);
         pass = findViewById(R.id.passwordInput);
 
+        boton =  findViewById(R.id.btn_SignIn);
 
+        boton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                controller_login.Login_controller(user.getText().toString(),pass.getText().toString(), getApplicationContext());
+            }
+        });
     }
 
 }

@@ -6,9 +6,8 @@ public class login {
     public user user_return = new user();
 
 
-    public Object login(){
-        user_return.setToken("token");
-        user_return.setUsername("nombre");
+    public Object login(user User){
+
 
 
 
