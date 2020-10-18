@@ -22,7 +22,12 @@ public class Login_controller {
     }
     public void Login_controller(String user, String pass, Context context) {
        User = new user(user,"",pass);
-        login = new login(User,context);
+       login = new login(User,context);
+       User = login.getUser();
+       while(User==null){
+           User = login.getUser();
+       }
+       System.out.println(User.getUsername());
 
 
     }

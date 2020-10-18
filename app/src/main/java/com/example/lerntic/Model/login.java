@@ -19,6 +19,7 @@ public class login {
     private final String TAG = "MainActivity";
     public user User ;
     public Context context ;
+    user ret;
 
     public login(user User, Context context) {
         this.User = User;
@@ -26,7 +27,7 @@ public class login {
         login(context);
     }
 
-    public void login(final Context context) {
+    public synchronized void login(final Context context) {
 
         String username = User.getUsername();
         String password = User.getPassword();
@@ -43,7 +44,6 @@ public class login {
                         .builder()
                         .account(account)
                         .build())
-
                 .enqueue(new ApolloCall.Callback<SignInQuery.Data>() {
                     @Override
                     public void onResponse(@NotNull Response<SignInQuery.Data> response) {
@@ -62,7 +62,13 @@ public class login {
 
     private void next(user User){
         System.out.println("------>"+User.getToken());
+        System.out.println("------>"+User.getUsername());
+        this.ret = User;
 
+    }
+
+    public user getUser() {
+        return ret;
     }
 
 

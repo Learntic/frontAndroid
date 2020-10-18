@@ -1,7 +1,7 @@
 com/example/lerntic/Model/UserCourses.java
  com.example.lerntic.Model.UserCourses
-com/example/lerntic/BuildConfig.java
- com.example.lerntic.BuildConfig
+com/example/lerntic/View/OwnCourses.java
+ com.example.lerntic.View.OwnCourses
 com/example/lerntic/Controller/Quices.java
  com.example.lerntic.Controller.Quices
 com/example/lerntic/SignInQuery.java
@@ -49,13 +49,13 @@ com/example/lerntic/type/AccountInput.java
  com.example.lerntic.type.AccountInput$Builder
 com/example/lerntic/Controller/UserCourses_controller.java
  com.example.lerntic.Controller.UserCourses_controller
-com/example/lerntic/View/OwnCourses.java
- com.example.lerntic.View.OwnCourses
+com/example/lerntic/BuildConfig.java
+ com.example.lerntic.BuildConfig
 com/example/lerntic/Model/login.java
  com.example.lerntic.Model.login
  com.example.lerntic.Model.login$1
-com/example/lerntic/Controller/Login_controller.java
- com.example.lerntic.Controller.Login_controller
 com/example/lerntic/View/MainActivity.java
  com.example.lerntic.View.MainActivity
  com.example.lerntic.View.MainActivity$1
+com/example/lerntic/Controller/Login_controller.java
+ com.example.lerntic.Controller.Login_controller
