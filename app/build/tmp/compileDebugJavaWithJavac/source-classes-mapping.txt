@@ -1,8 +1,17 @@
+<<<<<<< Updated upstream
 com/example/lerntic/Model/Objects/course.java
  com.example.lerntic.Model.Objects.course
 com/example/lerntic/Model/UserCourses.java
  com.example.lerntic.Model.UserCourses
  com.example.lerntic.Model.UserCourses$1
+=======
+com/example/lerntic/View/MainActivity.java
+ com.example.lerntic.View.MainActivity
+ com.example.lerntic.View.MainActivity$1
+ com.example.lerntic.View.MainActivity$2
+com/example/lerntic/View/OwnCourses.java
+ com.example.lerntic.View.OwnCourses
+>>>>>>> Stashed changes
 com/example/lerntic/Controller/Quices.java
  com.example.lerntic.Controller.Quices
 com/example/lerntic/SignInQuery.java
@@ -18,6 +27,19 @@ com/example/lerntic/SignInQuery.java
  com.example.lerntic.SignInQuery$SignIn$Mapper
  com.example.lerntic.SignInQuery$Variables
  com.example.lerntic.SignInQuery$Variables$1
+com/example/lerntic/SignUpMutation.java
+ com.example.lerntic.SignUpMutation
+ com.example.lerntic.SignUpMutation$1
+ com.example.lerntic.SignUpMutation$Builder
+ com.example.lerntic.SignUpMutation$Data
+ com.example.lerntic.SignUpMutation$Data$1
+ com.example.lerntic.SignUpMutation$Data$Mapper
+ com.example.lerntic.SignUpMutation$Data$Mapper$1
+ com.example.lerntic.SignUpMutation$SignUp
+ com.example.lerntic.SignUpMutation$SignUp$1
+ com.example.lerntic.SignUpMutation$SignUp$Mapper
+ com.example.lerntic.SignUpMutation$Variables
+ com.example.lerntic.SignUpMutation$Variables$1
 com/example/lerntic/Model/ApolloConnector.java
  com.example.lerntic.Model.ApolloConnector
 com/example/lerntic/Controller/Activities.java
@@ -28,6 +50,7 @@ com/example/lerntic/Controller/Register_controller.java
  com.example.lerntic.Controller.Register_controller
 com/example/lerntic/View/Register.java
  com.example.lerntic.View.Register
+ com.example.lerntic.View.Register$1
 com/example/lerntic/type/CustomType.java
  com.example.lerntic.type.CustomType
  com.example.lerntic.type.CustomType$1
@@ -59,6 +82,7 @@ com/example/lerntic/BuildConfig.java
  com.example.lerntic.BuildConfig
 com/example/lerntic/Controller/Login_controller.java
  com.example.lerntic.Controller.Login_controller
+<<<<<<< Updated upstream
 com/example/lerntic/View/MainActivity.java
  com.example.lerntic.View.MainActivity
  com.example.lerntic.View.MainActivity$1
@@ -66,3 +90,10 @@ com/example/lerntic/View/MainActivity.java
 com/example/lerntic/View/OwnCourses.java
  com.example.lerntic.View.OwnCourses
  com.example.lerntic.View.OwnCourses$1
+=======
+com/example/lerntic/Model/RegisterFunc.java
+ com.example.lerntic.Model.RegisterFunc
+ com.example.lerntic.Model.RegisterFunc$1
+com/example/lerntic/Model/UserCourses.java
+ com.example.lerntic.Model.UserCourses
+>>>>>>> Stashed changes

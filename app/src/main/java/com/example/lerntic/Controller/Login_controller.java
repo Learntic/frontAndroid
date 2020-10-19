@@ -1,16 +1,8 @@
 package com.example.lerntic.Controller;
 
 import android.content.Context;
-import android.content.Intent;
-import android.os.Parcelable;
-import android.view.View;
-import android.widget.Toast;
-
 import com.example.lerntic.Model.Objects.user;
 import com.example.lerntic.Model.login;
-import com.example.lerntic.View.MainActivity;
-import com.example.lerntic.View.OwnCourses;
-
 
 public class Login_controller {
     public login login;

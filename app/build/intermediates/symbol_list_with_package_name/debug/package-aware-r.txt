@@ -1150,6 +1150,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id confPas
 id container
 id content
 id contentPanel
