@@ -28,17 +28,8 @@
         "source": "C:\\Users\\Nicolas Contreras\\Desktop\\FRONT\\frontAndroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-<<<<<<< Updated upstream
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_viewcourses.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_viewcourses.xml"
-    },
-    {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_own_courses.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_own_courses.xml"
-=======
         "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\FRONT\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Nicolas Contreras\\Desktop\\FRONT\\frontAndroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
->>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\FRONT\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -159,6 +150,10 @@
     {
         "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\FRONT\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item.xml.flat",
         "source": "C:\\Users\\Nicolas Contreras\\Desktop\\FRONT\\frontAndroid\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\FRONT\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_viewcourses.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\FRONT\\frontAndroid\\app\\src\\main\\res\\layout\\activity_viewcourses.xml"
     },
     {
         "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\FRONT\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_courses.xml.flat",

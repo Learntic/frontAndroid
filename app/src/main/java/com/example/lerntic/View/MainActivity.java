@@ -17,6 +17,7 @@ import com.apollographql.apollo.exception.ApolloException;
 import org.jetbrains.annotations.NotNull;
 
 import com.example.lerntic.Controller.Login_controller;
+import com.example.lerntic.Controller.Register_controller;
 import com.example.lerntic.Model.ApolloConnector;
 import com.example.lerntic.R;
 import com.example.lerntic.SignInQuery;
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     public Button botonSingUp = null;
 
     private Login_controller controller_login = new Login_controller();
+    private Register_controller register_controller = new Register_controller();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +61,10 @@ public class MainActivity extends AppCompatActivity {
         botonSingUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
+                User = register_controller.signUp(user.getText().toString(),pass.getText().toString(),getApplicationContext());
+                System.out.println(User.getUsername());
+                System.out.println(User.getToken());
+                openOwnCourses();
             }
         });
     }

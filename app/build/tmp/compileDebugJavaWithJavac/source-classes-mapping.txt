@@ -1,17 +1,10 @@
-<<<<<<< Updated upstream
-com/example/lerntic/Model/Objects/course.java
- com.example.lerntic.Model.Objects.course
-com/example/lerntic/Model/UserCourses.java
- com.example.lerntic.Model.UserCourses
- com.example.lerntic.Model.UserCourses$1
-=======
 com/example/lerntic/View/MainActivity.java
  com.example.lerntic.View.MainActivity
  com.example.lerntic.View.MainActivity$1
  com.example.lerntic.View.MainActivity$2
 com/example/lerntic/View/OwnCourses.java
  com.example.lerntic.View.OwnCourses
->>>>>>> Stashed changes
+ com.example.lerntic.View.OwnCourses$1
 com/example/lerntic/Controller/Quices.java
  com.example.lerntic.Controller.Quices
 com/example/lerntic/SignInQuery.java
@@ -82,18 +75,11 @@ com/example/lerntic/BuildConfig.java
  com.example.lerntic.BuildConfig
 com/example/lerntic/Controller/Login_controller.java
  com.example.lerntic.Controller.Login_controller
-<<<<<<< Updated upstream
-com/example/lerntic/View/MainActivity.java
- com.example.lerntic.View.MainActivity
- com.example.lerntic.View.MainActivity$1
- com.example.lerntic.View.MainActivity$2
-com/example/lerntic/View/OwnCourses.java
- com.example.lerntic.View.OwnCourses
- com.example.lerntic.View.OwnCourses$1
-=======
 com/example/lerntic/Model/RegisterFunc.java
  com.example.lerntic.Model.RegisterFunc
  com.example.lerntic.Model.RegisterFunc$1
 com/example/lerntic/Model/UserCourses.java
  com.example.lerntic.Model.UserCourses
->>>>>>> Stashed changes
+ com.example.lerntic.Model.UserCourses$1
+com/example/lerntic/Model/Objects/course.java
+ com.example.lerntic.Model.Objects.course
