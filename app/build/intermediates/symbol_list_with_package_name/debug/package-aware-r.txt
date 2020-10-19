@@ -1072,6 +1072,7 @@ id ALT
 id CTRL
 id FUNCTION
 id META
+id Own_courses_header
 id SHIFT
 id SYM
 id accessibility_action_clickable_span
@@ -1290,6 +1291,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1384,6 +1386,7 @@ layout activity_quices
 layout activity_register
 layout activity_register2
 layout activity_specific__course
+layout activity_viewcourses
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
