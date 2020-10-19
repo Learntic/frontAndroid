@@ -61,10 +61,7 @@ public class MainActivity extends AppCompatActivity {
         botonSingUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                User = register_controller.signUp(user.getText().toString(),pass.getText().toString(),getApplicationContext());
-                System.out.println(User.getUsername());
-                System.out.println(User.getToken());
-                openOwnCourses();
+                openRegister();
             }
         });
     }
@@ -73,6 +70,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, OwnCourses.class);
         intent.putExtra("Username",User.getUsername());
         intent.putExtra("Token",User.getToken());
+        startActivity(intent);
+    }
+
+    public void openRegister(){
+        Intent intent = new Intent(this, Register.class);
         startActivity(intent);
     }
 }
