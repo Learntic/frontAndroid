@@ -14,53 +14,48 @@
         android:textColor="#154360"
         android:textSize="30dp"/>
 
-    <LinearLayout
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/user"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="70dp"
-        android:background="@drawable/ic_login_bk">
+        android:layout_above="@+id/pass"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="19dp"
+        android:hint="Usuario"
+        android:shadowColor="#1f618d"
+        android:textColor="#1f618d"
+        android:textColorHighlight="#1f618d"
+        android:textColorHint="#1f618d"
+        android:textColorLink="#1f618d" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/user"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginHorizontal="10dp"
-            android:hint="Usuario"
-            android:shadowColor="#1f618d"
-            android:textColor="#1f618d"
-            android:textColorHighlight="#1f618d"
-            android:textColorHint="#1f618d"
-            android:textColorLink="#1f618d" />
-    </LinearLayout>
-
-    <LinearLayout
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/pass"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_below="@+id/user"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:background="@drawable/ic_login_bk">
+        android:layout_above="@+id/confPas"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="37dp"
+        android:hint="Contraseña"
+        android:shadowColor="#1f618d"
+        android:textColor="#1f618d"
+        android:textColorHighlight="#1f618d"
+        android:textColorHint="#1f618d"
+        android:textColorLink="#1f618d" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/pass"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginHorizontal="10dp"
-            android:hint="Contraseña"
-            android:shadowColor="#1f618d"
-            android:textColor="#1f618d"
-            android:textColorHighlight="#1f618d"
-            android:textColorHint="#1f618d"
-            android:textColorLink="#1f618d" />
-    </LinearLayout>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/confPas"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="426dp"
+        android:hint="Confirma Contraseña"
+        android:shadowColor="#1f618d"
+        android:textColor="#1f618d"
+        android:textColorHighlight="#1f618d"
+        android:textColorHint="#1f618d"
+        android:textColorLink="#1f618d" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -71,37 +66,7 @@
         android:layout_alignParentRight="true"
         android:background="@drawable/ic_login_bk">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/confPas"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginHorizontal="10dp"
-            android:hint="Confirma Contraseña"
-            android:shadowColor="#1f618d"
-            android:textColor="#1f618d"
-            android:textColorHighlight="#1f618d"
-            android:textColorHint="#1f618d"
-            android:textColorLink="#1f618d" />
     </LinearLayout>
-    <Button
-        android:id="@+id/btn_SignIn"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="46dp"
-        android:layout_marginBottom="280dp"
-        android:text="Ingresar"
-        android:textColor="#ffff"
-        android:background="@drawable/button_sable_blue"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="629dp" />
 
 
     <TextView
@@ -120,5 +85,15 @@
         android:inputType="textPersonName"
         android:text="Tienes una cuenta? Entra"
         android:textColor="#6C6C6C" />
+
+    <Button
+        android:id="@+id/button_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="315dp"
+        android:text="Button" />
 
 </RelativeLayout>

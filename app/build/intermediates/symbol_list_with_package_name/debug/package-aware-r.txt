@@ -1137,9 +1137,10 @@ id barrier
 id beginning
 id blocking
 id bottom
-id btn_SignIn
 id btn_SignUp
+id btn_ingresar
 id buttonPanel
+id button_reg
 id center
 id center_horizontal
 id center_vertical

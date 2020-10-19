@@ -20,7 +20,7 @@ public class Register extends AppCompatActivity {
     public EditText user, password, pasConfirm;
     public Button boton;
 
-    private Register_controller register_controller = new Register_controller();
+    private final Register_controller register_controller = new Register_controller();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,13 +29,13 @@ public class Register extends AppCompatActivity {
 
         user = findViewById(R.id.user);
         password = findViewById(R.id.pass);
-        pasConfirm = findViewById(R.id.pass);
-        boton = findViewById(R.id.btn_SignIn);
+        pasConfirm = findViewById(R.id.confPas);
+        boton = findViewById(R.id.button_reg);
 
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(password.equals(pasConfirm)){
+                if(password.getText().toString().equals(pasConfirm.getText().toString())){
                     User = register_controller.signUp(user.getText().toString(),
                             password.getText().toString(),getApplicationContext());
                     openOwnCourses();
