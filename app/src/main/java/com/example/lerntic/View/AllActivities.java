@@ -1,16 +1,28 @@
 package com.example.lerntic.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.example.lerntic.Controller.Adapter_Courses;
 import com.example.lerntic.Model.Objects.user;
 import com.example.lerntic.R;
 
+import java.util.ArrayList;
+
 public class AllActivities extends AppCompatActivity {
+
+    public user User;
+
+    ArrayList<String> DataList;
+    RecyclerView recycler;
+
+
     //----------Botton MENU
     public LinearLayout home;
     public LinearLayout courses;
@@ -18,15 +30,14 @@ public class AllActivities extends AppCompatActivity {
     public LinearLayout profile;
     //---------
 
-    public user User;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_all_activities);
 
-        String username = "camilo";//getIntent().getStringExtra("Username");
-        String token = "65464654"; //getIntent().getStringExtra("Token");
+        String username = getIntent().getStringExtra("Username");
+        String token = getIntent().getStringExtra("Token");
 
         User = new user(username,token,"");
 
@@ -72,5 +83,17 @@ public class AllActivities extends AppCompatActivity {
             }
         });
         //---------------------
+
+        recycler = findViewById(R.id.Recycler_AllCourses);
+        recycler.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false));
+
+        DataList = new ArrayList<String>();
+
+        for (int i = 0; i<=50;i++){
+            DataList.add("Curso otros"+i);
+        }
+
+        Adapter_Courses adapter = new Adapter_Courses(DataList);
+        recycler.setAdapter(adapter);
     }
 }

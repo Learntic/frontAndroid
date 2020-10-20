@@ -6,7 +6,7 @@
     xmlns:card_view="http://schemas.android.com/tools">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="100dp"
         app:cardCornerRadius="12dp"
         android:layout_margin="10dp"
         android:elevation="9dp"
@@ -24,9 +24,9 @@
                 android:layout_gravity="right">
                 <ImageView
                     android:layout_marginLeft="20dp"
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/usuario"/>
+                    android:src="@drawable/friends_icon2"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -35,9 +35,9 @@
                 android:gravity="left"
                 android:orientation="vertical">
                 <TextView
-                    android:id="@+id/txt_card_blog_vertical_item"
-                    android:text="Amigo 1"
-                    android:textSize="30dp"
+                    android:id="@+id/txt_name_friend"
+                    android:text="Logro 1"
+                    android:textSize="20dp"
                     android:textColor="#000000"
                     android:textStyle="bold"
                     android:gravity="center_vertical"

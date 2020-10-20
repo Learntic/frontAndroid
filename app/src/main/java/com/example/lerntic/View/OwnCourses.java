@@ -1,20 +1,26 @@
 package com.example.lerntic.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.lerntic.Controller.Adapter_Courses;
 import com.example.lerntic.Controller.UserCourses_controller;
 import com.example.lerntic.Model.Objects.course;
 import com.example.lerntic.Model.Objects.user;
 import com.example.lerntic.R;
+
+import java.util.ArrayList;
 
 public class OwnCourses extends AppCompatActivity {
 
@@ -29,13 +35,16 @@ public class OwnCourses extends AppCompatActivity {
 
     public user User;
 
+    ArrayList<String> DataList;
+    RecyclerView recycler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_own_courses);
 
-        String username = "camilo";//getIntent().getStringExtra("Username");
-        String token = "65464654"; //getIntent().getStringExtra("Token");
+        String username = getIntent().getStringExtra("Username");
+        String token = getIntent().getStringExtra("Token");
 
         User = new user(username,token,"");
 
@@ -82,6 +91,18 @@ public class OwnCourses extends AppCompatActivity {
         });
         //---------------------
 
+        recycler = findViewById(R.id.Recycler_ownCourses);
+        recycler.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false));
+
+        DataList = new ArrayList<String>();
+
+        for (int i = 0; i<=50;i++){
+            DataList.add("Curso "+i);
+        }
+
+        Adapter_Courses adapter = new Adapter_Courses(DataList);
+        recycler.setAdapter(adapter);
+
         TextView textView = (TextView) findViewById(R.id.Own_courses_header);
         textView.setText(String.format("Cursos de %s", username));
 
@@ -98,7 +119,7 @@ public class OwnCourses extends AppCompatActivity {
             coursesView[i] = courses[i].getname();
         }*/
 
-        final String animalList[] = {"Lion","Tiger","Monkey","Elephant","Dog","Cat","Camel"};
+       /* final String animalList[] = {"Lion","Tiger","Monkey","Elephant","Dog","Cat","Camel"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, animalList);
 
@@ -115,6 +136,6 @@ public class OwnCourses extends AppCompatActivity {
                     startActivity(nextActivity);
                 }
             }
-        });
+        });*/
     }
 }

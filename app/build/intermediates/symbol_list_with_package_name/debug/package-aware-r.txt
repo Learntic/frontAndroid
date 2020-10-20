@@ -1403,6 +1403,10 @@ id CTRL
 id FUNCTION
 id META
 id Own_courses_header
+id Recycler_Achievements
+id Recycler_AllCourses
+id Recycler_friends
+id Recycler_ownCourses
 id SHIFT
 id SYM
 id TOP_END
@@ -1697,6 +1701,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id txt_card_blog_vertical_item
+id txt_description_course
+id txt_name_achievements
+id txt_name_course
+id txt_name_friend
 id txt_num_day_V
 id txt_register
 id unchecked
@@ -1773,6 +1781,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_achievements
 layout activity_all_activities
+layout activity_course_detail
 layout activity_friends
 layout activity_main
 layout activity_own_courses
@@ -1796,8 +1805,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout item
+layout item_achaivements
 layout item_chek
+layout item_course
 layout item_friend
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
