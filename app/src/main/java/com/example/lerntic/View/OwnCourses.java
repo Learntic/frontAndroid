@@ -105,6 +105,8 @@ public class OwnCourses extends AppCompatActivity {
 
         final Adapter_Courses adapter = new Adapter_Courses(DataList,User);
         recycler.setAdapter(adapter);
+
+
         adapter.SetOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

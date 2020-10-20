@@ -31,16 +31,13 @@ public class Adapter_Courses extends RecyclerView.Adapter<Adapter_Courses.ViewHo
     @Override
     public Adapter_Courses.ViewHolderDatos onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_course, null,false);
-
         view.setOnClickListener(this);
-
         return new ViewHolderDatos(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull Adapter_Courses.ViewHolderDatos holder, int position) {
         holder.asignarDatos(DataList.get(position));
-
     }
 
     @Override
@@ -60,18 +57,16 @@ public class Adapter_Courses extends RecyclerView.Adapter<Adapter_Courses.ViewHo
     }
 
     public class ViewHolderDatos extends RecyclerView.ViewHolder{
-
         TextView name;
-
-
+        //TextView description;
         public ViewHolderDatos(@NonNull View itemView) {
             super(itemView);
-
             name = itemView.findViewById(R.id.txt_name_course);
+            //description = itemView.findViewById(R.id.txt_description_course);
         }
-
         public void asignarDatos(String names) {
             name.setText(names);
+            //description.setText(names);
         }
     }
 }
