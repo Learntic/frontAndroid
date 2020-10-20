@@ -26,12 +26,14 @@
 
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/button_ownFriends"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
         android:layout_marginStart="15dp"
         android:layout_marginTop="-377dp"
         android:layout_marginEnd="15dp"
+        app:cardCornerRadius="15dp"
         android:layout_marginBottom="15dp">
 
         <LinearLayout
@@ -72,20 +74,20 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
+        android:id="@+id/botton_achievements"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
+        android:layout_below="@+id/button_ownFriends"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="-307dp"
         android:layout_marginEnd="15dp"
+        app:cardCornerRadius="15dp"
         android:layout_marginBottom="15dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -115,6 +117,55 @@
 
         </LinearLayout>
         </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/button_close_session"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/botton_achievements"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF0000"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Cerrar Sesión"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/power_off_icon"
+                    android:layout_gravity="right"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
     </androidx.cardview.widget.CardView>
 
 

@@ -9,7 +9,7 @@
         android:id="@+id/Own_courses_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mas Cursos"
+        android:text="Mas Amigos"
         android:textColor="#154360"
         android:textSize="30dp"
         android:layout_marginHorizontal="15dp"

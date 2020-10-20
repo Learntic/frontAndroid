@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
-        "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\layout\\activity_profile.xml"
-    },
-    {
         "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
         "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
@@ -38,6 +38,10 @@
     {
         "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_activities.xml.flat",
         "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\layout\\activity_all_activities.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_usuario.png.flat",
+        "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\usuario.png"
     },
     {
         "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -94,6 +98,10 @@
     {
         "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_power_off_icon.png.flat",
+        "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\power_off_icon.png"
     },
     {
         "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_input_login.png.flat",
@@ -182,6 +190,14 @@
     {
         "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_achievements.xml.flat",
+        "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\layout\\activity_achievements.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_friend.xml.flat",
+        "source": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\src\\main\\res\\layout\\item_friend.xml"
     },
     {
         "merged": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_learn_tic.png.flat",

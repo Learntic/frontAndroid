@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <activity android:name=".View.Achievements"></activity>
         <activity android:name=".View.AllActivities" />
         <activity
             android:name=".ui.login.All_activities"

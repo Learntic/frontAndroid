@@ -1,10 +1,12 @@
 package com.example.lerntic.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
 
 import com.example.lerntic.Model.Objects.user;
@@ -21,6 +23,10 @@ public class Profile extends AppCompatActivity {
 
     public user User;
 
+    public CardView Ownfriends;
+    public CardView Ownachievements;
+    public CardView CloseSession;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,7 +42,7 @@ public class Profile extends AppCompatActivity {
         courses = findViewById(R.id.menu_cours);
         friends = findViewById(R.id.menu_friends);
         profile = findViewById(R.id.menu_profile);
-        home.setOnClickListener(new View.OnClickListener() {
+        home.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), OwnCourses.class);
@@ -45,7 +51,7 @@ public class Profile extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        courses.setOnClickListener(new View.OnClickListener() {
+        courses.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), AllActivities.class);
@@ -54,7 +60,7 @@ public class Profile extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        friends.setOnClickListener(new View.OnClickListener() {
+        friends.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), friends.class);
@@ -63,7 +69,7 @@ public class Profile extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        profile.setOnClickListener(new View.OnClickListener() {
+        profile.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Profile.class);
@@ -73,5 +79,36 @@ public class Profile extends AppCompatActivity {
             }
         });
         //---------------------
+
+        Ownfriends = findViewById(R.id.button_ownFriends);
+        Ownachievements= findViewById(R.id.botton_achievements);
+        CloseSession = findViewById(R.id.button_close_session);
+
+        Ownfriends.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), friends.class);
+                intent.putExtra("Username",User.getUsername());
+                intent.putExtra("Token",User.getToken());
+                startActivity(intent);
+            }
+        });
+        Ownachievements.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               Intent intent = new Intent(getApplicationContext(), Achievements.class);
+                intent.putExtra("Username",User.getUsername());
+                intent.putExtra("Token",User.getToken());
+                startActivity(intent);
+            }
+        });
+        CloseSession.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

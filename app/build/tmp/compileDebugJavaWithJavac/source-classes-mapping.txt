@@ -85,19 +85,28 @@ com/example/lerntic/Model/login.java
  com.example.lerntic.Model.login$1
 com/example/lerntic/BuildConfig.java
  com.example.lerntic.BuildConfig
+com/example/lerntic/Model/Objects/course.java
+ com.example.lerntic.Model.Objects.course
 com/example/lerntic/Controller/Login_controller.java
  com.example.lerntic.Controller.Login_controller
 com/example/lerntic/Model/RegisterFunc.java
  com.example.lerntic.Model.RegisterFunc
  com.example.lerntic.Model.RegisterFunc$1
+com/example/lerntic/Model/UserCourses.java
+ com.example.lerntic.Model.UserCourses
+ com.example.lerntic.Model.UserCourses$1
+com/example/lerntic/View/Achievements.java
+ com.example.lerntic.View.Achievements
+ com.example.lerntic.View.Achievements$1
+ com.example.lerntic.View.Achievements$2
+ com.example.lerntic.View.Achievements$3
+ com.example.lerntic.View.Achievements$4
 com/example/lerntic/View/Profile.java
  com.example.lerntic.View.Profile
  com.example.lerntic.View.Profile$1
  com.example.lerntic.View.Profile$2
  com.example.lerntic.View.Profile$3
  com.example.lerntic.View.Profile$4
-com/example/lerntic/Model/UserCourses.java
- com.example.lerntic.Model.UserCourses
- com.example.lerntic.Model.UserCourses$1
-com/example/lerntic/Model/Objects/course.java
- com.example.lerntic.Model.Objects.course
+ com.example.lerntic.View.Profile$5
+ com.example.lerntic.View.Profile$6
+ com.example.lerntic.View.Profile$7
