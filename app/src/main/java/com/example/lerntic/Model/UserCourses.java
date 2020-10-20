@@ -32,13 +32,7 @@ public class UserCourses {
     public synchronized void GetUserCourser(final Context context) {
 
         String username = User.getUsername();
-        String password = User.getToken();
-
-        AccountInput account = AccountInput
-                .builder()
-                .username(username)
-                .password(password)
-                .build();
+        String token = User.getToken();
 
         ApolloConnector.setupApollo().query(
                 CoursesByUserIdQuery

@@ -26,8 +26,8 @@ public class Profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        String username = "camilo";//getIntent().getStringExtra("Username");
-        String token = "65464654"; //getIntent().getStringExtra("Token");
+        String username = getIntent().getStringExtra("Username");
+        String token = getIntent().getStringExtra("Token");
 
         User = new user(username,token,"");
 

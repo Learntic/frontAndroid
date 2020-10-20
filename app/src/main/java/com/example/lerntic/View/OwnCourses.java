@@ -82,34 +82,43 @@ public class OwnCourses extends AppCompatActivity {
         });
         //---------------------
 
-        TextView textView = (TextView) findViewById(R.id.Own_courses_header);
+        TextView textView = (TextView) findViewById(R.id.Not_Own_courses_header);
         textView.setText(String.format("Cursos de %s", username));
 
         ListView simpleList = (ListView) findViewById(R.id.coursesList);
 
-        course[] courses;
+        final course[] courses;
 
         courses = userCourses_controller.ShowCourses(username,token,getApplicationContext());
 
-        System.out.println("paso con: "+courses[1]);
+        if (courses.length==0){
+            String[] NotCourses = {"No se encuentra inscrito en ningun curso"};
 
-        final String animalList[] = {"Lion","Tiger","Monkey","Elephant","Dog","Cat","Camel"};
+            ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, NotCourses);
 
-        ArrayAdapter<course> adapter = new ArrayAdapter<course>(this, android.R.layout.simple_list_item_1, courses);
+            simpleList.setAdapter(adapter);
+        }else {
+            ArrayAdapter<course> adapter = new ArrayAdapter<course>(this, android.R.layout.simple_list_item_1, courses);
 
-        simpleList.setAdapter(adapter);
+            simpleList.setAdapter(adapter);
 
-        simpleList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (animalList[position].equals("Lion")) {
-                    Intent nextActivity = new Intent(OwnCourses.this, MainActivity.class);
-                    startActivity(nextActivity);
-                }else{
-                    Intent nextActivity = new Intent(OwnCourses.this, friends.class);
-                    startActivity(nextActivity);
+            simpleList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                   // openCourse(courses[position]);
                 }
-            }
-        });
+            });
+        }
+    }
+
+    public void openCourse(course course){
+        Intent intent = new Intent(this, CourseActivity.class);
+        intent.putExtra("Username",User.getUsername());
+        intent.putExtra("Token",User.getToken());
+        intent.putExtra("course_id",course.get_course_id());
+        intent.putExtra("course_name",course.get_name());
+        intent.putExtra("course_description",course.get_course_description());
+        intent.putExtra("course_score",course.get_course_score());
+        startActivity(intent);
     }
 }

@@ -1400,7 +1400,7 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id META
-id Own_courses_header
+id Not_Own_courses_header
 id SHIFT
 id SYM
 id TOP_END

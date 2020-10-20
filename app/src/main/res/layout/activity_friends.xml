@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".View.friends">
     <TextView
-        android:id="@+id/Own_courses_header"
+        android:id="@+id/Not_Own_courses_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Mas Cursos"
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/menu_bar"
         android:padding="15dp"
-        android:layout_below="@+id/Own_courses_header"
+        android:layout_below="@+id/Not_Own_courses_header"
         android:layout_marginTop="0dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"

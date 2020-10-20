@@ -19,13 +19,9 @@ public class UserCourses_controller {
         User = new user(username,token,"");
         userCourses = new UserCourses(User,context);
         courses = userCourses.getcourses();
-        System.out.println(courses);
         while(courses==null){
-            System.out.println(courses);
             courses = userCourses.getcourses();
         }
-        System.out.println("salio");
-        System.out.println(courses[1]);
         return courses;
     }
 }
