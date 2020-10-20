@@ -1704,6 +1704,7 @@ id txt_card_blog_vertical_item
 id txt_description_course
 id txt_name_achievements
 id txt_name_course
+id txt_name_course_detail
 id txt_name_friend
 id txt_num_day_V
 id txt_register

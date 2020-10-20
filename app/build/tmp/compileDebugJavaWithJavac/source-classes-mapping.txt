@@ -91,6 +91,7 @@ com/example/lerntic/View/OwnCourses.java
  com.example.lerntic.View.OwnCourses$2
  com.example.lerntic.View.OwnCourses$3
  com.example.lerntic.View.OwnCourses$4
+ com.example.lerntic.View.OwnCourses$5
 com/example/lerntic/SignInQuery.java
  com.example.lerntic.SignInQuery
  com.example.lerntic.SignInQuery$1

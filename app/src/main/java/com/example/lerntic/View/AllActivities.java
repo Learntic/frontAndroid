@@ -93,7 +93,7 @@ public class AllActivities extends AppCompatActivity {
             DataList.add("Curso otros"+i);
         }
 
-        Adapter_Courses adapter = new Adapter_Courses(DataList);
+        Adapter_Courses adapter = new Adapter_Courses(DataList,User);
         recycler.setAdapter(adapter);
     }
 }

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.example.lerntic.Model.Objects.user;
 import com.example.lerntic.R;
@@ -21,15 +22,21 @@ public class Course_detail extends AppCompatActivity {
 
     public user User;
 
+    public TextView name;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_course_detail);
 
+        name = findViewById(R.id.txt_name_course_detail);
+
         String username = getIntent().getStringExtra("Username");
         String token = getIntent().getStringExtra("Token");
+        String course = getIntent().getStringExtra("Course");
 
         User = new user(username,token,"");
+        name.setText(course);
 
         //----------Botton MENU
         home = findViewById(R.id.menu_home);

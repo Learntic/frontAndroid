@@ -13,6 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.lerntic.Controller.Adapter_Courses;
 import com.example.lerntic.Controller.UserCourses_controller;
@@ -100,8 +101,20 @@ public class OwnCourses extends AppCompatActivity {
             DataList.add("Curso "+i);
         }
 
-        Adapter_Courses adapter = new Adapter_Courses(DataList);
+
+
+        final Adapter_Courses adapter = new Adapter_Courses(DataList,User);
         recycler.setAdapter(adapter);
+        adapter.SetOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Course_detail.class);
+                intent.putExtra("Username",User.getUsername());
+                intent.putExtra("Token",User.getToken());
+                intent.putExtra("Course",DataList.get(recycler.getChildAdapterPosition(v)));
+                v.getContext().startActivity(intent);
+            }
+        });
 
         TextView textView = (TextView) findViewById(R.id.Own_courses_header);
         textView.setText(String.format("Cursos de %s", username));
