@@ -1,4 +1,4 @@
-#Mon Oct 19 23:35:32 COT 2020
-base.0=C\:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Tue Oct 20 09:45:20 COT 2020
+base.0=C\:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

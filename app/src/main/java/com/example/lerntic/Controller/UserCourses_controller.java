@@ -24,6 +24,8 @@ public class UserCourses_controller {
             System.out.println(courses);
             courses = userCourses.getcourses();
         }
+        System.out.println("salio");
+        System.out.println(courses[1]);
         return courses;
     }
 }

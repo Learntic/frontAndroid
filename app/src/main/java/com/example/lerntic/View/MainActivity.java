@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
         botonSingIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               /* User = controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
+                User = controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
                 System.out.println(User.getUsername());
-                System.out.println(User.getToken());*/
+                System.out.println(User.getToken());
                 openOwnCourses();
             }
         });
@@ -57,8 +57,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void openOwnCourses(){
         Intent intent = new Intent(this, OwnCourses.class);
-        //intent.putExtra("Username",User.getUsername());
-        //intent.putExtra("Token",User.getToken());
+        intent.putExtra("Username",User.getUsername());
+        intent.putExtra("Token",User.getToken());
         startActivity(intent);
     }
 

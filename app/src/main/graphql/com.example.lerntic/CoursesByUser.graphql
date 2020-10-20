@@ -1,0 +1,8 @@
+query coursesByUserId($id:String!){
+  coursesByUserId(id:$id){
+    course_id
+    course_description
+    course_name
+    course_score
+  }
+}

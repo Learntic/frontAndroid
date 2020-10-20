@@ -6,12 +6,15 @@ import android.util.Log;
 import com.apollographql.apollo.ApolloCall;
 import com.apollographql.apollo.api.Response;
 import com.apollographql.apollo.exception.ApolloException;
+import com.example.lerntic.CoursesByUserIdQuery;
 import com.example.lerntic.Model.Objects.user;
 import com.example.lerntic.SignInQuery;
 import com.example.lerntic.type.AccountInput;
 import com.example.lerntic.Model.Objects.course;
 
 import org.jetbrains.annotations.NotNull;
+
+import java.util.List;
 
 public class UserCourses {
 
@@ -30,7 +33,6 @@ public class UserCourses {
 
         String username = User.getUsername();
         String password = User.getToken();
-        User = new user();
 
         AccountInput account = AccountInput
                 .builder()
@@ -39,16 +41,24 @@ public class UserCourses {
                 .build();
 
         ApolloConnector.setupApollo().query(
-                SignInQuery
+                CoursesByUserIdQuery
                         .builder()
-                        .account(account)
+                        .id(username)
                         .build())
-                .enqueue(new ApolloCall.Callback<SignInQuery.Data>() {
+                .enqueue(new ApolloCall.Callback<CoursesByUserIdQuery.Data>() {
                     @Override
-                    public void onResponse(@NotNull Response<SignInQuery.Data> response) {
-                        SignInQuery.SignIn data = response.data().signIn();
-                        User.setToken(data.token());
-                        User.setUsername(data.username());
+                    public void onResponse(@NotNull Response<CoursesByUserIdQuery.Data> response) {
+                        List<CoursesByUserIdQuery.CoursesByUserId> data = response.data().coursesByUserId();
+                        Log.d(TAG, "Exception " + data);
+                        courses = new course[data.size()];
+                        for (int i = 0; i<data.size(); i++){
+                            int id = data.get(i).course_id();
+                            String name = data.get(i).course_name();
+                            String desc = data.get(i).course_description();
+                            double score = data.get(i).course_score();
+                            courses[i] = new course(id,desc,name,score);
+                        }
+                        setCourses(courses);
                     }
 
                     @Override
@@ -56,6 +66,10 @@ public class UserCourses {
                         Log.d(TAG, "Exception " + e.getMessage(), e);
                     }
                 });
+    }
+
+    public void setCourses(course[] courses) {
+        this.courses = courses;
     }
 
     public course[] getcourses() {

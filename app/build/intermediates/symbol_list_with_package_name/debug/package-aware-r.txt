@@ -1548,8 +1548,6 @@ id line1
 id line3
 id listMode
 id list_item
-id loading
-id login
 id masked
 id menu_bar
 id menu_cours
@@ -1603,7 +1601,6 @@ id parent
 id parentPanel
 id parent_matrix
 id pass
-id password
 id passwordInput
 id password_toggle
 id peekHeight
@@ -1703,7 +1700,6 @@ id unlabeled
 id up
 id useLogo
 id user
-id username
 id usernameInput
 id view_offset_helper
 id visible

@@ -34,8 +34,8 @@ public class OwnCourses extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_own_courses);
 
-        String username = "camilo";//getIntent().getStringExtra("Username");
-        String token = "65464654"; //getIntent().getStringExtra("Token");
+        String username = getIntent().getStringExtra("Username");
+        String token = getIntent().getStringExtra("Token");
 
         User = new user(username,token,"");
 
@@ -89,18 +89,13 @@ public class OwnCourses extends AppCompatActivity {
 
         course[] courses;
 
-        /*courses = userCourses_controller.ShowCourses(username,token,getApplicationContext());
+        courses = userCourses_controller.ShowCourses(username,token,getApplicationContext());
 
-        String[] coursesView = new String[courses.length];
-
-        for (int i=0;i<courses.length;i++)
-        {
-            coursesView[i] = courses[i].getname();
-        }*/
+        System.out.println("paso con: "+courses[1]);
 
         final String animalList[] = {"Lion","Tiger","Monkey","Elephant","Dog","Cat","Camel"};
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, animalList);
+        ArrayAdapter<course> adapter = new ArrayAdapter<course>(this, android.R.layout.simple_list_item_1, courses);
 
         simpleList.setAdapter(adapter);
 
