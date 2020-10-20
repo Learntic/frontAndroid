@@ -22,9 +22,13 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.lerntic.View.AllActivities" />
+        <activity
+            android:name="com.example.lerntic.ui.login.All_activities"
+            android:label="@string/title_activity_all_activities" />
+        <activity android:name="com.example.lerntic.View.Profile" />
         <activity android:name="com.example.lerntic.View.OwnCourses" />
         <activity android:name="com.example.lerntic.Controller.Quices" />
-        <activity android:name="com.example.lerntic.Controller.Activities" />
         <activity android:name="com.example.lerntic.View.Register" />
         <activity android:name="com.example.lerntic.View.friends" />
         <activity android:name="com.example.lerntic.View.MainActivity" >

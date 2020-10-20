@@ -13,9 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".View.OwnCourses"></activity>
+        <activity android:name=".View.AllActivities" />
+        <activity
+            android:name=".ui.login.All_activities"
+            android:label="@string/title_activity_all_activities" />
+        <activity android:name=".View.Profile" />
+        <activity android:name=".View.OwnCourses" />
         <activity android:name=".Controller.Quices" />
-        <activity android:name=".Controller.Activities" />
         <activity android:name=".View.Register" />
         <activity android:name=".View.friends" />
         <activity android:name=".View.MainActivity">

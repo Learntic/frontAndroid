@@ -24,10 +24,11 @@
         app:srcCompat="@drawable/learn_tic"
         tools:layout_editor_absoluteX="87dp"
         tools:layout_editor_absoluteY="-88dp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_above="@+id/btn_SignIn"
+        android:layout_above="@+id/btn_ingresar"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
@@ -54,7 +55,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_above="@+id/btn_SignIn"
+        android:layout_above="@+id/btn_ingresar"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
@@ -79,7 +80,7 @@
             android:textColorLink="#1f618d" />
     </LinearLayout>
     <Button
-        android:id="@+id/btn_SignIn"
+        android:id="@+id/btn_ingresar"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_alignParentStart="true"
@@ -99,7 +100,7 @@
         tools:layout_editor_absoluteY="629dp" />
 
     <Button
-        android:id="@+id/btn_reg"
+        android:id="@+id/btn_SignUp"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_alignParentStart="true"

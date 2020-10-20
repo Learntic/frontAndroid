@@ -1,7 +1,6 @@
 package com.example.lerntic.Model;
 
 import android.content.Context;
-import android.content.Intent;
 import android.util.Log;
 
 import com.apollographql.apollo.ApolloCall;
@@ -9,28 +8,31 @@ import com.apollographql.apollo.api.Response;
 import com.apollographql.apollo.exception.ApolloException;
 import com.example.lerntic.Model.Objects.user;
 import com.example.lerntic.SignInQuery;
-import com.example.lerntic.View.OwnCourses;
-import com.example.lerntic.View.Register;
 import com.example.lerntic.type.AccountInput;
 
 import org.jetbrains.annotations.NotNull;
 
 public class login {
-    private final String TAG = "MainActivity";
+    private final String TAG = "login";
     public user User ;
     public Context context ;
 
 
-    public login(user User, Context context) {
+    public login(user User) {
         this.User = User;
         this.context = context;
-        login_consult(context);
+        login_consult();
     }
 
-    public void login_consult(final Context context) {
+    public user getUser() {
+        return User;
+    }
+
+    public void login_consult() {
 
         String username = User.getUsername();
         String password = User.getPassword();
+        User = new user();
 
         User = new user();
 
@@ -40,20 +42,18 @@ public class login {
                 .password(password)
                 .build();
 
-
         ApolloConnector.setupApollo().query(
                 SignInQuery
                         .builder()
                         .account(account)
                         .build())
-
                 .enqueue(new ApolloCall.Callback<SignInQuery.Data>() {
                     @Override
                     public void onResponse(@NotNull Response<SignInQuery.Data> response) {
                         SignInQuery.SignIn data = response.data().signIn();
                         User.setToken(data.token());
                         User.setUsername(data.username());
-                        next(User,context);
+                        next(User);
                     }
 
                     @Override
@@ -62,15 +62,12 @@ public class login {
                     }
                 });
     }
-    public void next(user User,Context context){
-        //this.User = User;
-        System.out.println("-----------:Contexto : "+context+"---"+ User.getToken());
-
-        Intent intent = new Intent(context, Register.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        context.startActivity(intent);
-
+    public void next(user User){
+            this.User = User;
     }
 
-
 }
+
+
+
+

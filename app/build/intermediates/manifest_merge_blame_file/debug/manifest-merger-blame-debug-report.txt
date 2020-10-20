@@ -18,7 +18,7 @@
 12-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:6:22-76
 13
 14    <application
-14-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:8:5-28:19
+14-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:8:5-32:19
 15        android:allowBackup="true"
 15-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -37,35 +37,44 @@
 23-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:14:9-40
 24        android:usesCleartextTraffic="true" >
 24-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:15:9-44
-25        <activity android:name="com.example.lerntic.View.OwnCourses" />
-25-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:16:9-62
-25-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:16:19-50
-26        <activity android:name="com.example.lerntic.Controller.Quices" />
-26-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:17:9-55
-26-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:17:19-52
-27        <activity android:name="com.example.lerntic.Controller.Activities" />
-27-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:18:9-59
-27-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:18:19-56
-28        <activity android:name="com.example.lerntic.View.Register" />
-28-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:19:9-51
-28-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:19:19-48
-29        <activity android:name="com.example.lerntic.View.friends" />
+25        <activity android:name="com.example.lerntic.View.AllActivities" />
+25-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:16:9-56
+25-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:16:19-53
+26        <activity
+26-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:17:9-19:69
+27            android:name="com.example.lerntic.ui.login.All_activities"
+27-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:18:13-52
+28            android:label="@string/title_activity_all_activities" />
+28-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:19:13-66
+29        <activity android:name="com.example.lerntic.View.Profile" />
 29-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:20:9-50
 29-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:20:19-47
-30        <activity android:name="com.example.lerntic.View.MainActivity" >
-30-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:21:9-27:20
-30-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:21:19-52
-31            <intent-filter>
-31-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:22:13-26:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:23:17-69
-32-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:23:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:25:17-77
-34-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:25:27-74
-35            </intent-filter>
-36        </activity>
-37    </application>
-38
-39</manifest>
+30        <activity android:name="com.example.lerntic.View.OwnCourses" />
+30-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:21:9-53
+30-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:21:19-50
+31        <activity android:name="com.example.lerntic.Controller.Quices" />
+31-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:22:9-55
+31-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:22:19-52
+32        <activity android:name="com.example.lerntic.View.Register" />
+32-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:23:9-51
+32-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:23:19-48
+33        <activity android:name="com.example.lerntic.View.friends" />
+33-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:24:9-50
+33-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:24:19-47
+34        <activity android:name="com.example.lerntic.View.MainActivity" >
+34-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:25:9-31:20
+34-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:25:19-52
+35            <intent-filter>
+35-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:26:13-30:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:27:17-69
+36-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:27:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:29:17-77
+38-->C:\Users\pc1\AndroidStudioProjects\frontAndroid\app\src\main\AndroidManifest.xml:29:27-74
+39            </intent-filter>
+40        </activity>
+41    </application>
+42
+43</manifest>
