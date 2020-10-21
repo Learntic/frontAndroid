@@ -49,7 +49,8 @@ public class RegisterFunc {
                         SignUpMutation.SignUp data = response.data().signUp();
                         user.setToken(data.token());
                         user.setUsername(data.username());
-                        a(user);
+                        user.setid(data.uid());
+                        setUser(user);
                     }
 
                     @Override
@@ -60,8 +61,8 @@ public class RegisterFunc {
 
     }
 
-    public void a(user user){
-        System.out.println(user.getToken());
+    public void setUser(user user){
+        this.user = user;
     }
 
     public user getUser() {

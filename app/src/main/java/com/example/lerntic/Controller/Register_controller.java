@@ -16,7 +16,6 @@ public class Register_controller {
         registerFunc = new RegisterFunc(User, context);
         User = registerFunc.getUser();
         while(User.getUsername()==null){
-            System.out.println(User.getUsername());
             User = registerFunc.getUser();
         }
         return User;

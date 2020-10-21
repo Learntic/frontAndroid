@@ -16,7 +16,7 @@ public class Achievements_controller {
     public Achievements_controller(){}
 
     public List<GetAchievementsByUsernamesQuery.Achievement> showAchievements(String username, String token, Context context){
-        User = new user(username,token,"");
+        User = new user(username,token,"","");
         achievements = new Achievements(User, context);
         achievementsList = achievements.getAchievements();
         while(achievementsList == null){
