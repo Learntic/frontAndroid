@@ -12,8 +12,9 @@ import com.example.lerntic.R;
 
 import java.util.ArrayList;
 
-public class Adapter_AllActivities extends RecyclerView.Adapter<Adapter_AllActivities.ViewHolderDatos> {
+public class Adapter_AllActivities extends RecyclerView.Adapter<Adapter_AllActivities.ViewHolderDatos> implements View.OnClickListener{
     ArrayList<String> DataList;
+    private View.OnClickListener listener;
 
     public Adapter_AllActivities(ArrayList<String> dataList) {
         DataList = dataList;
@@ -29,6 +30,16 @@ public class Adapter_AllActivities extends RecyclerView.Adapter<Adapter_AllActiv
     @Override
     public void onBindViewHolder(@NonNull Adapter_AllActivities.ViewHolderDatos holder, int position) {
         holder.asignarDatos(DataList.get(position));
+    }
+    public void SetOnClickListener(View.OnClickListener listener){
+        this.listener = listener;
+    }
+
+    @Override
+    public void onClick(View v) {
+        if(listener!=null){
+            listener.onClick(v);
+        }
     }
 
     @Override
