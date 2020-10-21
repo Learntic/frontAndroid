@@ -102,7 +102,7 @@ public class Profile extends AppCompatActivity {
         Ownachievements.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-               Intent intent = new Intent(getApplicationContext(), Achievements.class);
+                Intent intent = new Intent(getApplicationContext(), Achievements.class);
                 intent.putExtra("Username",User.getUsername());
                 intent.putExtra("Token",User.getToken());
                 intent.putExtra("Id",User.getid());

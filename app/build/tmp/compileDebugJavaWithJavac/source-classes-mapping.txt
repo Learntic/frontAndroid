@@ -15,8 +15,20 @@ com/example/lerntic/CoursesByNotUserIdQuery.java
  com.example.lerntic.CoursesByNotUserIdQuery$Data$Mapper$1$1
  com.example.lerntic.CoursesByNotUserIdQuery$Variables
  com.example.lerntic.CoursesByNotUserIdQuery$Variables$1
+<<<<<<< Updated upstream
 com/example/lerntic/Controller/friends_controller.java
  com.example.lerntic.Controller.friends_controller
+=======
+com/example/lerntic/Controller/Quices.java
+ com.example.lerntic.Controller.Quices
+com/example/lerntic/View/AllActivities.java
+ com.example.lerntic.View.AllActivities
+ com.example.lerntic.View.AllActivities$1
+ com.example.lerntic.View.AllActivities$2
+ com.example.lerntic.View.AllActivities$3
+ com.example.lerntic.View.AllActivities$4
+ com.example.lerntic.View.AllActivities$5
+>>>>>>> Stashed changes
 com/example/lerntic/SignUpMutation.java
  com.example.lerntic.SignUpMutation
  com.example.lerntic.SignUpMutation$1
@@ -33,6 +45,7 @@ com/example/lerntic/SignUpMutation.java
 com/example/lerntic/Controller/Adapter_AllActivities.java
  com.example.lerntic.Controller.Adapter_AllActivities
  com.example.lerntic.Controller.Adapter_AllActivities$ViewHolderDatos
+<<<<<<< Updated upstream
 com/example/lerntic/View/Register.java
  com.example.lerntic.View.Register
  com.example.lerntic.View.Register$1
@@ -40,6 +53,31 @@ com/example/lerntic/Controller/Temario_controller.java
  com.example.lerntic.Controller.Temario_controller
 com/example/lerntic/Model/Objects/inscription.java
  com.example.lerntic.Model.Objects.inscription
+=======
+com/example/lerntic/CoursesByUserIdQuery.java
+ com.example.lerntic.CoursesByUserIdQuery
+ com.example.lerntic.CoursesByUserIdQuery$1
+ com.example.lerntic.CoursesByUserIdQuery$Builder
+ com.example.lerntic.CoursesByUserIdQuery$CoursesByUserId
+ com.example.lerntic.CoursesByUserIdQuery$CoursesByUserId$1
+ com.example.lerntic.CoursesByUserIdQuery$CoursesByUserId$Mapper
+ com.example.lerntic.CoursesByUserIdQuery$Data
+ com.example.lerntic.CoursesByUserIdQuery$Data$1
+ com.example.lerntic.CoursesByUserIdQuery$Data$1$1
+ com.example.lerntic.CoursesByUserIdQuery$Data$Mapper
+ com.example.lerntic.CoursesByUserIdQuery$Data$Mapper$1
+ com.example.lerntic.CoursesByUserIdQuery$Data$Mapper$1$1
+ com.example.lerntic.CoursesByUserIdQuery$Variables
+ com.example.lerntic.CoursesByUserIdQuery$Variables$1
+com/example/lerntic/Model/Objects/user.java
+ com.example.lerntic.Model.Objects.user
+com/example/lerntic/View/Register.java
+ com.example.lerntic.View.Register
+ com.example.lerntic.View.Register$1
+com/example/lerntic/type/CustomType.java
+ com.example.lerntic.type.CustomType
+ com.example.lerntic.type.CustomType$1
+>>>>>>> Stashed changes
 com/example/lerntic/View/friends.java
  com.example.lerntic.View.friends
  com.example.lerntic.View.friends$1
@@ -59,6 +97,7 @@ com/example/lerntic/FeedbacksQuery.java
  com.example.lerntic.FeedbacksQuery$FeedbackById$Mapper
  com.example.lerntic.FeedbacksQuery$Variables
  com.example.lerntic.FeedbacksQuery$Variables$1
+<<<<<<< Updated upstream
 com/example/lerntic/Model/AddedFriends.java
  com.example.lerntic.Model.AddedFriends
  com.example.lerntic.Model.AddedFriends$1
@@ -68,11 +107,29 @@ com/example/lerntic/View/Achievements.java
  com.example.lerntic.View.Achievements$2
  com.example.lerntic.View.Achievements$3
  com.example.lerntic.View.Achievements$4
+=======
+com/example/lerntic/Controller/Adapter_Courses.java
+ com.example.lerntic.Controller.Adapter_Courses
+ com.example.lerntic.Controller.Adapter_Courses$ViewHolderDatos
+com/example/lerntic/type/AccountInput.java
+ com.example.lerntic.type.AccountInput
+ com.example.lerntic.type.AccountInput$1
+ com.example.lerntic.type.AccountInput$Builder
+com/example/lerntic/Model/UserCourses.java
+ com.example.lerntic.Model.UserCourses
+ com.example.lerntic.Model.UserCourses$1
+com/example/lerntic/Model/login.java
+ com.example.lerntic.Model.login
+ com.example.lerntic.Model.login$1
+com/example/lerntic/BuildConfig.java
+ com.example.lerntic.BuildConfig
+>>>>>>> Stashed changes
 com/example/lerntic/Controller/Login_controller.java
  com.example.lerntic.Controller.Login_controller
 com/example/lerntic/Model/RegisterFunc.java
  com.example.lerntic.Model.RegisterFunc
  com.example.lerntic.Model.RegisterFunc$1
+<<<<<<< Updated upstream
 com/example/lerntic/View/Profile.java
  com.example.lerntic.View.Profile
  com.example.lerntic.View.Profile$1
@@ -88,6 +145,19 @@ com/example/lerntic/type/EnteroInput.java
  com.example.lerntic.type.EnteroInput
  com.example.lerntic.type.EnteroInput$1
  com.example.lerntic.type.EnteroInput$Builder
+=======
+com/example/lerntic/View/Course_detail.java
+ com.example.lerntic.View.Course_detail
+ com.example.lerntic.View.Course_detail$1
+ com.example.lerntic.View.Course_detail$2
+ com.example.lerntic.View.Course_detail$3
+ com.example.lerntic.View.Course_detail$4
+com/example/lerntic/Controller/Adapter_Friends.java
+ com.example.lerntic.Controller.Adapter_Friends
+ com.example.lerntic.Controller.Adapter_Friends$ViewHolderDatos
+com/example/lerntic/Model/Objects/course.java
+ com.example.lerntic.Model.Objects.course
+>>>>>>> Stashed changes
 com/example/lerntic/View/MainActivity.java
  com.example.lerntic.View.MainActivity
  com.example.lerntic.View.MainActivity$1
@@ -112,6 +182,7 @@ com/example/lerntic/SignInQuery.java
  com.example.lerntic.SignInQuery$SignIn$Mapper
  com.example.lerntic.SignInQuery$Variables
  com.example.lerntic.SignInQuery$Variables$1
+<<<<<<< Updated upstream
 com/example/lerntic/View/course_detail_noreg.java
  com.example.lerntic.View.course_detail_noreg
  com.example.lerntic.View.course_detail_noreg$1
@@ -218,12 +289,15 @@ com/example/lerntic/Model/CourseTemario.java
  com.example.lerntic.Model.CourseTemario$1
 com/example/lerntic/Model/Objects/friend.java
  com.example.lerntic.Model.Objects.friend
+=======
+>>>>>>> Stashed changes
 com/example/lerntic/Controller/Adapter_achievements.java
  com.example.lerntic.Controller.Adapter_achievements
  com.example.lerntic.Controller.Adapter_achievements$ViewHolderDatos
 com/example/lerntic/Model/NotUserCourses.java
  com.example.lerntic.Model.NotUserCourses
  com.example.lerntic.Model.NotUserCourses$1
+<<<<<<< Updated upstream
 com/example/lerntic/CourseTopicsQuery.java
  com.example.lerntic.CourseTopicsQuery
  com.example.lerntic.CourseTopicsQuery$1
@@ -269,3 +343,53 @@ com/example/lerntic/Controller/Adapter_Friends.java
 com/example/lerntic/Model/UserCourses.java
  com.example.lerntic.Model.UserCourses
  com.example.lerntic.Model.UserCourses$1
+=======
+com/example/lerntic/Model/ApolloConnector.java
+ com.example.lerntic.Model.ApolloConnector
+com/example/lerntic/Controller/Register_controller.java
+ com.example.lerntic.Controller.Register_controller
+com/example/lerntic/GetAchievementsByUsernamesQuery.java
+ com.example.lerntic.GetAchievementsByUsernamesQuery
+ com.example.lerntic.GetAchievementsByUsernamesQuery$1
+ com.example.lerntic.GetAchievementsByUsernamesQuery$Achievement
+ com.example.lerntic.GetAchievementsByUsernamesQuery$Achievement$1
+ com.example.lerntic.GetAchievementsByUsernamesQuery$Achievement$Mapper
+ com.example.lerntic.GetAchievementsByUsernamesQuery$Builder
+ com.example.lerntic.GetAchievementsByUsernamesQuery$Data
+ com.example.lerntic.GetAchievementsByUsernamesQuery$Data$1
+ com.example.lerntic.GetAchievementsByUsernamesQuery$Data$1$1
+ com.example.lerntic.GetAchievementsByUsernamesQuery$Data$Mapper
+ com.example.lerntic.GetAchievementsByUsernamesQuery$Data$Mapper$1
+ com.example.lerntic.GetAchievementsByUsernamesQuery$Data$Mapper$1$1
+ com.example.lerntic.GetAchievementsByUsernamesQuery$GetAchievementsByUsername
+ com.example.lerntic.GetAchievementsByUsernamesQuery$GetAchievementsByUsername$1
+ com.example.lerntic.GetAchievementsByUsernamesQuery$GetAchievementsByUsername$1$1
+ com.example.lerntic.GetAchievementsByUsernamesQuery$GetAchievementsByUsername$Mapper
+ com.example.lerntic.GetAchievementsByUsernamesQuery$GetAchievementsByUsername$Mapper$1
+ com.example.lerntic.GetAchievementsByUsernamesQuery$GetAchievementsByUsername$Mapper$1$1
+ com.example.lerntic.GetAchievementsByUsernamesQuery$Variables
+ com.example.lerntic.GetAchievementsByUsernamesQuery$Variables$1
+ com.example.lerntic.GetAchievementsByUsernamesQuery$Variables$1$1
+com/example/lerntic/Controller/UserCourses_controller.java
+ com.example.lerntic.Controller.UserCourses_controller
+com/example/lerntic/Model/Achievements.java
+ com.example.lerntic.Model.Achievements
+ com.example.lerntic.Model.Achievements$1
+com/example/lerntic/View/Achievements.java
+ com.example.lerntic.View.Achievements
+ com.example.lerntic.View.Achievements$1
+ com.example.lerntic.View.Achievements$2
+ com.example.lerntic.View.Achievements$3
+ com.example.lerntic.View.Achievements$4
+com/example/lerntic/View/Profile.java
+ com.example.lerntic.View.Profile
+ com.example.lerntic.View.Profile$1
+ com.example.lerntic.View.Profile$2
+ com.example.lerntic.View.Profile$3
+ com.example.lerntic.View.Profile$4
+ com.example.lerntic.View.Profile$5
+ com.example.lerntic.View.Profile$6
+ com.example.lerntic.View.Profile$7
+com/example/lerntic/Controller/Achievements_controller.java
+ com.example.lerntic.Controller.Achievements_controller
+>>>>>>> Stashed changes

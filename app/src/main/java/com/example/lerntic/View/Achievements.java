@@ -4,19 +4,25 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.example.lerntic.Controller.Achievements_controller;
 import com.example.lerntic.Controller.Adapter_Courses;
 import com.example.lerntic.Controller.Adapter_achievements;
+import com.example.lerntic.GetAchievementsByUsernamesQuery;
 import com.example.lerntic.Model.Objects.user;
 import com.example.lerntic.R;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Achievements extends AppCompatActivity {
+
+    private final Achievements_controller achievements_controller = new Achievements_controller();
 
     //----------Botton MENU
     public LinearLayout home;
@@ -27,7 +33,7 @@ public class Achievements extends AppCompatActivity {
 
     public user User;
 
-    ArrayList<String> DataList;
+    List<GetAchievementsByUsernamesQuery.Achievement> DataList;
     RecyclerView recycler;
 
     @Override
@@ -91,13 +97,15 @@ public class Achievements extends AppCompatActivity {
         recycler = findViewById(R.id.Recycler_Achievements);
         recycler.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false));
 
-        DataList = new ArrayList<String>();
-
-        for (int i = 0; i<=50;i++){
-            DataList.add("Logro "+i);
+        DataList = achievements_controller.showAchievements(username, token, getApplicationContext());
+        ArrayList<String> a = new ArrayList<>();
+        for (int i = 0; i < DataList.size(); i++)
+            a.add(DataList.get(i).description());
+        if (a.isEmpty()) {
+            String noLogro = "No tienes logros por ahora.";
+            a.add(noLogro);
         }
-
-        Adapter_achievements adapter = new Adapter_achievements(DataList);
+        Adapter_achievements adapter = new Adapter_achievements(a);
         recycler.setAdapter(adapter);
     }
 }

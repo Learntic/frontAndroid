@@ -1,0 +1,8 @@
+query getAchievementsByUsernames($names:[String!]){
+  GetAchievementsByUsernames(names:$names){
+    username
+    achievements {
+      description
+    }
+  }
+}
