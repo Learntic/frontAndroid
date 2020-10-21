@@ -1405,6 +1405,8 @@ id META
 id Own_courses_header
 id Recycler_Achievements
 id Recycler_AllCourses
+id Recycler_FeedBack
+id Recycler_Temario
 id Recycler_friends
 id Recycler_ownCourses
 id SHIFT
@@ -1702,10 +1704,14 @@ id transition_scene_layoutid_cache
 id transition_transform
 id txt_card_blog_vertical_item
 id txt_description_course
+id txt_description_feedback
+id txt_description_temario
+id txt_feedback_number
 id txt_name_achievements
 id txt_name_course
 id txt_name_course_detail
 id txt_name_friend
+id txt_name_temario
 id txt_num_day_V
 id txt_register
 id unchecked
@@ -1783,6 +1789,7 @@ layout abc_tooltip
 layout activity_achievements
 layout activity_all_activities
 layout activity_course_detail
+layout activity_course_detail_noreg
 layout activity_friends
 layout activity_main
 layout activity_own_courses
@@ -1809,7 +1816,9 @@ layout design_text_input_start_icon
 layout item_achaivements
 layout item_chek
 layout item_course
+layout item_feedback
 layout item_friend
+layout item_temario
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

@@ -22,6 +22,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.lerntic.View.course_detail_noreg" />
         <activity android:name="com.example.lerntic.View.Course_detail" />
         <activity android:name="com.example.lerntic.View.Achievements" />
         <activity android:name="com.example.lerntic.View.AllActivities" />
