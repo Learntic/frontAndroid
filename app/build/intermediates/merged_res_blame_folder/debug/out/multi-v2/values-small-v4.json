@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pc1\\AndroidStudioProjects\\frontAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pc1\\.gradle\\caches\\transforms-2\\files-2.1\\ab2876874e720d7bf3184a69b3601cf4\\material-1.1.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\huber\\.gradle\\caches\\transforms-2\\files-2.1\\ab2876874e720d7bf3184a69b3601cf4\\material-1.1.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

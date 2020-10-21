@@ -6,17 +6,19 @@ import android.util.Log;
 import com.apollographql.apollo.ApolloCall;
 import com.apollographql.apollo.api.Response;
 import com.apollographql.apollo.exception.ApolloException;
-import com.example.lerntic.Model.Objects.user;
-import com.example.lerntic.SignInQuery;
-import com.example.lerntic.type.AccountInput;
+import com.example.lerntic.CoursesByUserIdQuery;
 import com.example.lerntic.Model.Objects.course;
+import com.example.lerntic.Model.Objects.user;
 
 import org.jetbrains.annotations.NotNull;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class UserCourses {
 
     private final String TAG = "UserCourses";
-    public course[] courses ;
+    public ArrayList<course> courses = new ArrayList<>();
     public Context context ;
     public user User;
 
@@ -29,26 +31,27 @@ public class UserCourses {
     public synchronized void GetUserCourser(final Context context) {
 
         String username = User.getUsername();
-        String password = User.getToken();
-        User = new user();
-
-        AccountInput account = AccountInput
-                .builder()
-                .username(username)
-                .password(password)
-                .build();
+        String token = User.getToken();
 
         ApolloConnector.setupApollo().query(
-                SignInQuery
+                CoursesByUserIdQuery
                         .builder()
-                        .account(account)
+                        .id(username)
                         .build())
-                .enqueue(new ApolloCall.Callback<SignInQuery.Data>() {
+                .enqueue(new ApolloCall.Callback<CoursesByUserIdQuery.Data>() {
                     @Override
-                    public void onResponse(@NotNull Response<SignInQuery.Data> response) {
-                        SignInQuery.SignIn data = response.data().signIn();
-                        User.setToken(data.token());
-                        User.setUsername(data.username());
+                    public void onResponse(@NotNull Response<CoursesByUserIdQuery.Data> response) {
+                        List<CoursesByUserIdQuery.CoursesByUserId> data = response.data().coursesByUserId();
+                        Log.d(TAG, "Exception " + data);
+                        for (int i = 0; i<data.size(); i++){
+                            int id = data.get(i).course_id();
+                            String name = data.get(i).course_name();
+                            String desc = data.get(i).course_description();
+                            double score = data.get(i).course_score();
+                            courses.add(new course(id,desc,name,score));
+                        }
+                        System.out.println(courses.get(0).get_name());
+                        setCourses(courses);
                     }
 
                     @Override
@@ -58,7 +61,11 @@ public class UserCourses {
                 });
     }
 
-    public course[] getcourses() {
+    public void setCourses(ArrayList<course> courses) {
+        this.courses = courses;
+    }
+
+    public ArrayList<course>  getcourses() {
         return courses;
     }
 }

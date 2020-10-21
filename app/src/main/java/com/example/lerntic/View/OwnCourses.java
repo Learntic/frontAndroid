@@ -22,10 +22,11 @@ import com.example.lerntic.Model.Objects.user;
 import com.example.lerntic.R;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class OwnCourses extends AppCompatActivity {
 
-    private UserCourses_controller userCourses_controller = new UserCourses_controller();
+    private final UserCourses_controller userCourses_controller = new UserCourses_controller();
 
     //----------Botton MENU
     public LinearLayout home;
@@ -36,7 +37,7 @@ public class OwnCourses extends AppCompatActivity {
 
     public user User;
 
-    ArrayList<String> DataList;
+    ArrayList<course> DataList;
     RecyclerView recycler;
 
     @Override
@@ -95,62 +96,36 @@ public class OwnCourses extends AppCompatActivity {
         recycler = findViewById(R.id.Recycler_ownCourses);
         recycler.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false));
 
-        DataList = new ArrayList<String>();
+        DataList = userCourses_controller.ShowCourses(username,token,getApplicationContext());
 
-        for (int i = 0; i<=50;i++){
-            DataList.add("Curso "+i);
+        if (DataList.isEmpty()){
+            course cursonulo = new course(0,"","No se encuentra en ningun curso",0);
+            DataList.add(cursonulo);
+
+            final Adapter_Courses adapter = new Adapter_Courses(DataList,User);
+            recycler.setAdapter(adapter);
+        }else {
+
+            final Adapter_Courses adapter = new Adapter_Courses(DataList, User);
+            recycler.setAdapter(adapter);
+
+
+            adapter.SetOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(v.getContext(), Course_detail.class);
+                    intent.putExtra("Username", User.getUsername());
+                    intent.putExtra("Token", User.getToken());
+                    intent.putExtra("course_id", DataList.get(recycler.getChildAdapterPosition(v)).get_course_id());
+                    intent.putExtra("course_description", DataList.get(recycler.getChildAdapterPosition(v)).get_course_description());
+                    intent.putExtra("course_name", DataList.get(recycler.getChildAdapterPosition(v)).get_name());
+                    intent.putExtra("course_score", DataList.get(recycler.getChildAdapterPosition(v)).get_course_score());
+                    v.getContext().startActivity(intent);
+                }
+            });
         }
-
-
-
-        final Adapter_Courses adapter = new Adapter_Courses(DataList,User);
-        recycler.setAdapter(adapter);
-
-
-        adapter.SetOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Course_detail.class);
-                intent.putExtra("Username",User.getUsername());
-                intent.putExtra("Token",User.getToken());
-                intent.putExtra("Course",DataList.get(recycler.getChildAdapterPosition(v)));
-                v.getContext().startActivity(intent);
-            }
-        });
 
         TextView textView = (TextView) findViewById(R.id.Own_courses_header);
         textView.setText(String.format("Cursos de %s", username));
-
-        ListView simpleList = (ListView) findViewById(R.id.coursesList);
-
-        course[] courses;
-
-        /*courses = userCourses_controller.ShowCourses(username,token,getApplicationContext());
-
-        String[] coursesView = new String[courses.length];
-
-        for (int i=0;i<courses.length;i++)
-        {
-            coursesView[i] = courses[i].getname();
-        }*/
-
-       /* final String animalList[] = {"Lion","Tiger","Monkey","Elephant","Dog","Cat","Camel"};
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, animalList);
-
-        simpleList.setAdapter(adapter);
-
-        simpleList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (animalList[position].equals("Lion")) {
-                    Intent nextActivity = new Intent(OwnCourses.this, MainActivity.class);
-                    startActivity(nextActivity);
-                }else{
-                    Intent nextActivity = new Intent(OwnCourses.this, friends.class);
-                    startActivity(nextActivity);
-                }
-            }
-        });*/
     }
 }

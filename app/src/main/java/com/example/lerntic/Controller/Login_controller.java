@@ -18,9 +18,7 @@ public class Login_controller {
        User = new user(user,"",pass);
        login = new login(User);
        User = login.getUser();
-       System.out.println(User.getUsername());
        while(User.getUsername()==null){
-           System.out.println(User.getUsername());
            User = login.getUser();
        }
        return User;

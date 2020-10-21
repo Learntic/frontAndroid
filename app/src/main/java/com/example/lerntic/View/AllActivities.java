@@ -10,17 +10,23 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.example.lerntic.Controller.Adapter_Courses;
+import com.example.lerntic.Controller.AllOtherCourses_controller;
+import com.example.lerntic.Controller.UserCourses_controller;
+import com.example.lerntic.Model.Objects.course;
 import com.example.lerntic.Model.Objects.user;
 import com.example.lerntic.R;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class AllActivities extends AppCompatActivity {
 
     public user User;
 
-    ArrayList<String> DataList;
+    ArrayList<course> DataList;
     RecyclerView recycler;
+
+    private AllOtherCourses_controller allOtherCourses_controller = new AllOtherCourses_controller();
 
 
     //----------Botton MENU
@@ -87,13 +93,33 @@ public class AllActivities extends AppCompatActivity {
         recycler = findViewById(R.id.Recycler_AllCourses);
         recycler.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false));
 
-        DataList = new ArrayList<String>();
+        DataList = allOtherCourses_controller.ShowCourses(username,token,getApplicationContext());
 
-        for (int i = 0; i<=50;i++){
-            DataList.add("Curso otros"+i);
+        if (DataList.size()==0){
+            course cursonulo = new course(0,"","No hay mas cursos disponibles",0);
+            DataList.add(cursonulo);
+
+            final Adapter_Courses adapter = new Adapter_Courses(DataList,User);
+            recycler.setAdapter(adapter);
+        }else {
+
+            final Adapter_Courses adapter = new Adapter_Courses(DataList, User);
+            recycler.setAdapter(adapter);
+
+
+            adapter.SetOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(v.getContext(), Course_detail.class);
+                    intent.putExtra("Username", User.getUsername());
+                    intent.putExtra("Token", User.getToken());
+                    intent.putExtra("course_id", DataList.get(recycler.getChildAdapterPosition(v)).get_course_id());
+                    intent.putExtra("course_description", DataList.get(recycler.getChildAdapterPosition(v)).get_course_description());
+                    intent.putExtra("course_name", DataList.get(recycler.getChildAdapterPosition(v)).get_name());
+                    intent.putExtra("course_score", DataList.get(recycler.getChildAdapterPosition(v)).get_course_score());
+                    v.getContext().startActivity(intent);
+                }
+            });
         }
-
-        Adapter_Courses adapter = new Adapter_Courses(DataList,User);
-        recycler.setAdapter(adapter);
     }
 }

@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         botonSingIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                User = new user("camilo","sd654fd","");//controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
+                User = controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
                 System.out.println(User.getUsername());
                 System.out.println(User.getToken());
                 openOwnCourses();

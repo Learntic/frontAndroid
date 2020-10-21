@@ -4,24 +4,23 @@ import android.content.Context;
 
 import com.example.lerntic.Model.Objects.course;
 import com.example.lerntic.Model.Objects.user;
-import com.example.lerntic.Model.login;
 import com.example.lerntic.Model.UserCourses;
+
+import java.util.ArrayList;
 
 public class UserCourses_controller {
 
     public UserCourses userCourses;
     public user User = new user();
-    public course[] courses;
+    private ArrayList<course> courses;
 
     public UserCourses_controller() { }
 
-    public course[] ShowCourses(String username, String token, Context context) {
+    public ArrayList<course> ShowCourses(String username, String token, Context context) {
         User = new user(username,token,"");
         userCourses = new UserCourses(User,context);
         courses = userCourses.getcourses();
-        System.out.println(courses);
-        while(courses==null){
-            System.out.println(courses);
+        while(courses.isEmpty()){
             courses = userCourses.getcourses();
         }
         return courses;

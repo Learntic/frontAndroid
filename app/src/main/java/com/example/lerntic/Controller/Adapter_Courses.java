@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.lerntic.Model.Objects.course;
 import com.example.lerntic.Model.Objects.user;
 import com.example.lerntic.R;
 import com.example.lerntic.View.Course_detail;
@@ -18,11 +19,11 @@ import java.util.ArrayList;
 
 public class Adapter_Courses extends RecyclerView.Adapter<Adapter_Courses.ViewHolderDatos> implements View.OnClickListener{
 
-    ArrayList<String> DataList;
+    ArrayList<course> DataList;
     private View.OnClickListener listener;
     user User;
 
-    public Adapter_Courses(ArrayList<String> dataList, user User) {
+    public Adapter_Courses(ArrayList<course> dataList, user User) {
         DataList = dataList;
         this.User = User;
     }
@@ -58,15 +59,15 @@ public class Adapter_Courses extends RecyclerView.Adapter<Adapter_Courses.ViewHo
 
     public class ViewHolderDatos extends RecyclerView.ViewHolder{
         TextView name;
-        //TextView description;
+        TextView description;
         public ViewHolderDatos(@NonNull View itemView) {
             super(itemView);
             name = itemView.findViewById(R.id.txt_name_course);
-            //description = itemView.findViewById(R.id.txt_description_course);
+            description = itemView.findViewById(R.id.txt_description_course);
         }
-        public void asignarDatos(String names) {
-            name.setText(names);
-            //description.setText(names);
+        public void asignarDatos(course course) {
+            name.setText(course.get_name());
+            description.setText(course.get_course_description());
         }
     }
 }
