@@ -51,6 +51,7 @@ public class Register extends AppCompatActivity {
         Intent intent = new Intent(this, OwnCourses.class);
         intent.putExtra("Username",User.getUsername());
         intent.putExtra("Token",User.getToken());
+        intent.putExtra("Id",User.getid());
         startActivity(intent);
     }
 }

@@ -17,11 +17,12 @@ public class UserCourses_controller {
     public UserCourses_controller() { }
 
     public ArrayList<course> ShowCourses(String username, String token, Context context) {
-        User = new user(username,token,"");
+        User = new user(username,token,"","");
         userCourses = new UserCourses(User,context);
         courses = userCourses.getcourses();
-        while(courses.isEmpty()){
+        while(courses==null){
             courses = userCourses.getcourses();
+            System.out.println(courses);
         }
         return courses;
     }

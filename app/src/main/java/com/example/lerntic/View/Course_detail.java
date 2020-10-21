@@ -34,8 +34,9 @@ public class Course_detail extends AppCompatActivity {
         String username = getIntent().getStringExtra("Username");
         String token = getIntent().getStringExtra("Token");
         String course = getIntent().getStringExtra("Course");
+        String id = getIntent().getStringExtra("Id");
 
-        User = new user(username,token,"");
+        User = new user(username,token,"",id);
         name.setText(course);
 
         //----------Botton MENU
@@ -49,6 +50,7 @@ public class Course_detail extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), OwnCourses.class);
                 intent.putExtra("Username",User.getUsername());
                 intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
                 startActivity(intent);
             }
         });
@@ -58,6 +60,7 @@ public class Course_detail extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), AllActivities.class);
                 intent.putExtra("Username",User.getUsername());
                 intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
                 startActivity(intent);
             }
         });
@@ -67,6 +70,7 @@ public class Course_detail extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), friends.class);
                 intent.putExtra("Username",User.getUsername());
                 intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
                 startActivity(intent);
             }
         });
@@ -76,6 +80,7 @@ public class Course_detail extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), Profile.class);
                 intent.putExtra("Username",User.getUsername());
                 intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
                 startActivity(intent);
             }
         });

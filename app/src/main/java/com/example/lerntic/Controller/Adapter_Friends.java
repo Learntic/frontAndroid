@@ -8,14 +8,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.lerntic.Model.Objects.friend;
 import com.example.lerntic.R;
 
 import java.util.ArrayList;
 
 public class Adapter_Friends extends  RecyclerView.Adapter<Adapter_Friends.ViewHolderDatos>{
-    ArrayList<String> DataList;
+    ArrayList<friend> DataList;
 
-    public Adapter_Friends(ArrayList<String> dataList) {
+    public Adapter_Friends(ArrayList<friend> dataList) {
         DataList = dataList;
     }
 
@@ -45,8 +46,8 @@ public class Adapter_Friends extends  RecyclerView.Adapter<Adapter_Friends.ViewH
             name = itemView.findViewById(R.id.txt_name_friend);
         }
 
-        public void asignarDatos(String names) {
-            name.setText(names);
+        public void asignarDatos(friend friend) {
+            name.setText(friend.getfullname());
         }
     }
 }

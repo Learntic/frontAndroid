@@ -17,7 +17,7 @@ public class AllOtherCourses_controller {
     public AllOtherCourses_controller() { }
 
     public ArrayList<course> ShowCourses(String username, String token, Context context) {
-        User = new user(username,token,"");
+        User = new user(username,token,"","");
         notuserCourses = new NotUserCourses(User,context);
         courses = notuserCourses.getcourses();
         while(courses==null){

@@ -4,11 +4,13 @@ public class user {
     String username;
     String token;
     String password;
+    String id;
 
-    public user (String username, String token, String password){
+    public user (String username, String token, String password, String id){
         this.username = username;
         this.token = token;
         this.password = password;
+        this.id = id;
     }
     public user (){
 
@@ -36,5 +38,13 @@ public class user {
 
     public void setToken(String password) {
         this.token = password;
+    }
+
+    public String getid() {
+        return id;
+    }
+
+    public void setid(String id) {
+        this.id = id;
     }
 }

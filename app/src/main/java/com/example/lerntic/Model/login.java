@@ -53,6 +53,7 @@ public class login {
                         SignInQuery.SignIn data = response.data().signIn();
                         User.setToken(data.token());
                         User.setUsername(data.username());
+                        User.setid(data.uid());
                         next(User);
                     }
 

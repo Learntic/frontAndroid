@@ -18,7 +18,7 @@ import java.util.List;
 public class NotUserCourses {
 
     private final String TAG = "NotUserCourses";
-    public ArrayList<course> courses = new ArrayList<>();
+    public ArrayList<course> courses;
     public Context context ;
     public user User;
 
@@ -43,6 +43,7 @@ public class NotUserCourses {
                     public void onResponse(@NotNull Response<CoursesByNotUserIdQuery.Data> response) {
                         List<CoursesByNotUserIdQuery.CoursesByNotUserId> data = response.data().coursesByNotUserId();
                         Log.d(TAG, "Exception " + data);
+                        courses = new ArrayList<>();
                         for (int i = 0; i<data.size(); i++){
                             int id = data.get(i).course_id();
                             String name = data.get(i).course_name();

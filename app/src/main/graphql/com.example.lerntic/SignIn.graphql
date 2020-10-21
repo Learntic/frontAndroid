@@ -2,5 +2,6 @@ query signIn($account: AccountInput!){
   signIn(account: $account){
     username
     token
+    uid
   }
 }

@@ -34,7 +34,7 @@ import okio.BufferedSource;
 import org.jetbrains.annotations.NotNull;
 
 public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignUpMutation.Data, SignUpMutation.Variables> {
-  public static final String OPERATION_ID = "eb9030ae2bd6476e3bab0e103611ff7b2531689ff5ab94a277a1df8f7b92628e";
+  public static final String OPERATION_ID = "6be6a966fbc2d30ff57b97067a5dc4590bcb358964f49632d21144975a3ed4a0";
 
   public static final String QUERY_DOCUMENT = QueryDocumentMinifier.minify(
     "mutation signUp($account: AccountInput!) {\n"
@@ -42,6 +42,7 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
         + "    __typename\n"
         + "    username\n"
         + "    token\n"
+        + "    uid\n"
         + "  }\n"
         + "}"
   );
@@ -245,7 +246,8 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
     static final ResponseField[] $responseFields = {
       ResponseField.forString("__typename", "__typename", null, false, Collections.<ResponseField.Condition>emptyList()),
       ResponseField.forString("username", "username", null, false, Collections.<ResponseField.Condition>emptyList()),
-      ResponseField.forString("token", "token", null, false, Collections.<ResponseField.Condition>emptyList())
+      ResponseField.forString("token", "token", null, false, Collections.<ResponseField.Condition>emptyList()),
+      ResponseField.forString("uid", "uid", null, false, Collections.<ResponseField.Condition>emptyList())
     };
 
     final @NotNull String __typename;
@@ -254,16 +256,20 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
 
     final @NotNull String token;
 
+    final @NotNull String uid;
+
     private transient volatile String $toString;
 
     private transient volatile int $hashCode;
 
     private transient volatile boolean $hashCodeMemoized;
 
-    public SignUp(@NotNull String __typename, @NotNull String username, @NotNull String token) {
+    public SignUp(@NotNull String __typename, @NotNull String username, @NotNull String token,
+        @NotNull String uid) {
       this.__typename = Utils.checkNotNull(__typename, "__typename == null");
       this.username = Utils.checkNotNull(username, "username == null");
       this.token = Utils.checkNotNull(token, "token == null");
+      this.uid = Utils.checkNotNull(uid, "uid == null");
     }
 
     public @NotNull String __typename() {
@@ -278,6 +284,10 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
       return this.token;
     }
 
+    public @NotNull String uid() {
+      return this.uid;
+    }
+
     @SuppressWarnings("unchecked")
     public ResponseFieldMarshaller marshaller() {
       return new ResponseFieldMarshaller() {
@@ -286,6 +296,7 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
           writer.writeString($responseFields[0], __typename);
           writer.writeString($responseFields[1], username);
           writer.writeString($responseFields[2], token);
+          writer.writeString($responseFields[3], uid);
         }
       };
     }
@@ -296,7 +307,8 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
         $toString = "SignUp{"
           + "__typename=" + __typename + ", "
           + "username=" + username + ", "
-          + "token=" + token
+          + "token=" + token + ", "
+          + "uid=" + uid
           + "}";
       }
       return $toString;
@@ -311,7 +323,8 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
         SignUp that = (SignUp) o;
         return this.__typename.equals(that.__typename)
          && this.username.equals(that.username)
-         && this.token.equals(that.token);
+         && this.token.equals(that.token)
+         && this.uid.equals(that.uid);
       }
       return false;
     }
@@ -326,6 +339,8 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
         h ^= username.hashCode();
         h *= 1000003;
         h ^= token.hashCode();
+        h *= 1000003;
+        h ^= uid.hashCode();
         $hashCode = h;
         $hashCodeMemoized = true;
       }
@@ -338,7 +353,8 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
         final String __typename = reader.readString($responseFields[0]);
         final String username = reader.readString($responseFields[1]);
         final String token = reader.readString($responseFields[2]);
-        return new SignUp(__typename, username, token);
+        final String uid = reader.readString($responseFields[3]);
+        return new SignUp(__typename, username, token, uid);
       }
     }
   }

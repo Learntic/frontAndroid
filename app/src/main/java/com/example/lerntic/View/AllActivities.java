@@ -44,8 +44,9 @@ public class AllActivities extends AppCompatActivity {
 
         String username = getIntent().getStringExtra("Username");
         String token = getIntent().getStringExtra("Token");
+        String id = getIntent().getStringExtra("Id");
 
-        User = new user(username,token,"");
+        User = new user(username,token,"",id);
 
         //----------Botton MENU
         home = findViewById(R.id.menu_home);
@@ -58,6 +59,7 @@ public class AllActivities extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), OwnCourses.class);
                 intent.putExtra("Username",User.getUsername());
                 intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
                 startActivity(intent);
             }
         });
@@ -67,6 +69,7 @@ public class AllActivities extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), AllActivities.class);
                 intent.putExtra("Username",User.getUsername());
                 intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
                 startActivity(intent);
             }
         });
@@ -76,6 +79,7 @@ public class AllActivities extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), friends.class);
                 intent.putExtra("Username",User.getUsername());
                 intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
                 startActivity(intent);
             }
         });
@@ -85,6 +89,7 @@ public class AllActivities extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), Profile.class);
                 intent.putExtra("Username",User.getUsername());
                 intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
                 startActivity(intent);
             }
         });
@@ -95,7 +100,7 @@ public class AllActivities extends AppCompatActivity {
 
         DataList = allOtherCourses_controller.ShowCourses(username,token,getApplicationContext());
 
-        if (DataList.size()==0){
+        if (DataList.isEmpty()){
             course cursonulo = new course(0,"","No hay mas cursos disponibles",0);
             DataList.add(cursonulo);
 
@@ -113,6 +118,7 @@ public class AllActivities extends AppCompatActivity {
                     Intent intent = new Intent(v.getContext(), Course_detail.class);
                     intent.putExtra("Username", User.getUsername());
                     intent.putExtra("Token", User.getToken());
+                    intent.putExtra("Id",User.getid());
                     intent.putExtra("course_id", DataList.get(recycler.getChildAdapterPosition(v)).get_course_id());
                     intent.putExtra("course_description", DataList.get(recycler.getChildAdapterPosition(v)).get_course_description());
                     intent.putExtra("course_name", DataList.get(recycler.getChildAdapterPosition(v)).get_name());

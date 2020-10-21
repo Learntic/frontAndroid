@@ -18,7 +18,7 @@ import java.util.List;
 public class UserCourses {
 
     private final String TAG = "UserCourses";
-    public ArrayList<course> courses = new ArrayList<>();
+    public ArrayList<course> courses;
     public Context context ;
     public user User;
 
@@ -43,6 +43,7 @@ public class UserCourses {
                     public void onResponse(@NotNull Response<CoursesByUserIdQuery.Data> response) {
                         List<CoursesByUserIdQuery.CoursesByUserId> data = response.data().coursesByUserId();
                         Log.d(TAG, "Exception " + data);
+                        courses = new ArrayList<>();
                         for (int i = 0; i<data.size(); i++){
                             int id = data.get(i).course_id();
                             String name = data.get(i).course_name();
@@ -50,7 +51,6 @@ public class UserCourses {
                             double score = data.get(i).course_score();
                             courses.add(new course(id,desc,name,score));
                         }
-                        System.out.println(courses.get(0).get_name());
                         setCourses(courses);
                     }
 
