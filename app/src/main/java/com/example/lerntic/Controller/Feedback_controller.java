@@ -5,8 +5,6 @@ import android.content.Context;
 import com.example.lerntic.Model.CourseFeedback;
 import com.example.lerntic.Model.Objects.course;
 import com.example.lerntic.Model.Objects.feedback;
-import com.example.lerntic.Model.Objects.user;
-import com.example.lerntic.Model.UserCourses;
 
 import java.util.ArrayList;
 

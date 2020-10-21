@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -21,7 +22,8 @@ public class Course_detail extends AppCompatActivity {
     //---------
 
     public user User;
-
+    public Button feedbackB;
+    public Button evaluacionB;
     public TextView name;
 
     @Override
@@ -35,6 +37,7 @@ public class Course_detail extends AppCompatActivity {
         String token = getIntent().getStringExtra("Token");
         String course = getIntent().getStringExtra("Course");
         String id = getIntent().getStringExtra("Id");
+        final String courseId = getIntent().getStringExtra("course_id");
 
         User = new user(username,token,"",id);
         name.setText(course);
@@ -44,6 +47,19 @@ public class Course_detail extends AppCompatActivity {
         courses = findViewById(R.id.menu_cours);
         friends = findViewById(R.id.menu_friends);
         profile = findViewById(R.id.menu_profile);
+        feedbackB =  findViewById(R.id.btn_feedback);
+        evaluacionB =  findViewById(R.id.btn_evaluacion);
+
+        feedbackB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), WriteFeedback.class);
+                intent.putExtra("Username",User.getUsername());
+                intent.putExtra("Token",User.getToken());
+                intent.putExtra("courseId",courseId);
+                startActivity(intent);
+            }
+        });
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -25,7 +25,8 @@
         <activity android:name=".Controller.Quices" />
         <activity android:name=".View.Register" />
         <activity android:name=".View.friends" />
-        <activity android:name=".View.MainActivity">
+        <activity android:name=".View.MainActivity"/>
+        <activity android:name=".View.WriteFeedback">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

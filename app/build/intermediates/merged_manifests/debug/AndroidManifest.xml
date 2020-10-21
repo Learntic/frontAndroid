@@ -34,7 +34,8 @@
         <activity android:name="com.example.lerntic.Controller.Quices" />
         <activity android:name="com.example.lerntic.View.Register" />
         <activity android:name="com.example.lerntic.View.friends" />
-        <activity android:name="com.example.lerntic.View.MainActivity" >
+        <activity android:name="com.example.lerntic.View.MainActivity" />
+        <activity android:name="com.example.lerntic.View.WriteFeedback" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

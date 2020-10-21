@@ -1,0 +1,9 @@
+mutation createFeedback($feedback: FeedbackInput!, $token: String!){
+  createFeedback(feedback: $feedback, token: $token) {
+    id
+    id_usuario
+    id_curso
+    opinion
+    nota
+  }
+}

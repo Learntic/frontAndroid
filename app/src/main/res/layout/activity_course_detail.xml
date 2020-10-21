@@ -5,17 +5,138 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".View.Course_detail">
-    <TextView
-        android:id="@+id/txt_name_course_detail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Detalle curso"
-        android:textColor="#154360"
-        android:textSize="30dp"
-        android:layout_marginHorizontal="15dp"
-        android:layout_marginTop="15dp"
-        android:textStyle="bold" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/menu_bar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_name_course_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detalle curso"
+            android:textColor="#154360"
+            android:textSize="30dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temario :"
+            android:textColor="#154360"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="294dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/Recycler_TemarioInscrito"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+
+        </ScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comentarios :"
+            android:textColor="#154360"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/Recycler_FeedBackInscito"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn_evaluacion"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="46dp"
+            android:background="@drawable/button_sable_blue"
+            android:text="Evaluación"
+            android:textColor="#ffff"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="629dp" />
+        <Button
+            android:id="@+id/btn_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="46dp"
+            android:background="@drawable/button_sable_blue"
+            android:text="Feedback"
+            android:textColor="#ffff"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="629dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/menu_bar"

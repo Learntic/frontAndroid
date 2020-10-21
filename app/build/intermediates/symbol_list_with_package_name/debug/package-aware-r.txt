@@ -1406,7 +1406,9 @@ id Own_courses_header
 id Recycler_Achievements
 id Recycler_AllCourses
 id Recycler_FeedBack
+id Recycler_FeedBackInscito
 id Recycler_Temario
+id Recycler_TemarioInscrito
 id Recycler_friends
 id Recycler_ownCourses
 id SHIFT
@@ -1478,6 +1480,9 @@ id bottom
 id botton_achievements
 id btn_Inscripcion_curso
 id btn_SignUp
+id btn_enviarFeedback
+id btn_evaluacion
+id btn_feedback
 id btn_ingresar
 id buttonPanel
 id button_close_session
@@ -1524,6 +1529,8 @@ id edit_query
 id end
 id enterAlways
 id enterAlwaysCollapsed
+id et_notaFeedback
+id et_opinionFeedback
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1686,6 +1693,8 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView2
+id textView3
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1798,6 +1807,7 @@ layout activity_profile
 layout activity_quices
 layout activity_register
 layout activity_specific__course
+layout activity_write_feedback
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
