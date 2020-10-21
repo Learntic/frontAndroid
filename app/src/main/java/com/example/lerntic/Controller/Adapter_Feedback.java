@@ -8,14 +8,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.lerntic.Model.Objects.feedback;
 import com.example.lerntic.R;
 
 import java.util.ArrayList;
 
 public class Adapter_Feedback extends  RecyclerView.Adapter<Adapter_Feedback.ViewHolderDatos> {
-    ArrayList<String> DataList;
+    ArrayList<feedback> DataList;
 
-    public Adapter_Feedback(ArrayList<String> dataList) {
+    public Adapter_Feedback(ArrayList<feedback> dataList) {
         DataList = dataList;
     }
 
@@ -38,15 +39,18 @@ public class Adapter_Feedback extends  RecyclerView.Adapter<Adapter_Feedback.Vie
     public class ViewHolderDatos extends RecyclerView.ViewHolder{
 
         TextView description;
+        TextView score;
 
         public ViewHolderDatos(@NonNull View itemView) {
             super(itemView);
 
             description = itemView.findViewById(R.id.txt_description_feedback);
+            score = itemView.findViewById(R.id.txt_feedback_number);
         }
 
-        public void asignarDatos(String names) {
-            description.setText(names);
+        public void asignarDatos(feedback feedback) {
+            description.setText(feedback.getOpinion());
+            score.setText(String.valueOf(feedback.getNota()));
         }
     }
 }

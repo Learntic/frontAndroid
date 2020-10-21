@@ -8,14 +8,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.lerntic.Model.Objects.temario;
 import com.example.lerntic.R;
 
 import java.util.ArrayList;
 
 public class Adapter_temario extends  RecyclerView.Adapter<Adapter_temario.ViewHolderDatos>{
-    ArrayList<String> DataList;
+    ArrayList<temario> DataList;
 
-    public Adapter_temario(ArrayList<String> dataList) {
+    public Adapter_temario(ArrayList<temario> dataList) {
         DataList = dataList;
     }
 
@@ -38,15 +39,18 @@ public class Adapter_temario extends  RecyclerView.Adapter<Adapter_temario.ViewH
     public class ViewHolderDatos extends RecyclerView.ViewHolder{
 
         TextView name;
+        TextView description;
 
         public ViewHolderDatos(@NonNull View itemView) {
             super(itemView);
 
             name = itemView.findViewById(R.id.txt_name_temario);
+            description = itemView.findViewById(R.id.txt_description_temario);
         }
 
-        public void asignarDatos(String names) {
-            name.setText(names);
+        public void asignarDatos(temario temario) {
+            name.setText(temario.getTopic_name());
+            description.setText(temario.getTopic_description());
         }
     }
 }

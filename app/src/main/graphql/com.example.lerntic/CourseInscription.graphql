@@ -1,0 +1,8 @@
+mutation createInscription($inscription: InscriptionInput!){
+  createInscription(inscription: $inscription) {
+    id
+    id_usuario
+    id_curso
+    max_activity
+  }
+}

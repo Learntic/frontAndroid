@@ -11,17 +11,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/menu_bar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:orientation="vertical">
+
         <TextView
             android:id="@+id/Own_courses_header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
             android:text="Descripcion curso"
             android:textColor="#154360"
             android:textSize="30dp"
-            android:layout_marginHorizontal="15dp"
-            android:layout_marginTop="15dp"
             android:textStyle="bold" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,12 +55,13 @@
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/Recycler_Temario"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent">
 
                 </androidx.recyclerview.widget.RecyclerView>
             </LinearLayout>
 
         </ScrollView>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -64,13 +69,14 @@
             android:textColor="#154360"
             android:textSize="15dp"
             android:textStyle="bold" />
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:padding="15dp"
             android:layout_marginTop="0dp"
+            android:layout_weight="1"
             android:orientation="vertical"
+            android:padding="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -89,6 +95,29 @@
                 </androidx.recyclerview.widget.RecyclerView>
             </LinearLayout>
         </ScrollView>
+
+        <Button
+            android:id="@+id/btn_Inscripcion_curso"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="46dp"
+            android:background="@drawable/button_sable_blue"
+            android:text="Inscribirse"
+            android:textColor="#ffff"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="629dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
 
     </LinearLayout>
 

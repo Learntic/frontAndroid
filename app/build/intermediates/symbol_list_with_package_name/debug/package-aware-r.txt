@@ -1476,6 +1476,7 @@ id beginning
 id blocking
 id bottom
 id botton_achievements
+id btn_Inscripcion_curso
 id btn_SignUp
 id btn_ingresar
 id buttonPanel

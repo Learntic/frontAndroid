@@ -103,33 +103,23 @@ public class OwnCourses extends AppCompatActivity {
 
         DataList = userCourses_controller.ShowCourses(username,token,getApplicationContext());
 
-        if (DataList.isEmpty()){
-            course cursonulo = new course(0,"","No se encuentra en ningun curso",0);
-            DataList.add(cursonulo);
+        final Adapter_Courses adapter = new Adapter_Courses(DataList, User);
+        recycler.setAdapter(adapter);
 
-            final Adapter_Courses adapter = new Adapter_Courses(DataList,User);
-            recycler.setAdapter(adapter);
-        }else {
-
-            final Adapter_Courses adapter = new Adapter_Courses(DataList, User);
-            recycler.setAdapter(adapter);
-
-
-            adapter.SetOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(v.getContext(), Course_detail.class);
-                    intent.putExtra("Username", User.getUsername());
-                    intent.putExtra("Token", User.getToken());
-                    intent.putExtra("Id",User.getid());
-                    intent.putExtra("course_id", DataList.get(recycler.getChildAdapterPosition(v)).get_course_id());
-                    intent.putExtra("course_description", DataList.get(recycler.getChildAdapterPosition(v)).get_course_description());
-                    intent.putExtra("course_name", DataList.get(recycler.getChildAdapterPosition(v)).get_name());
-                    intent.putExtra("course_score", DataList.get(recycler.getChildAdapterPosition(v)).get_course_score());
-                    v.getContext().startActivity(intent);
-                }
-            });
-        }
+        adapter.SetOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Course_detail.class);
+                intent.putExtra("Username", User.getUsername());
+                intent.putExtra("Token", User.getToken());
+                intent.putExtra("Id",User.getid());
+                intent.putExtra("course_id", DataList.get(recycler.getChildAdapterPosition(v)).get_course_id());
+                intent.putExtra("course_description", DataList.get(recycler.getChildAdapterPosition(v)).get_course_description());
+                intent.putExtra("course_name", DataList.get(recycler.getChildAdapterPosition(v)).get_name());
+                intent.putExtra("course_score", DataList.get(recycler.getChildAdapterPosition(v)).get_course_score());
+                v.getContext().startActivity(intent);
+            }
+        });
 
         TextView textView = (TextView) findViewById(R.id.Own_courses_header);
         textView.setText(String.format("Cursos de %s", username));

@@ -14,6 +14,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 public class RegisterFunc {
+
     private final String TAG = "register";
     public user user ;
     public Context context ;
