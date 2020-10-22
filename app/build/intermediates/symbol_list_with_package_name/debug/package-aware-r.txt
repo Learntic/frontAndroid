@@ -1719,7 +1719,7 @@ id txt_description_temario
 id txt_feedback_number
 id txt_name_achievements
 id txt_name_course
-id txt_name_course_detail
+id txt_name_courseIns_detail
 id txt_name_friend
 id txt_name_temario
 id txt_num_day_V

@@ -117,6 +117,7 @@ public class OwnCourses extends AppCompatActivity {
                 intent.putExtra("course_description", DataList.get(recycler.getChildAdapterPosition(v)).get_course_description());
                 intent.putExtra("course_name", DataList.get(recycler.getChildAdapterPosition(v)).get_name());
                 intent.putExtra("course_score", DataList.get(recycler.getChildAdapterPosition(v)).get_course_score());
+                System.out.println(DataList.get(recycler.getChildAdapterPosition(v)).get_name());
                 v.getContext().startActivity(intent);
             }
         });

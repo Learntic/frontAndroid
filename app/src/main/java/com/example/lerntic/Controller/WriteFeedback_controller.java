@@ -8,12 +8,11 @@ public class WriteFeedback_controller {
     public WriteFeedbackFunc writeFeedbackFunc;
     public feedback f;
 
-    public WriteFeedback_controller(feedback fi){
-        this.f = fi;
+    public WriteFeedback_controller(){
     }
 
-    public void writeFeedback(Context context, String token){
+    public void writeFeedback(feedback feedback,Context context, String token){
+        this.f = feedback;
         writeFeedbackFunc = new WriteFeedbackFunc(context, token, f);
-        writeFeedbackFunc.writeFeedback(context);
     }
 }

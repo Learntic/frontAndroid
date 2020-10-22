@@ -8,6 +8,7 @@ import com.apollographql.apollo.exception.ApolloException;
 import com.example.lerntic.CreateFeedbackMutation;
 import com.example.lerntic.Model.Objects.feedback;
 import com.example.lerntic.type.FeedbackInput;
+
 import org.jetbrains.annotations.NotNull;
 
 public class WriteFeedbackFunc {
@@ -28,7 +29,7 @@ public class WriteFeedbackFunc {
 
         FeedbackInput feedbackInput = FeedbackInput
                 .builder()
-                .id_curso(Integer.parseInt(feedbackF.getId_usuario()))
+                .id_curso(feedbackF.getId_curso())
                 .nota(feedbackF.getNota())
                 .id_usuario(feedbackF.getId_usuario())
                 .opinion(feedbackF.getOpinion())
@@ -44,7 +45,7 @@ public class WriteFeedbackFunc {
 
                     @Override
                     public void onResponse(@NotNull Response<CreateFeedbackMutation.Data> response) {
-                        System.out.println("FEEDBACK RES = "+response);
+                        System.out.println("FEEDBACK RES = "+response.data());
                     }
 
                     @Override
