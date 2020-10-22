@@ -40,9 +40,15 @@ com/example/lerntic/Controller/Temario_controller.java
  com.example.lerntic.Controller.Temario_controller
 com/example/lerntic/Model/Objects/inscription.java
  com.example.lerntic.Model.Objects.inscription
-com/example/lerntic/View/Register.java
- com.example.lerntic.View.Register
- com.example.lerntic.View.Register$1
+com/example/lerntic/View/Profile.java
+ com.example.lerntic.View.Profile
+ com.example.lerntic.View.Profile$1
+ com.example.lerntic.View.Profile$2
+ com.example.lerntic.View.Profile$3
+ com.example.lerntic.View.Profile$4
+ com.example.lerntic.View.Profile$5
+ com.example.lerntic.View.Profile$6
+ com.example.lerntic.View.Profile$7
 com/example/lerntic/FeedbacksQuery.java
  com.example.lerntic.FeedbacksQuery
  com.example.lerntic.FeedbacksQuery$1
@@ -64,11 +70,12 @@ com/example/lerntic/Model/Achievements.java
  com.example.lerntic.Model.Achievements$1
 com/example/lerntic/Controller/UserCourses_controller.java
  com.example.lerntic.Controller.UserCourses_controller
-com/example/lerntic/Controller/Login_controller.java
- com.example.lerntic.Controller.Login_controller
-com/example/lerntic/Model/RegisterFunc.java
- com.example.lerntic.Model.RegisterFunc
- com.example.lerntic.Model.RegisterFunc$1
+com/example/lerntic/View/WriteFeedback.java
+ com.example.lerntic.View.WriteFeedback
+ com.example.lerntic.View.WriteFeedback$1
+com/example/lerntic/Model/login.java
+ com.example.lerntic.Model.login
+ com.example.lerntic.Model.login$1
 com/example/lerntic/CourseTopicsQuery.java
  com.example.lerntic.CourseTopicsQuery
  com.example.lerntic.CourseTopicsQuery$1
@@ -123,8 +130,8 @@ com/example/lerntic/Controller/Adapter_temario.java
  com.example.lerntic.Controller.Adapter_temario$ViewHolderDatos
 com/example/lerntic/Model/ApolloConnector.java
  com.example.lerntic.Model.ApolloConnector
-com/example/lerntic/Controller/Register_controller.java
- com.example.lerntic.Controller.Register_controller
+com/example/lerntic/Controller/Login_controller.java
+ com.example.lerntic.Controller.Login_controller
 com/example/lerntic/FeedbackByCourseQuery.java
  com.example.lerntic.FeedbackByCourseQuery
  com.example.lerntic.FeedbackByCourseQuery$1
@@ -244,9 +251,8 @@ com/example/lerntic/type/AccountInput.java
 com/example/lerntic/Model/CourseFeedback.java
  com.example.lerntic.Model.CourseFeedback
  com.example.lerntic.Model.CourseFeedback$1
-com/example/lerntic/Model/login.java
- com.example.lerntic.Model.login
- com.example.lerntic.Model.login$1
+com/example/lerntic/Controller/WriteFeedback_controller.java
+ com.example.lerntic.Controller.WriteFeedback_controller
 com/example/lerntic/Model/CourseTemario.java
  com.example.lerntic.Model.CourseTemario
  com.example.lerntic.Model.CourseTemario$1
@@ -275,10 +281,9 @@ com/example/lerntic/CreateFeedbackMutation.java
 com/example/lerntic/Controller/Adapter_achievements.java
  com.example.lerntic.Controller.Adapter_achievements
  com.example.lerntic.Controller.Adapter_achievements$ViewHolderDatos
-com/example/lerntic/View/MainActivity.java
- com.example.lerntic.View.MainActivity
- com.example.lerntic.View.MainActivity$1
- com.example.lerntic.View.MainActivity$2
+com/example/lerntic/Model/WriteFeedbackFunc.java
+ com.example.lerntic.Model.WriteFeedbackFunc
+ com.example.lerntic.Model.WriteFeedbackFunc$1
 com/example/lerntic/View/friends.java
  com.example.lerntic.View.friends
  com.example.lerntic.View.friends$1
@@ -305,20 +310,15 @@ com/example/lerntic/View/Achievements.java
  com.example.lerntic.View.Achievements$2
  com.example.lerntic.View.Achievements$3
  com.example.lerntic.View.Achievements$4
-com/example/lerntic/View/Profile.java
- com.example.lerntic.View.Profile
- com.example.lerntic.View.Profile$1
- com.example.lerntic.View.Profile$2
- com.example.lerntic.View.Profile$3
- com.example.lerntic.View.Profile$4
- com.example.lerntic.View.Profile$5
- com.example.lerntic.View.Profile$6
- com.example.lerntic.View.Profile$7
-com/example/lerntic/View/WriteFeedback.java
- com.example.lerntic.View.WriteFeedback
- com.example.lerntic.View.WriteFeedback$1
-com/example/lerntic/Controller/WriteFeedback_controller.java
- com.example.lerntic.Controller.WriteFeedback_controller
-com/example/lerntic/Model/WriteFeedbackFunc.java
- com.example.lerntic.Model.WriteFeedbackFunc
- com.example.lerntic.Model.WriteFeedbackFunc$1
+com/example/lerntic/View/MainActivity.java
+ com.example.lerntic.View.MainActivity
+ com.example.lerntic.View.MainActivity$1
+ com.example.lerntic.View.MainActivity$2
+com/example/lerntic/Model/RegisterFunc.java
+ com.example.lerntic.Model.RegisterFunc
+ com.example.lerntic.Model.RegisterFunc$1
+com/example/lerntic/Controller/Register_controller.java
+ com.example.lerntic.Controller.Register_controller
+com/example/lerntic/View/Register.java
+ com.example.lerntic.View.Register
+ com.example.lerntic.View.Register$1
