@@ -17,6 +17,9 @@ com/example/lerntic/CoursesByNotUserIdQuery.java
  com.example.lerntic.CoursesByNotUserIdQuery$Variables$1
 com/example/lerntic/Controller/friends_controller.java
  com.example.lerntic.Controller.friends_controller
+com/example/lerntic/View/Game.java
+ com.example.lerntic.View.Game
+ com.example.lerntic.View.Game$1
 com/example/lerntic/SignUpMutation.java
  com.example.lerntic.SignUpMutation
  com.example.lerntic.SignUpMutation$1
@@ -33,16 +36,19 @@ com/example/lerntic/SignUpMutation.java
 com/example/lerntic/Controller/Adapter_AllActivities.java
  com.example.lerntic.Controller.Adapter_AllActivities
  com.example.lerntic.Controller.Adapter_AllActivities$ViewHolderDatos
-com/example/lerntic/Model/NotUserCourses.java
- com.example.lerntic.Model.NotUserCourses
- com.example.lerntic.Model.NotUserCourses$1
+com/example/lerntic/View/Register.java
+ com.example.lerntic.View.Register
+ com.example.lerntic.View.Register$1
 com/example/lerntic/Controller/Temario_controller.java
  com.example.lerntic.Controller.Temario_controller
 com/example/lerntic/Model/Objects/inscription.java
  com.example.lerntic.Model.Objects.inscription
-com/example/lerntic/View/Register.java
- com.example.lerntic.View.Register
- com.example.lerntic.View.Register$1
+com/example/lerntic/View/friends.java
+ com.example.lerntic.View.friends
+ com.example.lerntic.View.friends$1
+ com.example.lerntic.View.friends$2
+ com.example.lerntic.View.friends$3
+ com.example.lerntic.View.friends$4
 com/example/lerntic/FeedbacksQuery.java
  com.example.lerntic.FeedbacksQuery
  com.example.lerntic.FeedbacksQuery$1
@@ -62,28 +68,26 @@ com/example/lerntic/Model/AddedFriends.java
 com/example/lerntic/Model/Achievements.java
  com.example.lerntic.Model.Achievements
  com.example.lerntic.Model.Achievements$1
-com/example/lerntic/Controller/UserCourses_controller.java
- com.example.lerntic.Controller.UserCourses_controller
+com/example/lerntic/View/Achievements.java
+ com.example.lerntic.View.Achievements
+ com.example.lerntic.View.Achievements$1
+ com.example.lerntic.View.Achievements$2
+ com.example.lerntic.View.Achievements$3
+ com.example.lerntic.View.Achievements$4
 com/example/lerntic/Controller/Login_controller.java
  com.example.lerntic.Controller.Login_controller
 com/example/lerntic/Model/RegisterFunc.java
  com.example.lerntic.Model.RegisterFunc
  com.example.lerntic.Model.RegisterFunc$1
-com/example/lerntic/CourseTopicsQuery.java
- com.example.lerntic.CourseTopicsQuery
- com.example.lerntic.CourseTopicsQuery$1
- com.example.lerntic.CourseTopicsQuery$Builder
- com.example.lerntic.CourseTopicsQuery$CourseTopic
- com.example.lerntic.CourseTopicsQuery$CourseTopic$1
- com.example.lerntic.CourseTopicsQuery$CourseTopic$Mapper
- com.example.lerntic.CourseTopicsQuery$Data
- com.example.lerntic.CourseTopicsQuery$Data$1
- com.example.lerntic.CourseTopicsQuery$Data$1$1
- com.example.lerntic.CourseTopicsQuery$Data$Mapper
- com.example.lerntic.CourseTopicsQuery$Data$Mapper$1
- com.example.lerntic.CourseTopicsQuery$Data$Mapper$1$1
- com.example.lerntic.CourseTopicsQuery$Variables
- com.example.lerntic.CourseTopicsQuery$Variables$1
+com/example/lerntic/View/Profile.java
+ com.example.lerntic.View.Profile
+ com.example.lerntic.View.Profile$1
+ com.example.lerntic.View.Profile$2
+ com.example.lerntic.View.Profile$3
+ com.example.lerntic.View.Profile$4
+ com.example.lerntic.View.Profile$5
+ com.example.lerntic.View.Profile$6
+ com.example.lerntic.View.Profile$7
 com/example/lerntic/Controller/Achievements_controller.java
  com.example.lerntic.Controller.Achievements_controller
 com/example/lerntic/Model/Objects/course.java
@@ -92,19 +96,16 @@ com/example/lerntic/type/EnteroInput.java
  com.example.lerntic.type.EnteroInput
  com.example.lerntic.type.EnteroInput$1
  com.example.lerntic.type.EnteroInput$Builder
-com/example/lerntic/View/OwnCourses.java
- com.example.lerntic.View.OwnCourses
- com.example.lerntic.View.OwnCourses$1
- com.example.lerntic.View.OwnCourses$2
- com.example.lerntic.View.OwnCourses$3
- com.example.lerntic.View.OwnCourses$4
- com.example.lerntic.View.OwnCourses$5
+com/example/lerntic/Model/WriteFeedbackFunc.java
+ com.example.lerntic.Model.WriteFeedbackFunc
+ com.example.lerntic.Model.WriteFeedbackFunc$1
+com/example/lerntic/View/MainActivity.java
+ com.example.lerntic.View.MainActivity
+ com.example.lerntic.View.MainActivity$1
+ com.example.lerntic.View.MainActivity$2
 com/example/lerntic/Model/UserCourses.java
  com.example.lerntic.Model.UserCourses
  com.example.lerntic.Model.UserCourses$1
-com/example/lerntic/Controller/Adapter_Friends.java
- com.example.lerntic.Controller.Adapter_Friends
- com.example.lerntic.Controller.Adapter_Friends$ViewHolderDatos
 com/example/lerntic/SignInQuery.java
  com.example.lerntic.SignInQuery
  com.example.lerntic.SignInQuery$1
@@ -118,9 +119,13 @@ com/example/lerntic/SignInQuery.java
  com.example.lerntic.SignInQuery$SignIn$Mapper
  com.example.lerntic.SignInQuery$Variables
  com.example.lerntic.SignInQuery$Variables$1
-com/example/lerntic/Controller/Adapter_temario.java
- com.example.lerntic.Controller.Adapter_temario
- com.example.lerntic.Controller.Adapter_temario$ViewHolderDatos
+com/example/lerntic/View/course_detail_noreg.java
+ com.example.lerntic.View.course_detail_noreg
+ com.example.lerntic.View.course_detail_noreg$1
+ com.example.lerntic.View.course_detail_noreg$2
+ com.example.lerntic.View.course_detail_noreg$3
+ com.example.lerntic.View.course_detail_noreg$4
+ com.example.lerntic.View.course_detail_noreg$5
 com/example/lerntic/Model/ApolloConnector.java
  com.example.lerntic.Model.ApolloConnector
 com/example/lerntic/Controller/Register_controller.java
@@ -193,19 +198,13 @@ com/example/lerntic/Controller/Quices.java
  com.example.lerntic.Controller.Quices
 com/example/lerntic/Controller/Feedback_controller.java
  com.example.lerntic.Controller.Feedback_controller
-com/example/lerntic/CreateInscriptionMutation.java
- com.example.lerntic.CreateInscriptionMutation
- com.example.lerntic.CreateInscriptionMutation$1
- com.example.lerntic.CreateInscriptionMutation$Builder
- com.example.lerntic.CreateInscriptionMutation$CreateInscription
- com.example.lerntic.CreateInscriptionMutation$CreateInscription$1
- com.example.lerntic.CreateInscriptionMutation$CreateInscription$Mapper
- com.example.lerntic.CreateInscriptionMutation$Data
- com.example.lerntic.CreateInscriptionMutation$Data$1
- com.example.lerntic.CreateInscriptionMutation$Data$Mapper
- com.example.lerntic.CreateInscriptionMutation$Data$Mapper$1
- com.example.lerntic.CreateInscriptionMutation$Variables
- com.example.lerntic.CreateInscriptionMutation$Variables$1
+com/example/lerntic/View/AllActivities.java
+ com.example.lerntic.View.AllActivities
+ com.example.lerntic.View.AllActivities$1
+ com.example.lerntic.View.AllActivities$2
+ com.example.lerntic.View.AllActivities$3
+ com.example.lerntic.View.AllActivities$4
+ com.example.lerntic.View.AllActivities$5
 com/example/lerntic/type/FeedbackInput.java
  com.example.lerntic.type.FeedbackInput
  com.example.lerntic.type.FeedbackInput$1
@@ -250,13 +249,8 @@ com/example/lerntic/Model/login.java
 com/example/lerntic/Model/CourseTemario.java
  com.example.lerntic.Model.CourseTemario
  com.example.lerntic.Model.CourseTemario$1
-com/example/lerntic/View/Course_detail.java
- com.example.lerntic.View.Course_detail
- com.example.lerntic.View.Course_detail$1
- com.example.lerntic.View.Course_detail$2
- com.example.lerntic.View.Course_detail$3
- com.example.lerntic.View.Course_detail$4
- com.example.lerntic.View.Course_detail$5
+com/example/lerntic/Controller/WriteFeedback_controller.java
+ com.example.lerntic.Controller.WriteFeedback_controller
 com/example/lerntic/Model/Objects/friend.java
  com.example.lerntic.Model.Objects.friend
 com/example/lerntic/CreateFeedbackMutation.java
@@ -275,50 +269,64 @@ com/example/lerntic/CreateFeedbackMutation.java
 com/example/lerntic/Controller/Adapter_achievements.java
  com.example.lerntic.Controller.Adapter_achievements
  com.example.lerntic.Controller.Adapter_achievements$ViewHolderDatos
-com/example/lerntic/View/MainActivity.java
- com.example.lerntic.View.MainActivity
- com.example.lerntic.View.MainActivity$1
- com.example.lerntic.View.MainActivity$2
-com/example/lerntic/View/friends.java
- com.example.lerntic.View.friends
- com.example.lerntic.View.friends$1
- com.example.lerntic.View.friends$2
- com.example.lerntic.View.friends$3
- com.example.lerntic.View.friends$4
-com/example/lerntic/View/AllActivities.java
- com.example.lerntic.View.AllActivities
- com.example.lerntic.View.AllActivities$1
- com.example.lerntic.View.AllActivities$2
- com.example.lerntic.View.AllActivities$3
- com.example.lerntic.View.AllActivities$4
- com.example.lerntic.View.AllActivities$5
-com/example/lerntic/View/course_detail_noreg.java
- com.example.lerntic.View.course_detail_noreg
- com.example.lerntic.View.course_detail_noreg$1
- com.example.lerntic.View.course_detail_noreg$2
- com.example.lerntic.View.course_detail_noreg$3
- com.example.lerntic.View.course_detail_noreg$4
- com.example.lerntic.View.course_detail_noreg$5
-com/example/lerntic/View/Achievements.java
- com.example.lerntic.View.Achievements
- com.example.lerntic.View.Achievements$1
- com.example.lerntic.View.Achievements$2
- com.example.lerntic.View.Achievements$3
- com.example.lerntic.View.Achievements$4
-com/example/lerntic/View/Profile.java
- com.example.lerntic.View.Profile
- com.example.lerntic.View.Profile$1
- com.example.lerntic.View.Profile$2
- com.example.lerntic.View.Profile$3
- com.example.lerntic.View.Profile$4
- com.example.lerntic.View.Profile$5
- com.example.lerntic.View.Profile$6
- com.example.lerntic.View.Profile$7
+com/example/lerntic/Controller/Adapter_Friends.java
+ com.example.lerntic.Controller.Adapter_Friends
+ com.example.lerntic.Controller.Adapter_Friends$ViewHolderDatos
+com/example/lerntic/Model/NotUserCourses.java
+ com.example.lerntic.Model.NotUserCourses
+ com.example.lerntic.Model.NotUserCourses$1
+com/example/lerntic/CourseTopicsQuery.java
+ com.example.lerntic.CourseTopicsQuery
+ com.example.lerntic.CourseTopicsQuery$1
+ com.example.lerntic.CourseTopicsQuery$Builder
+ com.example.lerntic.CourseTopicsQuery$CourseTopic
+ com.example.lerntic.CourseTopicsQuery$CourseTopic$1
+ com.example.lerntic.CourseTopicsQuery$CourseTopic$Mapper
+ com.example.lerntic.CourseTopicsQuery$Data
+ com.example.lerntic.CourseTopicsQuery$Data$1
+ com.example.lerntic.CourseTopicsQuery$Data$1$1
+ com.example.lerntic.CourseTopicsQuery$Data$Mapper
+ com.example.lerntic.CourseTopicsQuery$Data$Mapper$1
+ com.example.lerntic.CourseTopicsQuery$Data$Mapper$1$1
+ com.example.lerntic.CourseTopicsQuery$Variables
+ com.example.lerntic.CourseTopicsQuery$Variables$1
+com/example/lerntic/Controller/Adapter_temario.java
+ com.example.lerntic.Controller.Adapter_temario
+ com.example.lerntic.Controller.Adapter_temario$ViewHolderDatos
+com/example/lerntic/Controller/UserCourses_controller.java
+ com.example.lerntic.Controller.UserCourses_controller
+com/example/lerntic/CreateInscriptionMutation.java
+ com.example.lerntic.CreateInscriptionMutation
+ com.example.lerntic.CreateInscriptionMutation$1
+ com.example.lerntic.CreateInscriptionMutation$Builder
+ com.example.lerntic.CreateInscriptionMutation$CreateInscription
+ com.example.lerntic.CreateInscriptionMutation$CreateInscription$1
+ com.example.lerntic.CreateInscriptionMutation$CreateInscription$Mapper
+ com.example.lerntic.CreateInscriptionMutation$Data
+ com.example.lerntic.CreateInscriptionMutation$Data$1
+ com.example.lerntic.CreateInscriptionMutation$Data$Mapper
+ com.example.lerntic.CreateInscriptionMutation$Data$Mapper$1
+ com.example.lerntic.CreateInscriptionMutation$Variables
+ com.example.lerntic.CreateInscriptionMutation$Variables$1
+com/example/lerntic/View/OwnCourses.java
+ com.example.lerntic.View.OwnCourses
+ com.example.lerntic.View.OwnCourses$1
+ com.example.lerntic.View.OwnCourses$2
+ com.example.lerntic.View.OwnCourses$3
+ com.example.lerntic.View.OwnCourses$4
+ com.example.lerntic.View.OwnCourses$5
 com/example/lerntic/View/WriteFeedback.java
  com.example.lerntic.View.WriteFeedback
  com.example.lerntic.View.WriteFeedback$1
-com/example/lerntic/Controller/WriteFeedback_controller.java
- com.example.lerntic.Controller.WriteFeedback_controller
-com/example/lerntic/Model/WriteFeedbackFunc.java
- com.example.lerntic.Model.WriteFeedbackFunc
- com.example.lerntic.Model.WriteFeedbackFunc$1
+ com.example.lerntic.View.WriteFeedback$2
+ com.example.lerntic.View.WriteFeedback$3
+ com.example.lerntic.View.WriteFeedback$4
+ com.example.lerntic.View.WriteFeedback$5
+com/example/lerntic/View/Course_detail.java
+ com.example.lerntic.View.Course_detail
+ com.example.lerntic.View.Course_detail$1
+ com.example.lerntic.View.Course_detail$2
+ com.example.lerntic.View.Course_detail$3
+ com.example.lerntic.View.Course_detail$4
+ com.example.lerntic.View.Course_detail$5
+ com.example.lerntic.View.Course_detail$6

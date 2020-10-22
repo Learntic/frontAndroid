@@ -87,6 +87,15 @@ public class Course_detail extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        evaluacionB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Game.class);
+                intent.putExtra("Username",User.getUsername());
+                startActivity(intent);
+            }
+        });
+
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
