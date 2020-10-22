@@ -1,2 +1,3 @@
+include ':New Unity Project-debug'
 include ':app'
 rootProject.name = "LernTic"

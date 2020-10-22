@@ -48,4 +48,7 @@ dependencies {
     //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:23.0'
 
+    implementation project(":New Unity Project-debug")
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
 }

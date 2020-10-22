@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 
 import com.example.lerntic.Controller.WriteFeedback_controller;
 import com.example.lerntic.Model.Objects.course;
@@ -22,12 +23,24 @@ public class WriteFeedback extends AppCompatActivity {
     public user User;
     public course Course;
 
+    //----------Botton MENU
+    public LinearLayout home;
+    public LinearLayout courses;
+    public LinearLayout friends;
+    public LinearLayout profile;
+    //---------
+
     final private WriteFeedback_controller writeFeedback_controller = new WriteFeedback_controller();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_write_feedback);
+
+
+
+
+
 
         String username = getIntent().getStringExtra("Username");
         String token = getIntent().getStringExtra("Token");
@@ -39,6 +52,52 @@ public class WriteFeedback extends AppCompatActivity {
 
         User = new user(username,token,"",id);
         Course = new course(course_id,course_description,course_name,course_score);
+        //----------Botton MENU
+        home = findViewById(R.id.menu_home);
+        courses = findViewById(R.id.menu_cours);
+        friends = findViewById(R.id.menu_friends);
+        profile = findViewById(R.id.menu_profile);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), OwnCourses.class);
+                intent.putExtra("Username",User.getUsername());
+                intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
+                startActivity(intent);
+            }
+        });
+        courses.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), AllActivities.class);
+                intent.putExtra("Username",User.getUsername());
+                intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
+                startActivity(intent);
+            }
+        });
+        friends.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), friends.class);
+                intent.putExtra("Username",User.getUsername());
+                intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
+                startActivity(intent);
+            }
+        });
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Profile.class);
+                intent.putExtra("Username",User.getUsername());
+                intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
+                startActivity(intent);
+            }
+        });
+        //---------------------
 
         opinion =  findViewById(R.id.et_opinionFeedback);
         nota = findViewById(R.id.et_notaFeedback);
