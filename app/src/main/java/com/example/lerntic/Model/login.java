@@ -34,8 +34,6 @@ public class login {
         String password = User.getPassword();
         User = new user();
 
-        User = new user();
-
         AccountInput account = AccountInput
                 .builder()
                 .username(username)

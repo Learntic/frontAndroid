@@ -12,7 +12,7 @@ public class Register_controller {
     public Register_controller() { }
 
     public user signUp(String user, String pass, String name, int age, Context context){
-        User = new user(user,"",pass,"",name,age);
+        User = new user(user,"",pass,"",name,age,"");
         registerFunc = new RegisterFunc(User, context);
         User = registerFunc.getUser();
         while(User.getid() == null)

@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/LernTic.iml" filepath="$PROJECT_DIR$/.idea/modules/LernTic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/New Unity Project-debug/LernTic.New_Unity_Project-debug.iml" filepath="$PROJECT_DIR$/.idea/modules/New Unity Project-debug/LernTic.New_Unity_Project-debug.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LernTic.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LernTic.app.iml" />
     </modules>
   </component>
