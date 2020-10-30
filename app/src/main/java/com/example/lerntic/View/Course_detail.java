@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.lerntic.Controller.Adapter_Feedback;
 import com.example.lerntic.Controller.Adapter_temario;
@@ -87,6 +88,19 @@ public class Course_detail extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        evaluacionB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(getApplicationContext(),Course.get_name(),Toast.LENGTH_LONG).show();
+
+                    Intent intent = new Intent(getApplicationContext(), Game.class);
+                    intent.putExtra("Username",User.getUsername());
+                    startActivity(intent);
+
+
+            }
+        });
+
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -101,10 +101,7 @@ public class friends extends AppCompatActivity {
 
         DataList = friends_controller.Showfriends(username,token,id,getApplicationContext());
 
-        if (DataList.isEmpty()) {
-            friend NoFirends = new friend("No tiene amigos registrados aun", "", 0, "");
-            DataList.add(NoFirends);
-        }
+
 
         Adapter_Friends adapter = new Adapter_Friends(DataList);
         recycler.setAdapter(adapter);

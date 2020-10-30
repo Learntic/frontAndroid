@@ -14,6 +14,7 @@ import com.example.lerntic.Controller.Achievements_controller;
 import com.example.lerntic.Controller.Adapter_Courses;
 import com.example.lerntic.Controller.Adapter_achievements;
 import com.example.lerntic.GetAchievementsByUsernamesQuery;
+import com.example.lerntic.Model.Objects.Achievement;
 import com.example.lerntic.Model.Objects.user;
 import com.example.lerntic.R;
 
@@ -33,7 +34,7 @@ public class Achievements extends AppCompatActivity {
 
     public user User;
 
-    List<GetAchievementsByUsernamesQuery.Achievement> DataList;
+    ArrayList <Achievement> DataList;
     RecyclerView recycler;
 
     @Override
@@ -99,13 +100,8 @@ public class Achievements extends AppCompatActivity {
 
         DataList = achievements_controller.showAchievements(username, token, getApplicationContext());
         ArrayList<String> a = new ArrayList<>();
-        for (int i = 0; i < DataList.size(); i++)
-            a.add(DataList.get(i).description());
-        if (a.isEmpty()) {
-            String noLogro = "No tienes logros por ahora.";
-            a.add(noLogro);
-        }
-        Adapter_achievements adapter = new Adapter_achievements(a);
+
+        Adapter_achievements adapter = new Adapter_achievements(DataList);
         recycler.setAdapter(adapter);
     }
 }

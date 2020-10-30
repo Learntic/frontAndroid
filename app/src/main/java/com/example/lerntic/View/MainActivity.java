@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.lerntic.Controller.Login_controller;
 import com.example.lerntic.R;
@@ -43,7 +44,12 @@ public class MainActivity extends AppCompatActivity {
                 User = controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
                 System.out.println(User.getUsername());
                 System.out.println(User.getToken());
-                openOwnCourses();
+                if (User.getid().equals("-1")){
+                    Toast.makeText(getApplicationContext(), "Error en login",
+                            Toast.LENGTH_SHORT).show();
+                }else{
+                    openOwnCourses();
+                }
             }
         });
 

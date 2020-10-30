@@ -8,14 +8,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.lerntic.Model.Objects.Achievement;
 import com.example.lerntic.R;
 
 import java.util.ArrayList;
 
 public class Adapter_achievements  extends RecyclerView.Adapter<Adapter_achievements.ViewHolderDatos> {
-    ArrayList<String> DataList;
+    ArrayList<Achievement> DataList;
 
-    public Adapter_achievements(ArrayList<String> dataList) {
+    public Adapter_achievements(ArrayList<Achievement> dataList) {
         DataList = dataList;
     }
 
@@ -45,8 +46,8 @@ public class Adapter_achievements  extends RecyclerView.Adapter<Adapter_achievem
             name = itemView.findViewById(R.id.txt_name_achievements);
         }
 
-        public void asignarDatos(String names) {
-            name.setText(names);
+        public void asignarDatos(Achievement names) {
+            name.setText(names.getDescription());
         }
     }
 }

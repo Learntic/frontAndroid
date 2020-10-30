@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.lerntic">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,8 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true">
-        <activity android:name=".View.course_detail_noreg"/>
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon,android:theme">
+        <activity android:name=".View.Game"></activity>
+        <activity android:name=".View.course_detail_noreg" />
         <activity android:name=".View.Course_detail" />
         <activity android:name=".View.Achievements" />
         <activity android:name=".View.AllActivities" />
@@ -22,7 +25,8 @@
         <activity android:name=".Controller.Quices" />
         <activity android:name=".View.Register" />
         <activity android:name=".View.friends" />
-        <activity android:name=".View.WriteFeedback"/>
+        <activity android:name="com.unity3d.player.UnityPlayerActivity" />
+        <activity android:name=".View.WriteFeedback" />
         <activity android:name=".View.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

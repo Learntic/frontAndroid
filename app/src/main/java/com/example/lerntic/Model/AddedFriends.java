@@ -51,9 +51,7 @@ public class AddedFriends {
                         for (int i = 0; i<data.size(); i++){
                             String fullname = data.get(i).fullname();
                             String username = data.get(i).username();
-                            int age = data.get(i).age();
-                            String error = data.get(i).error();
-                            friends.add(new friend(fullname,username,age,error));
+                            friends.add(new friend(fullname,username,0,""));
                         }
                         setFriends(friends);
                     }
