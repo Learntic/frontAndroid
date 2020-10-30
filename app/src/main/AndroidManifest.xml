@@ -15,7 +15,8 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:replace="android:icon,android:theme">
-        <activity android:name=".View.Game"></activity>
+        <activity android:name=".View.Edit_Profile"></activity>
+        <activity android:name=".View.Game" />
         <activity android:name=".View.course_detail_noreg" />
         <activity android:name=".View.Course_detail" />
         <activity android:name=".View.Achievements" />

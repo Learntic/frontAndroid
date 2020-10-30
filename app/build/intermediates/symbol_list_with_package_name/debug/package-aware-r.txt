@@ -1800,6 +1800,7 @@ layout activity_achievements
 layout activity_all_activities
 layout activity_course_detail
 layout activity_course_detail_noreg
+layout activity_edit__profile
 layout activity_friends
 layout activity_game
 layout activity_main

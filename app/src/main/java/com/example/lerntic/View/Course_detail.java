@@ -91,7 +91,7 @@ public class Course_detail extends AppCompatActivity {
         evaluacionB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-<<<<<<< HEAD
+
                 //Toast.makeText(getApplicationContext(),Course.get_name(),Toast.LENGTH_LONG).show();
 
                     Intent intent = new Intent(getApplicationContext(), Game.class);
@@ -99,11 +99,6 @@ public class Course_detail extends AppCompatActivity {
                     startActivity(intent);
 
 
-=======
-                Intent intent = new Intent(getApplicationContext(), Game.class);
-                intent.putExtra("Username",User.getUsername());
-                startActivity(intent);
->>>>>>> origin/master
             }
         });
 
