@@ -7,6 +7,7 @@ import com.apollographql.apollo.ApolloCall;
 import com.apollographql.apollo.api.Response;
 import com.apollographql.apollo.exception.ApolloException;
 import com.example.lerntic.Model.Objects.user;
+import com.example.lerntic.SignInQuery;
 import com.example.lerntic.SignUpMutation;
 import com.example.lerntic.type.AccountInput;
 
@@ -46,16 +47,26 @@ public class RegisterFunc {
 
                     @Override
                     public void onResponse(@NotNull Response<SignUpMutation.Data> response) {
-                        SignUpMutation.SignUp data = response.data().signUp();
-                        user.setToken(data.token());
-                        user.setUsername(data.username());
-                        user.setid(data.uid());
-                        setUser(user);
+                        if (response.data() == null){
+                            user.setToken("");
+                            user.setUsername("");
+                            user.setid("-1");
+                            setUser(user);
+                        }else {
+                            SignUpMutation.SignUp data = response.data().signUp();
+                            user.setToken(data.token());
+                            user.setUsername(data.username());
+                            user.setid(data.uid());
+                            setUser(user);
+                        }
                     }
 
                     @Override
                     public void onFailure(@NotNull ApolloException e) {
-                        Log.d(TAG, "Exception " + e.getMessage(), e);
+                        user.setToken("");
+                        user.setUsername("");
+                        user.setid("-1");
+                        setUser(user);
                     }
                 });
 

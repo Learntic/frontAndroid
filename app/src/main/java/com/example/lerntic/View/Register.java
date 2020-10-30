@@ -38,7 +38,12 @@ public class Register extends AppCompatActivity {
                 if(password.getText().toString().equals(pasConfirm.getText().toString())){
                     User = register_controller.signUp(user.getText().toString(),
                             password.getText().toString(),getApplicationContext());
-                    openOwnCourses();
+                    if (User.getid().equals("-1")){
+                        Toast.makeText(getApplicationContext(), "Error en Registro",
+                                Toast.LENGTH_SHORT).show();
+                    }else{
+                        openOwnCourses();
+                    }
                 }
                 else
                     Toast.makeText(getApplicationContext(), "Las contraseñas no son iguales",

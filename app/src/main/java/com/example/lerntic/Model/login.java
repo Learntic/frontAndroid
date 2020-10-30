@@ -50,16 +50,26 @@ public class login {
                 .enqueue(new ApolloCall.Callback<SignInQuery.Data>() {
                     @Override
                     public void onResponse(@NotNull Response<SignInQuery.Data> response) {
-                        SignInQuery.SignIn data = response.data().signIn();
-                        User.setToken(data.token());
-                        User.setUsername(data.username());
-                        User.setid(data.uid());
-                        next(User);
+                        if (response.data() == null){
+                            User.setToken("");
+                            User.setUsername("");
+                            User.setid("-1");
+                            next(User);
+                        }else {
+                            SignInQuery.SignIn data = response.data().signIn();
+                            User.setToken(data.token());
+                            User.setUsername(data.username());
+                            User.setid(data.uid());
+                            next(User);
+                        }
                     }
 
                     @Override
                     public void onFailure(@NotNull ApolloException e) {
-                        Log.d(TAG, "Exception " + e.getMessage(), e);
+                        User.setToken("");
+                        User.setUsername("");
+                        User.setid("-1");
+                        next(User);
                     }
                 });
     }

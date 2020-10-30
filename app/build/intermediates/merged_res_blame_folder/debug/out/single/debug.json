@@ -36,12 +36,21 @@
         "source": "C:\\Users\\pc1\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\pc1\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_login_bk.png.flat",
         "source": "C:\\Users\\pc1\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_login_bk.png"
     },
     {
         "merged": "C:\\Users\\pc1\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\pc1\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+=======
+        "merged": "C:\\Users\\pc1\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\pc1\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc1\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_login_bk.png.flat",
+        "source": "C:\\Users\\pc1\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_login_bk.png"
+>>>>>>> origin/master
     },
     {
         "merged": "C:\\Users\\pc1\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_shape_bk.xml.flat",
