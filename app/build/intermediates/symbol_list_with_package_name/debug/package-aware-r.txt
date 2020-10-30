@@ -1403,10 +1403,12 @@ id CTRL
 id FUNCTION
 id META
 id Own_courses_header
+id People_header
 id Recycler_Achievements
 id Recycler_AllCourses
 id Recycler_FeedBack
 id Recycler_FeedBackInscito
+id Recycler_People
 id Recycler_Temario
 id Recycler_TemarioInscrito
 id Recycler_friends
@@ -1469,6 +1471,7 @@ id actions
 id activity_chooser_view_content
 id add
 id age
+id age_data
 id alertTitle
 id all
 id always
@@ -1479,6 +1482,7 @@ id beginning
 id blocking
 id bottom
 id botton_achievements
+id botton_update
 id btn_Inscripcion_curso
 id btn_SignUp
 id btn_enviarFeedback
@@ -1486,9 +1490,9 @@ id btn_evaluacion
 id btn_feedback
 id btn_ingresar
 id buttonPanel
+id button_DoUpdate
 id button_close_session
 id button_ownFriends
-id button_reg
 id cancel_button
 id center
 id center_horizontal
@@ -1527,6 +1531,7 @@ id direct
 id disableHome
 id dropdown_menu
 id edit_query
+id email_data
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1621,7 +1626,6 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
-id pass
 id passwordInput
 id password_toggle
 id peekHeight
@@ -1695,8 +1699,10 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id textView2
 id textView3
+id textView4
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1723,6 +1729,7 @@ id txt_name_achievements
 id txt_name_course
 id txt_name_courseIns_detail
 id txt_name_friend
+id txt_name_people
 id txt_name_temario
 id txt_num_day_V
 id txt_register
@@ -1731,7 +1738,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id user
+id user_data
 id usernameInput
 id view_offset_helper
 id visible
@@ -1807,6 +1814,7 @@ layout activity_friends
 layout activity_game
 layout activity_main
 layout activity_own_courses
+layout activity_people
 layout activity_profile
 layout activity_quices
 layout activity_register
@@ -1833,6 +1841,7 @@ layout item_chek
 layout item_course
 layout item_feedback
 layout item_friend
+layout item_people
 layout item_temario
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions

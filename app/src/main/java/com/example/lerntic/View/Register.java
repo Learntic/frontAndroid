@@ -27,12 +27,12 @@ public class Register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        user = findViewById(R.id.user);
+        user = findViewById(R.id.user_data);
         userName = findViewById(R.id.name);
         userAge =(EditText) findViewById(R.id.age);
-        password = findViewById(R.id.pass);
+        password = findViewById(R.id.age_data);
         pasConfirm = findViewById(R.id.confPas);
-        boton = findViewById(R.id.button_reg);
+        boton = findViewById(R.id.button_DoUpdate);
 
         boton.setOnClickListener(new View.OnClickListener() {
             @Override

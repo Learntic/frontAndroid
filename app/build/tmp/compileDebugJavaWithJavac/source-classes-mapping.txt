@@ -36,9 +36,9 @@ com/example/lerntic/SignUpMutation.java
 com/example/lerntic/Controller/Adapter_AllActivities.java
  com.example.lerntic.Controller.Adapter_AllActivities
  com.example.lerntic.Controller.Adapter_AllActivities$ViewHolderDatos
-com/example/lerntic/Controller/Adapter_Friends.java
- com.example.lerntic.Controller.Adapter_Friends
- com.example.lerntic.Controller.Adapter_Friends$ViewHolderDatos
+com/example/lerntic/Model/Actualizar.java
+ com.example.lerntic.Model.Actualizar
+ com.example.lerntic.Model.Actualizar$1
 com/example/lerntic/View/Register.java
  com.example.lerntic.View.Register
  com.example.lerntic.View.Register$1
@@ -69,12 +69,17 @@ com/example/lerntic/type/RegisterInput.java
  com.example.lerntic.type.RegisterInput
  com.example.lerntic.type.RegisterInput$1
  com.example.lerntic.type.RegisterInput$Builder
+com/example/lerntic/Controller/Adapter_people.java
+ com.example.lerntic.Controller.Adapter_people
+ com.example.lerntic.Controller.Adapter_people$ViewHolderDatos
 com/example/lerntic/Model/AddedFriends.java
  com.example.lerntic.Model.AddedFriends
  com.example.lerntic.Model.AddedFriends$1
 com/example/lerntic/Model/Achievements.java
  com.example.lerntic.Model.Achievements
  com.example.lerntic.Model.Achievements$1
+com/example/lerntic/Controller/UserData_controller.java
+ com.example.lerntic.Controller.UserData_controller
 com/example/lerntic/View/Achievements.java
  com.example.lerntic.View.Achievements
  com.example.lerntic.View.Achievements$1
@@ -95,6 +100,7 @@ com/example/lerntic/View/Profile.java
  com.example.lerntic.View.Profile$5
  com.example.lerntic.View.Profile$6
  com.example.lerntic.View.Profile$7
+ com.example.lerntic.View.Profile$8
 com/example/lerntic/Controller/Achievements_controller.java
  com.example.lerntic.Controller.Achievements_controller
 com/example/lerntic/View/Edit_Profile.java
@@ -103,21 +109,39 @@ com/example/lerntic/View/Edit_Profile.java
  com.example.lerntic.View.Edit_Profile$2
  com.example.lerntic.View.Edit_Profile$3
  com.example.lerntic.View.Edit_Profile$4
+com/example/lerntic/NotMyFriendsQuery.java
+ com.example.lerntic.NotMyFriendsQuery
+ com.example.lerntic.NotMyFriendsQuery$1
+ com.example.lerntic.NotMyFriendsQuery$Builder
+ com.example.lerntic.NotMyFriendsQuery$Data
+ com.example.lerntic.NotMyFriendsQuery$Data$1
+ com.example.lerntic.NotMyFriendsQuery$Data$1$1
+ com.example.lerntic.NotMyFriendsQuery$Data$Mapper
+ com.example.lerntic.NotMyFriendsQuery$Data$Mapper$1
+ com.example.lerntic.NotMyFriendsQuery$Data$Mapper$1$1
+ com.example.lerntic.NotMyFriendsQuery$NotMyFriend
+ com.example.lerntic.NotMyFriendsQuery$NotMyFriend$1
+ com.example.lerntic.NotMyFriendsQuery$NotMyFriend$Mapper
+ com.example.lerntic.NotMyFriendsQuery$Variables
+ com.example.lerntic.NotMyFriendsQuery$Variables$1
 com/example/lerntic/Model/Objects/course.java
  com.example.lerntic.Model.Objects.course
-com/example/lerntic/CreateInscriptionMutation.java
- com.example.lerntic.CreateInscriptionMutation
- com.example.lerntic.CreateInscriptionMutation$1
- com.example.lerntic.CreateInscriptionMutation$Builder
- com.example.lerntic.CreateInscriptionMutation$CreateInscription
- com.example.lerntic.CreateInscriptionMutation$CreateInscription$1
- com.example.lerntic.CreateInscriptionMutation$CreateInscription$Mapper
- com.example.lerntic.CreateInscriptionMutation$Data
- com.example.lerntic.CreateInscriptionMutation$Data$1
- com.example.lerntic.CreateInscriptionMutation$Data$Mapper
- com.example.lerntic.CreateInscriptionMutation$Data$Mapper$1
- com.example.lerntic.CreateInscriptionMutation$Variables
- com.example.lerntic.CreateInscriptionMutation$Variables$1
+com/example/lerntic/Model/NotFriends.java
+ com.example.lerntic.Model.NotFriends
+ com.example.lerntic.Model.NotFriends$1
+com/example/lerntic/View/ActualizarDatos.java
+ com.example.lerntic.View.ActualizarDatos
+ com.example.lerntic.View.ActualizarDatos$1
+ com.example.lerntic.View.ActualizarDatos$2
+ com.example.lerntic.View.ActualizarDatos$3
+ com.example.lerntic.View.ActualizarDatos$4
+ com.example.lerntic.View.ActualizarDatos$5
+com/example/lerntic/View/PeopleView.java
+ com.example.lerntic.View.PeopleView
+ com.example.lerntic.View.PeopleView$1
+ com.example.lerntic.View.PeopleView$2
+ com.example.lerntic.View.PeopleView$3
+ com.example.lerntic.View.PeopleView$4
 com/example/lerntic/type/EnteroInput.java
  com.example.lerntic.type.EnteroInput
  com.example.lerntic.type.EnteroInput$1
@@ -129,6 +153,8 @@ com/example/lerntic/View/MainActivity.java
  com.example.lerntic.View.MainActivity
  com.example.lerntic.View.MainActivity$1
  com.example.lerntic.View.MainActivity$2
+com/example/lerntic/Model/Objects/People.java
+ com.example.lerntic.Model.Objects.People
 com/example/lerntic/View/OwnCourses.java
  com.example.lerntic.View.OwnCourses
  com.example.lerntic.View.OwnCourses$1
@@ -202,6 +228,9 @@ com/example/lerntic/Model/UserInscription.java
  com.example.lerntic.Model.UserInscription$1
 com/example/lerntic/Model/Objects/Achievement.java
  com.example.lerntic.Model.Objects.Achievement
+com/example/lerntic/Model/Consultar.java
+ com.example.lerntic.Model.Consultar
+ com.example.lerntic.Model.Consultar$1
 com/example/lerntic/BuildConfig.java
  com.example.lerntic.BuildConfig
 com/example/lerntic/type/InscriptionInput.java
@@ -268,9 +297,6 @@ com/example/lerntic/Model/Objects/temario.java
 com/example/lerntic/Controller/Adapter_Courses.java
  com.example.lerntic.Controller.Adapter_Courses
  com.example.lerntic.Controller.Adapter_Courses$ViewHolderDatos
-com/example/lerntic/Model/UserCourses.java
- com.example.lerntic.Model.UserCourses
- com.example.lerntic.Model.UserCourses$1
 com/example/lerntic/type/AccountInput.java
  com.example.lerntic.type.AccountInput
  com.example.lerntic.type.AccountInput$1
@@ -342,21 +368,15 @@ com/example/lerntic/CourseTopicsQuery.java
  com.example.lerntic.CourseTopicsQuery$Data$Mapper$1$1
  com.example.lerntic.CourseTopicsQuery$Variables
  com.example.lerntic.CourseTopicsQuery$Variables$1
+com/example/lerntic/type/UpdateUserInput.java
+ com.example.lerntic.type.UpdateUserInput
+ com.example.lerntic.type.UpdateUserInput$1
+ com.example.lerntic.type.UpdateUserInput$Builder
 com/example/lerntic/Controller/Adapter_temario.java
  com.example.lerntic.Controller.Adapter_temario
  com.example.lerntic.Controller.Adapter_temario$ViewHolderDatos
 com/example/lerntic/Controller/UserCourses_controller.java
  com.example.lerntic.Controller.UserCourses_controller
-com/example/lerntic/View/Course_detail.java
- com.example.lerntic.View.Course_detail
- com.example.lerntic.View.Course_detail$1
- com.example.lerntic.View.Course_detail$2
- com.example.lerntic.View.Course_detail$3
- com.example.lerntic.View.Course_detail$4
- com.example.lerntic.View.Course_detail$5
- com.example.lerntic.View.Course_detail$6
-com/example/lerntic/Controller/Actualizar_controller.java
- com.example.lerntic.Controller.Actualizar_controller
 com/example/lerntic/UpdateUserMutation.java
  com.example.lerntic.UpdateUserMutation
  com.example.lerntic.UpdateUserMutation$1
@@ -370,13 +390,30 @@ com/example/lerntic/UpdateUserMutation.java
  com.example.lerntic.UpdateUserMutation$UpdateUser$Mapper
  com.example.lerntic.UpdateUserMutation$Variables
  com.example.lerntic.UpdateUserMutation$Variables$1
-com/example/lerntic/Model/Actualizar.java
- com.example.lerntic.Model.Actualizar
- com.example.lerntic.Model.Actualizar$1
-com/example/lerntic/type/UpdateUserInput.java
- com.example.lerntic.type.UpdateUserInput
- com.example.lerntic.type.UpdateUserInput$1
- com.example.lerntic.type.UpdateUserInput$Builder
-com/example/lerntic/View/ActualizarDatos.java
- com.example.lerntic.View.ActualizarDatos
- com.example.lerntic.View.ActualizarDatos$1
+com/example/lerntic/View/Course_detail.java
+ com.example.lerntic.View.Course_detail
+ com.example.lerntic.View.Course_detail$1
+ com.example.lerntic.View.Course_detail$2
+ com.example.lerntic.View.Course_detail$3
+ com.example.lerntic.View.Course_detail$4
+ com.example.lerntic.View.Course_detail$5
+ com.example.lerntic.View.Course_detail$6
+com/example/lerntic/CreateInscriptionMutation.java
+ com.example.lerntic.CreateInscriptionMutation
+ com.example.lerntic.CreateInscriptionMutation$1
+ com.example.lerntic.CreateInscriptionMutation$Builder
+ com.example.lerntic.CreateInscriptionMutation$CreateInscription
+ com.example.lerntic.CreateInscriptionMutation$CreateInscription$1
+ com.example.lerntic.CreateInscriptionMutation$CreateInscription$Mapper
+ com.example.lerntic.CreateInscriptionMutation$Data
+ com.example.lerntic.CreateInscriptionMutation$Data$1
+ com.example.lerntic.CreateInscriptionMutation$Data$Mapper
+ com.example.lerntic.CreateInscriptionMutation$Data$Mapper$1
+ com.example.lerntic.CreateInscriptionMutation$Variables
+ com.example.lerntic.CreateInscriptionMutation$Variables$1
+com/example/lerntic/Controller/Adapter_Friends.java
+ com.example.lerntic.Controller.Adapter_Friends
+ com.example.lerntic.Controller.Adapter_Friends$ViewHolderDatos
+com/example/lerntic/Model/UserCourses.java
+ com.example.lerntic.Model.UserCourses
+ com.example.lerntic.Model.UserCourses$1

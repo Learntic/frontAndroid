@@ -17,7 +17,7 @@ public class Profile extends AppCompatActivity {
     //----------Botton MENU
     public LinearLayout home;
     public LinearLayout courses;
-    public LinearLayout friends;
+    public LinearLayout people;
     public LinearLayout profile;
     //---------
 
@@ -25,6 +25,7 @@ public class Profile extends AppCompatActivity {
 
     public CardView Ownfriends;
     public CardView Ownachievements;
+    public CardView OwnData;
     public CardView CloseSession;
 
     @Override
@@ -41,7 +42,7 @@ public class Profile extends AppCompatActivity {
         //----------Botton MENU
         home = findViewById(R.id.menu_home);
         courses = findViewById(R.id.menu_cours);
-        friends = findViewById(R.id.menu_friends);
+        people = findViewById(R.id.menu_friends);
         profile = findViewById(R.id.menu_profile);
         home.setOnClickListener(new OnClickListener() {
             @Override
@@ -63,10 +64,10 @@ public class Profile extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        friends.setOnClickListener(new OnClickListener() {
+        people.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), friends.class);
+                Intent intent = new Intent(getApplicationContext(), PeopleView.class);
                 intent.putExtra("Username",User.getUsername());
                 intent.putExtra("Token",User.getToken());
                 intent.putExtra("Id",User.getid());
@@ -88,6 +89,7 @@ public class Profile extends AppCompatActivity {
         Ownfriends = findViewById(R.id.button_ownFriends);
         Ownachievements= findViewById(R.id.botton_achievements);
         CloseSession = findViewById(R.id.button_close_session);
+        OwnData = findViewById(R.id.botton_update);
 
         Ownfriends.setOnClickListener(new OnClickListener() {
             @Override
@@ -113,6 +115,16 @@ public class Profile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+        OwnData.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ActualizarDatos.class);
+                intent.putExtra("Username",User.getUsername());
+                intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
                 startActivity(intent);
             }
         });

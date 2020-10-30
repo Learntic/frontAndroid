@@ -12,24 +12,24 @@ import org.jetbrains.annotations.NotNull;
 
 public class Consultar {
     private final String TAG = "consultar";
-    public user u;
+    public user User;
     public Context context ;
 
-    public Consultar(user u) {
-        this.u = u;
+    public Consultar(user user,Context context) {
+        this.User = user;
         this.context = context;
         getUserQuery();
     }
 
     public user getUser() {
-        return u;
+        return User;
     }
 
     public void getUserQuery() {
 
-        String id = u.getid();
-        String token = u.getPassword();
-        u = new user();
+        String id = User.getid();
+        String token = User.getToken();
+        User = new user();
 
         ApolloConnector.setupApollo().query(
                 GetUserQuery
@@ -42,30 +42,30 @@ public class Consultar {
                     @Override
                     public void onResponse(@NotNull Response<GetUserQuery.Data> response) {
                         if (response.data() == null){
-                            u.setToken("");
-                            u.setUsername("");
-                            u.setid("-1");
-                            next(u);
+                            User.setToken("");
+                            User.setUsername("");
+                            User.setid("-1");
+                            next(User);
                         }else {
                             GetUserQuery.GetUser data = response.data().getUser();
-                            u.setAge(data.age());
-                            u.setEmail(data.email());
-                            u.setName(data.fullname());
-                            next(u);
+                            User.setAge(data.age());
+                            User.setEmail(data.email());
+                            User.setName(data.fullname());
+                            next(User);
                         }
                     }
 
                     @Override
                     public void onFailure(@NotNull ApolloException e) {
-                        u.setToken("");
-                        u.setUsername("");
-                        u.setid("-1");
-                        next(u);
+                        User.setToken("");
+                        User.setUsername("");
+                        User.setid("-1");
+                        next(User);
                     }
                 });
     }
-    public void next(user u){
-        this.u = u;
+    public void next(user user){
+        this.User = user;
     }
 
 

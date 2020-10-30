@@ -1,0 +1,8 @@
+query notMyFriends($id: String!,$token: String!){
+  notMyFriends(id: $id, token: $token) {
+    uid
+    fullname
+    username
+    error
+  }
+}

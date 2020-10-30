@@ -14,32 +14,33 @@ import org.jetbrains.annotations.NotNull;
 
 public class Actualizar {
     private final String TAG = "actualizar";
-    public user u;
+    public user User;
     public Context context ;
 
-    public Actualizar(user u) {
-        this.u = u;
+    public Actualizar(user user, Context context) {
+        this.User = user;
         this.context = context;
         getUserMutation();
     }
 
     public user getUser() {
-        return u;
+        return User;
     }
 
     public void getUserMutation() {
 
-        String id = u.getid();
-        String token = u.getPassword();
-        u = new user();
+        String id = User.getid();
+        String token = User.getToken();
 
         UpdateUserInput updateUserInput = UpdateUserInput
                 .builder()
-                .age(u.getAge())
-                .email(u.getEmail())
-                .fullname(u.getName())
-                .username(u.getUsername())
+                .age(User.getAge())
+                .email(User.getEmail())
+                .fullname(User.getName())
+                .username(User.getUsername())
                 .build();
+
+        User = new user();
 
         ApolloConnector.setupApollo().mutate(
                 UpdateUserMutation
@@ -53,30 +54,31 @@ public class Actualizar {
                     @Override
                     public void onResponse(@NotNull Response<UpdateUserMutation.Data> response) {
                         if (response.data() == null){
-                            u.setToken("");
-                            u.setUsername("");
-                            u.setid("-1");
-                            next(u);
+                            User.setToken("");
+                            User.setUsername("");
+                            User.setid("-1");
+                            next(User);
                         }else {
                             UpdateUserMutation.UpdateUser data = response.data().updateUser();
-                            u.setAge(data.age());
-                            u.setEmail(data.email());
-                            u.setName(data.fullname());
-                            next(u);
+                            User.setAge(data.age());
+                            User.setEmail(data.email());
+                            User.setName(data.fullname());
+                            User.setid("1");
+                            next(User);
                         }
                     }
 
                     @Override
                     public void onFailure(@NotNull ApolloException e) {
-                        u.setToken("");
-                        u.setUsername("");
-                        u.setid("-1");
-                        next(u);
+                        User.setToken("");
+                        User.setUsername("");
+                        User.setid("-1");
+                        next(User);
                     }
                 });
     }
-    public void next(user u){
-        this.u = u;
+    public void next(user user){
+        this.User = user;
     }
 
 

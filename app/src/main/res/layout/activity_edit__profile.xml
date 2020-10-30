@@ -24,11 +24,17 @@
         android:gravity="center"
         android:padding="50dp">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Su información de perfil es la siguiente:" />
+
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/user"
+            android:id="@+id/user_data"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_above="@+id/pass"
+            android:layout_above="@+id/age_data"
             android:hint="Nombre"
             android:shadowColor="#1f618d"
             android:textColor="#1f618d"
@@ -37,7 +43,7 @@
             android:textColorLink="#1f618d" />
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/pass"
+            android:id="@+id/age_data"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_above="@+id/confPas"
@@ -46,18 +52,39 @@
             android:textColor="#1f618d"
             android:textColorHighlight="#1f618d"
             android:textColorHint="#1f618d"
+            android:textColorLink="#1f618d"
+            android:inputType="number"/>
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_data"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/confPas"
+            android:hint="Correo"
+            android:shadowColor="#1f618d"
+            android:textColor="#1f618d"
+            android:textColorHighlight="#1f618d"
+            android:textColorHint="#1f618d"
             android:textColorLink="#1f618d" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="63dp" />
 
-
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Puede modificar cualquier campo que desee, para aplicarlos precione actualizar" />
 
         <Button
-            android:id="@+id/button_reg"
+            android:id="@+id/button_DoUpdate"
             android:layout_width="match_parent"
             android:layout_height="45dp"
+            android:background="@drawable/button_sable_blue"
             android:text="Actualizar"
-            android:textColor="#ffff"
-            android:background="@drawable/button_sable_blue"/>
+            android:textColor="#ffff" />
 
 
     </LinearLayout>

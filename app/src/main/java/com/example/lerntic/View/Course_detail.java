@@ -29,7 +29,7 @@ public class Course_detail extends AppCompatActivity {
     //----------Botton MENU
     public LinearLayout home;
     public LinearLayout courses;
-    public LinearLayout friends;
+    public LinearLayout people;
     public LinearLayout profile;
     //---------
 
@@ -68,7 +68,7 @@ public class Course_detail extends AppCompatActivity {
         //----------Botton MENU
         home = findViewById(R.id.menu_home);
         courses = findViewById(R.id.menu_cours);
-        friends = findViewById(R.id.menu_friends);
+        people = findViewById(R.id.menu_friends);
         profile = findViewById(R.id.menu_profile);
         feedbackB =  findViewById(R.id.btn_feedback);
         evaluacionB =  findViewById(R.id.btn_evaluacion);
@@ -116,10 +116,10 @@ public class Course_detail extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        friends.setOnClickListener(new View.OnClickListener() {
+        people.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), friends.class);
+                Intent intent = new Intent(getApplicationContext(), PeopleView.class);
                 intent.putExtra("Username",User.getUsername());
                 intent.putExtra("Token",User.getToken());
                 intent.putExtra("Id",User.getid());
