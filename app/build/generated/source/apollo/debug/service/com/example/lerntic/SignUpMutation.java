@@ -21,7 +21,7 @@ import com.apollographql.apollo.api.internal.UnmodifiableMapBuilder;
 import com.apollographql.apollo.api.internal.Utils;
 import com.apollographql.apollo.internal.QueryDocumentMinifier;
 import com.apollographql.apollo.response.ScalarTypeAdapters;
-import com.example.lerntic.type.AccountInput;
+import com.example.lerntic.type.RegisterInput;
 import java.io.IOException;
 import java.lang.Object;
 import java.lang.Override;
@@ -34,15 +34,17 @@ import okio.BufferedSource;
 import org.jetbrains.annotations.NotNull;
 
 public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignUpMutation.Data, SignUpMutation.Variables> {
-  public static final String OPERATION_ID = "6be6a966fbc2d30ff57b97067a5dc4590bcb358964f49632d21144975a3ed4a0";
+  public static final String OPERATION_ID = "25f660f4c0afe716527418de73cc57b69ece78f8e00533c73c2be77269fc7d6d";
 
   public static final String QUERY_DOCUMENT = QueryDocumentMinifier.minify(
-    "mutation signUp($account: AccountInput!) {\n"
+    "mutation signUp($account: RegisterInput!) {\n"
         + "  signUp(account: $account) {\n"
         + "    __typename\n"
         + "    username\n"
         + "    token\n"
         + "    uid\n"
+        + "    name\n"
+        + "    age\n"
         + "  }\n"
         + "}"
   );
@@ -56,7 +58,7 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
 
   private final SignUpMutation.Variables variables;
 
-  public SignUpMutation(@NotNull AccountInput account) {
+  public SignUpMutation(@NotNull RegisterInput account) {
     Utils.checkNotNull(account, "account == null");
     variables = new SignUpMutation.Variables(account);
   }
@@ -110,12 +112,12 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
   }
 
   public static final class Builder {
-    private @NotNull AccountInput account;
+    private @NotNull RegisterInput account;
 
     Builder() {
     }
 
-    public Builder account(@NotNull AccountInput account) {
+    public Builder account(@NotNull RegisterInput account) {
       this.account = account;
       return this;
     }
@@ -127,16 +129,16 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
   }
 
   public static final class Variables extends Operation.Variables {
-    private final @NotNull AccountInput account;
+    private final @NotNull RegisterInput account;
 
     private final transient Map<String, Object> valueMap = new LinkedHashMap<>();
 
-    Variables(@NotNull AccountInput account) {
+    Variables(@NotNull RegisterInput account) {
       this.account = account;
       this.valueMap.put("account", account);
     }
 
-    public @NotNull AccountInput account() {
+    public @NotNull RegisterInput account() {
       return account;
     }
 
@@ -247,7 +249,9 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
       ResponseField.forString("__typename", "__typename", null, false, Collections.<ResponseField.Condition>emptyList()),
       ResponseField.forString("username", "username", null, false, Collections.<ResponseField.Condition>emptyList()),
       ResponseField.forString("token", "token", null, false, Collections.<ResponseField.Condition>emptyList()),
-      ResponseField.forString("uid", "uid", null, false, Collections.<ResponseField.Condition>emptyList())
+      ResponseField.forString("uid", "uid", null, false, Collections.<ResponseField.Condition>emptyList()),
+      ResponseField.forString("name", "name", null, false, Collections.<ResponseField.Condition>emptyList()),
+      ResponseField.forInt("age", "age", null, false, Collections.<ResponseField.Condition>emptyList())
     };
 
     final @NotNull String __typename;
@@ -258,6 +262,10 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
 
     final @NotNull String uid;
 
+    final @NotNull String name;
+
+    final int age;
+
     private transient volatile String $toString;
 
     private transient volatile int $hashCode;
@@ -265,11 +273,13 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
     private transient volatile boolean $hashCodeMemoized;
 
     public SignUp(@NotNull String __typename, @NotNull String username, @NotNull String token,
-        @NotNull String uid) {
+        @NotNull String uid, @NotNull String name, int age) {
       this.__typename = Utils.checkNotNull(__typename, "__typename == null");
       this.username = Utils.checkNotNull(username, "username == null");
       this.token = Utils.checkNotNull(token, "token == null");
       this.uid = Utils.checkNotNull(uid, "uid == null");
+      this.name = Utils.checkNotNull(name, "name == null");
+      this.age = age;
     }
 
     public @NotNull String __typename() {
@@ -288,6 +298,14 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
       return this.uid;
     }
 
+    public @NotNull String name() {
+      return this.name;
+    }
+
+    public int age() {
+      return this.age;
+    }
+
     @SuppressWarnings("unchecked")
     public ResponseFieldMarshaller marshaller() {
       return new ResponseFieldMarshaller() {
@@ -297,6 +315,8 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
           writer.writeString($responseFields[1], username);
           writer.writeString($responseFields[2], token);
           writer.writeString($responseFields[3], uid);
+          writer.writeString($responseFields[4], name);
+          writer.writeInt($responseFields[5], age);
         }
       };
     }
@@ -308,7 +328,9 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
           + "__typename=" + __typename + ", "
           + "username=" + username + ", "
           + "token=" + token + ", "
-          + "uid=" + uid
+          + "uid=" + uid + ", "
+          + "name=" + name + ", "
+          + "age=" + age
           + "}";
       }
       return $toString;
@@ -324,7 +346,9 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
         return this.__typename.equals(that.__typename)
          && this.username.equals(that.username)
          && this.token.equals(that.token)
-         && this.uid.equals(that.uid);
+         && this.uid.equals(that.uid)
+         && this.name.equals(that.name)
+         && this.age == that.age;
       }
       return false;
     }
@@ -341,6 +365,10 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
         h ^= token.hashCode();
         h *= 1000003;
         h ^= uid.hashCode();
+        h *= 1000003;
+        h ^= name.hashCode();
+        h *= 1000003;
+        h ^= age;
         $hashCode = h;
         $hashCodeMemoized = true;
       }
@@ -354,7 +382,9 @@ public final class SignUpMutation implements Mutation<SignUpMutation.Data, SignU
         final String username = reader.readString($responseFields[1]);
         final String token = reader.readString($responseFields[2]);
         final String uid = reader.readString($responseFields[3]);
-        return new SignUp(__typename, username, token, uid);
+        final String name = reader.readString($responseFields[4]);
+        final int age = reader.readInt($responseFields[5]);
+        return new SignUp(__typename, username, token, uid, name, age);
       }
     }
   }

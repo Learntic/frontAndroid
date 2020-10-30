@@ -3,5 +3,7 @@ query signIn($account: AccountInput!){
     username
     token
     uid
+    name
+    age
   }
 }

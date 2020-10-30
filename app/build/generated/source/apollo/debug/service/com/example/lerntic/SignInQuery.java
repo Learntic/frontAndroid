@@ -34,7 +34,7 @@ import okio.BufferedSource;
 import org.jetbrains.annotations.NotNull;
 
 public final class SignInQuery implements Query<SignInQuery.Data, SignInQuery.Data, SignInQuery.Variables> {
-  public static final String OPERATION_ID = "68cd358a92088383dc4fbd97f565c3e80d385726649d487139d6a2ca9c0c1991";
+  public static final String OPERATION_ID = "26e9531aeb5fe53aa0e6a722b0267c00d46fe35fdc01d2385b84984efa584ead";
 
   public static final String QUERY_DOCUMENT = QueryDocumentMinifier.minify(
     "query signIn($account: AccountInput!) {\n"
@@ -43,6 +43,8 @@ public final class SignInQuery implements Query<SignInQuery.Data, SignInQuery.Da
         + "    username\n"
         + "    token\n"
         + "    uid\n"
+        + "    name\n"
+        + "    age\n"
         + "  }\n"
         + "}"
   );
@@ -246,7 +248,9 @@ public final class SignInQuery implements Query<SignInQuery.Data, SignInQuery.Da
       ResponseField.forString("__typename", "__typename", null, false, Collections.<ResponseField.Condition>emptyList()),
       ResponseField.forString("username", "username", null, false, Collections.<ResponseField.Condition>emptyList()),
       ResponseField.forString("token", "token", null, false, Collections.<ResponseField.Condition>emptyList()),
-      ResponseField.forString("uid", "uid", null, false, Collections.<ResponseField.Condition>emptyList())
+      ResponseField.forString("uid", "uid", null, false, Collections.<ResponseField.Condition>emptyList()),
+      ResponseField.forString("name", "name", null, false, Collections.<ResponseField.Condition>emptyList()),
+      ResponseField.forInt("age", "age", null, false, Collections.<ResponseField.Condition>emptyList())
     };
 
     final @NotNull String __typename;
@@ -257,6 +261,10 @@ public final class SignInQuery implements Query<SignInQuery.Data, SignInQuery.Da
 
     final @NotNull String uid;
 
+    final @NotNull String name;
+
+    final int age;
+
     private transient volatile String $toString;
 
     private transient volatile int $hashCode;
@@ -264,11 +272,13 @@ public final class SignInQuery implements Query<SignInQuery.Data, SignInQuery.Da
     private transient volatile boolean $hashCodeMemoized;
 
     public SignIn(@NotNull String __typename, @NotNull String username, @NotNull String token,
-        @NotNull String uid) {
+        @NotNull String uid, @NotNull String name, int age) {
       this.__typename = Utils.checkNotNull(__typename, "__typename == null");
       this.username = Utils.checkNotNull(username, "username == null");
       this.token = Utils.checkNotNull(token, "token == null");
       this.uid = Utils.checkNotNull(uid, "uid == null");
+      this.name = Utils.checkNotNull(name, "name == null");
+      this.age = age;
     }
 
     public @NotNull String __typename() {
@@ -287,6 +297,14 @@ public final class SignInQuery implements Query<SignInQuery.Data, SignInQuery.Da
       return this.uid;
     }
 
+    public @NotNull String name() {
+      return this.name;
+    }
+
+    public int age() {
+      return this.age;
+    }
+
     @SuppressWarnings("unchecked")
     public ResponseFieldMarshaller marshaller() {
       return new ResponseFieldMarshaller() {
@@ -296,6 +314,8 @@ public final class SignInQuery implements Query<SignInQuery.Data, SignInQuery.Da
           writer.writeString($responseFields[1], username);
           writer.writeString($responseFields[2], token);
           writer.writeString($responseFields[3], uid);
+          writer.writeString($responseFields[4], name);
+          writer.writeInt($responseFields[5], age);
         }
       };
     }
@@ -307,7 +327,9 @@ public final class SignInQuery implements Query<SignInQuery.Data, SignInQuery.Da
           + "__typename=" + __typename + ", "
           + "username=" + username + ", "
           + "token=" + token + ", "
-          + "uid=" + uid
+          + "uid=" + uid + ", "
+          + "name=" + name + ", "
+          + "age=" + age
           + "}";
       }
       return $toString;
@@ -323,7 +345,9 @@ public final class SignInQuery implements Query<SignInQuery.Data, SignInQuery.Da
         return this.__typename.equals(that.__typename)
          && this.username.equals(that.username)
          && this.token.equals(that.token)
-         && this.uid.equals(that.uid);
+         && this.uid.equals(that.uid)
+         && this.name.equals(that.name)
+         && this.age == that.age;
       }
       return false;
     }
@@ -340,6 +364,10 @@ public final class SignInQuery implements Query<SignInQuery.Data, SignInQuery.Da
         h ^= token.hashCode();
         h *= 1000003;
         h ^= uid.hashCode();
+        h *= 1000003;
+        h ^= name.hashCode();
+        h *= 1000003;
+        h ^= age;
         $hashCode = h;
         $hashCodeMemoized = true;
       }
@@ -353,7 +381,9 @@ public final class SignInQuery implements Query<SignInQuery.Data, SignInQuery.Da
         final String username = reader.readString($responseFields[1]);
         final String token = reader.readString($responseFields[2]);
         final String uid = reader.readString($responseFields[3]);
-        return new SignIn(__typename, username, token, uid);
+        final String name = reader.readString($responseFields[4]);
+        final int age = reader.readInt($responseFields[5]);
+        return new SignIn(__typename, username, token, uid, name, age);
       }
     }
   }

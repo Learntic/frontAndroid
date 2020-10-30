@@ -77,7 +77,6 @@ public class Course_detail extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), WriteFeedback.class);
-                System.out.println(User.getid());
                 intent.putExtra("Username",User.getUsername());
                 intent.putExtra("Token",User.getToken());
                 intent.putExtra("Id",User.getid());
@@ -91,14 +90,9 @@ public class Course_detail extends AppCompatActivity {
         evaluacionB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                //Toast.makeText(getApplicationContext(),Course.get_name(),Toast.LENGTH_LONG).show();
-
-                    Intent intent = new Intent(getApplicationContext(), Game.class);
-                    intent.putExtra("Username",User.getUsername());
-                    startActivity(intent);
-
-
+                Intent intent = new Intent(getApplicationContext(), Game.class);
+                intent.putExtra("Username",User.getUsername());
+                startActivity(intent);
             }
         });
 

@@ -1468,6 +1468,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id age
 id alertTitle
 id all
 id always
@@ -1603,6 +1604,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id name
 id navigation_header_container
 id never
 id noScroll

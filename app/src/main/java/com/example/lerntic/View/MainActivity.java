@@ -42,12 +42,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //User = controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
                 User = controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
-                System.out.println(User.getUsername());
-                System.out.println(User.getToken());
+                System.out.println("user After:"+User.getUsername());
+                System.out.println("Token After:"+User.getToken());
                 if (User.getid().equals("-1")){
+                    System.out.println("-1");
                     Toast.makeText(getApplicationContext(), "Error en login",
                             Toast.LENGTH_SHORT).show();
                 }else{
+                    System.out.println("next");
                     openOwnCourses();
                 }
             }

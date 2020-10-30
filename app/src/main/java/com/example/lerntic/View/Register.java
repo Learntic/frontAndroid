@@ -17,7 +17,7 @@ public class Register extends AppCompatActivity {
 
     public com.example.lerntic.Model.Objects.user User = new user();
 
-    public EditText user, password, pasConfirm;
+    public EditText user, password, pasConfirm, userName, userAge;
     public Button boton;
 
     private final Register_controller register_controller = new Register_controller();
@@ -28,6 +28,8 @@ public class Register extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         user = findViewById(R.id.user);
+        userName = findViewById(R.id.name);
+        userAge =(EditText) findViewById(R.id.age);
         password = findViewById(R.id.pass);
         pasConfirm = findViewById(R.id.confPas);
         boton = findViewById(R.id.button_reg);
@@ -37,7 +39,7 @@ public class Register extends AppCompatActivity {
             public void onClick(View v) {
                 if(password.getText().toString().equals(pasConfirm.getText().toString())){
                     User = register_controller.signUp(user.getText().toString(),
-                            password.getText().toString(),getApplicationContext());
+                            password.getText().toString(),userName.getText().toString(),Integer.parseInt(userAge.getText().toString()),getApplicationContext());
                     if (User.getid().equals("-1")){
                         Toast.makeText(getApplicationContext(), "Error en Registro",
                                 Toast.LENGTH_SHORT).show();

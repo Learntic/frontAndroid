@@ -5,6 +5,8 @@ public class user {
     String token;
     String password;
     String id;
+    String name;
+    int age;
 
     public user (String username, String token, String password, String id){
         this.username = username;
@@ -14,6 +16,15 @@ public class user {
     }
     public user (){
 
+    }
+
+    public user(String username, String token, String password, String id, String name, int age) {
+        this.username = username;
+        this.token = token;
+        this.password = password;
+        this.id = id;
+        this.name = name;
+        this.age = age;
     }
 
     public String getUsername() {
@@ -46,5 +57,21 @@ public class user {
 
     public void setid(String id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }

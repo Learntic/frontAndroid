@@ -1,7 +1,9 @@
-mutation signUp($account: AccountInput!){
+mutation signUp($account: RegisterInput!){
   signUp(account: $account){
     username
     token
     uid
+    name
+    age
   }
 }
