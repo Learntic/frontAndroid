@@ -13,7 +13,7 @@ import com.example.lerntic.R;
 
 import java.util.ArrayList;
 
-public class Adapter_Friends extends  RecyclerView.Adapter<Adapter_Friends.ViewHolderDatos>{
+public class Adapter_Friends extends  RecyclerView.Adapter<Adapter_Friends.ViewHolderDatos> {
     ArrayList<friend> DataList;
 
     public Adapter_Friends(ArrayList<friend> dataList) {
@@ -36,6 +36,7 @@ public class Adapter_Friends extends  RecyclerView.Adapter<Adapter_Friends.ViewH
     public int getItemCount() {
         return DataList.size();
     }
+
     public class ViewHolderDatos extends RecyclerView.ViewHolder{
 
         TextView name;

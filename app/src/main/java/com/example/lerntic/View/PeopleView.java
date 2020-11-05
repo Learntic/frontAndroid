@@ -1,5 +1,6 @@
 package com.example.lerntic.View;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -42,9 +43,9 @@ public class PeopleView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_people);
 
-        String username = getIntent().getStringExtra("Username");
-        String token = getIntent().getStringExtra("Token");
-        String id = getIntent().getStringExtra("Id");
+        final String username = getIntent().getStringExtra("Username");
+        final String token = getIntent().getStringExtra("Token");
+        final String id = getIntent().getStringExtra("Id");
 
         User = new user(username,token,"",id);
 
@@ -60,6 +61,7 @@ public class PeopleView extends AppCompatActivity {
                 intent.putExtra("Username",User.getUsername());
                 intent.putExtra("Token",User.getToken());
                 intent.putExtra("Id",User.getid());
+
                 startActivity(intent);
             }
         });
@@ -102,6 +104,19 @@ public class PeopleView extends AppCompatActivity {
 
         Adapter_people adapter = new Adapter_people(DataList);
         recycler.setAdapter(adapter);
+
+        adapter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String friendUid = DataList.get(recycler.getChildAdapterPosition(view)).getUid();
+                friends_controller.addFriend(username, token, id, getApplicationContext(), friendUid);
+                Intent intent = new Intent(getApplicationContext(), PeopleView.class);
+                intent.putExtra("Username",User.getUsername());
+                intent.putExtra("Token",User.getToken());
+                intent.putExtra("Id",User.getid());
+                startActivity(intent);
+            }
+        });
 
     }
 

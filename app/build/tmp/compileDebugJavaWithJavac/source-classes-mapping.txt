@@ -417,3 +417,22 @@ com/example/lerntic/Controller/Adapter_Friends.java
 com/example/lerntic/Model/UserCourses.java
  com.example.lerntic.Model.UserCourses
  com.example.lerntic.Model.UserCourses$1
+com/example/lerntic/AddFriendMutation.java
+ com.example.lerntic.AddFriendMutation
+ com.example.lerntic.AddFriendMutation$1
+ com.example.lerntic.AddFriendMutation$AddFriend
+ com.example.lerntic.AddFriendMutation$AddFriend$1
+ com.example.lerntic.AddFriendMutation$AddFriend$Mapper
+ com.example.lerntic.AddFriendMutation$Builder
+ com.example.lerntic.AddFriendMutation$Data
+ com.example.lerntic.AddFriendMutation$Data$1
+ com.example.lerntic.AddFriendMutation$Data$Mapper
+ com.example.lerntic.AddFriendMutation$Data$Mapper$1
+ com.example.lerntic.AddFriendMutation$Variables
+ com.example.lerntic.AddFriendMutation$Variables$1
+com/example/lerntic/type/FriendshipInput.java
+ com.example.lerntic.type.FriendshipInput
+ com.example.lerntic.type.FriendshipInput$1
+ com.example.lerntic.type.FriendshipInput$Builder
+com/example/lerntic/Model/AddFriend.java
+ com.example.lerntic.Model.AddFriend

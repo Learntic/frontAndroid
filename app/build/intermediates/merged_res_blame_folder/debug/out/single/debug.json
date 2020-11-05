@@ -1,254 +1,254 @@
 [
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_comprobar.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable\\comprobar.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_learn_tic.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable\\learn_tic.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_friends.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_friends.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_power_off_icon.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\power_off_icon.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_specific__course.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_specific__course.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_login_bk.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_login_bk.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_login_bk.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_login_bk.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_course.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\item_course.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_write_feedback.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_write_feedback.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_friend.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\item_friend.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_achaivements.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\item_achaivements.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_achievements.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_achievements.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_people.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_people.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_chek.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\item_chek.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_comprobar.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable\\comprobar.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_activities.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_all_activities.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_quices.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_quices.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_star.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\star.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_power_off_icon.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\power_off_icon.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_feedback.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\item_feedback.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_profile.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_input_login.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\input_login.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_book_icon.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\book_icon.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_course_detail.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_course_detail.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_achaivements.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\item_achaivements.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_friend.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\item_friend.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_login_bk.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_login_bk.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_friends_icon2.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\friends_icon2.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_quices.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_quices.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_course.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\item_course.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_input_login.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\input_login.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_usuario.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\usuario.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_login_bk.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_login_bk.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_login_bk.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_login_bk.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_home_icon.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\home_icon.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_temario.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\item_temario.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_login_bk.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_login_bk.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_profile_icon.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\profile_icon.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_course_detail_noreg.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_course_detail_noreg.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_login_bk.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_login_bk.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_friends_icon.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\friends_icon.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_login_bk.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_login_bk.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_chek.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\item_chek.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_sable_blue.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable\\button_sable_blue.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_course_detail.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_course_detail.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_game.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_game.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_people.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\item_people.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_login_bk.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_login_bk.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_specific__course.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_specific__course.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_login_bk.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_login_bk.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_login_bk.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_login_bk.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_temario.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\item_temario.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_own_courses.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_own_courses.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_friends_icon.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\friends_icon.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_feedback.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\item_feedback.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_book_icon.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\book_icon.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_shape_bk.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable\\login_shape_bk.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_profile_icon.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\profile_icon.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_star.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\star.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable\\button_shape.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_sable_blue.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable\\button_sable_blue.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_login_bk.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_login_bk.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_learn_tic.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable\\learn_tic.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_login_bk.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_login_bk.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_friends_icon2.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\friends_icon2.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable\\button_shape.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit__profile.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_edit__profile.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_people.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\item_people.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit__profile.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_edit__profile.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_home_icon.png.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\home_icon.png"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_people.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_people.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_course_detail_noreg.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_course_detail_noreg.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_own_courses.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_own_courses.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_login_bk.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_login_bk.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_achievements.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_achievements.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_game.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_game.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_activities.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_all_activities.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_usuario.png.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\drawable-v24\\usuario.png"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_shape_bk.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\drawable\\login_shape_bk.xml"
     },
     {
-        "merged": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_write_feedback.xml.flat",
-        "source": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_write_feedback.xml"
+        "merged": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_friends.xml.flat",
+        "source": "C:\\Users\\Nicolas Contreras\\Desktop\\frontAndroid\\app\\src\\main\\res\\layout\\activity_friends.xml"
     }
 ]
