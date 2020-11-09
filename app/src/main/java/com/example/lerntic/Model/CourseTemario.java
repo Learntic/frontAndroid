@@ -52,11 +52,13 @@ public class CourseTemario {
                         List<CourseTopicsQuery.CourseTopic> data = response.data().courseTopics();
                         Log.d(TAG, "Exception " + data);
                         temarios = new ArrayList<>();
-                        for (int i = 0; i<data.size(); i++){
-                            int topic_id = data.get(i).topic_id();
-                            String topic_description = data.get(i).topic_description();
-                            String topic_name = data.get(i).topic_name();
-                            temarios.add(new temario(topic_id,topic_description,topic_name));
+                        if(data!=null) {
+                            for (int i = 0; i < data.size(); i++) {
+                                int topic_id = data.get(i).topic_id();
+                                String topic_description = data.get(i).topic_description();
+                                String topic_name = data.get(i).topic_name();
+                                temarios.add(new temario(topic_id, topic_description, topic_name));
+                            }
                         }
                         setTopics(temarios);
                     }

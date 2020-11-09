@@ -48,11 +48,13 @@ public class NotFriends {
                         List<NotMyFriendsQuery.NotMyFriend> data = response.data().notMyFriends();
                         people = new ArrayList<>();
                         Log.d(TAG, "Response " + data);
-                        for (int i = 0; i<data.size(); i++){
-                            String fullname = data.get(i).fullname();
-                            String username = data.get(i).username();
-                            String uid = data.get(i).uid();
-                            people.add(new People(fullname,username,uid,""));
+                        if(data!=null) {
+                            for (int i = 0; i < data.size(); i++) {
+                                String fullname = data.get(i).fullname();
+                                String username = data.get(i).username();
+                                String uid = data.get(i).uid();
+                                people.add(new People(fullname, username, uid, ""));
+                            }
                         }
                         setPeople(people);
                     }

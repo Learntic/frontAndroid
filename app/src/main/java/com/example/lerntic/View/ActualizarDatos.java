@@ -32,7 +32,7 @@ public class ActualizarDatos extends AppCompatActivity {
 
     public Button botonActualizar = null;
 
-    private UserData_controller userData_controller = new UserData_controller();
+    private final UserData_controller userData_controller = new UserData_controller();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -44,12 +44,14 @@ public class UserCourses {
                         List<CoursesByUserIdQuery.CoursesByUserId> data = response.data().coursesByUserId();
                         Log.d(TAG, "Exception " + data);
                         courses = new ArrayList<>();
-                        for (int i = 0; i<data.size(); i++){
-                            int id = data.get(i).course_id();
-                            String name = data.get(i).course_name();
-                            String desc = data.get(i).course_description();
-                            double score = data.get(i).course_score();
-                            courses.add(new course(id,desc,name,score));
+                        if(data!=null) {
+                            for (int i = 0; i < data.size(); i++) {
+                                int id = data.get(i).course_id();
+                                String name = data.get(i).course_name();
+                                String desc = data.get(i).course_description();
+                                double score = data.get(i).course_score();
+                                courses.add(new course(id, desc, name, score));
+                            }
                         }
                         setCourses(courses);
                     }

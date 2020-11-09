@@ -45,13 +45,15 @@ public class CourseFeedback {
                         List<FeedbackByCourseQuery.FeedbackByCourse> data = response.data().feedbackByCourse();
                         Log.d(TAG, "Exception " + data);
                         feedbacks = new ArrayList<>();
-                        for (int i = 0; i<data.size(); i++){
-                            int id = data.get(i).id();
-                            String id_usuario = data.get(i).id_usuario();
-                            int id_curso = data.get(i).id_curso();
-                            String opinion = data.get(i).opinion();
-                            double nota = data.get(i).nota();
-                            feedbacks.add(new feedback(id,id_usuario,id_curso,opinion,nota));
+                        if(data!=null) {
+                            for (int i = 0; i < data.size(); i++) {
+                                int id = data.get(i).id();
+                                String id_usuario = data.get(i).id_usuario();
+                                int id_curso = data.get(i).id_curso();
+                                String opinion = data.get(i).opinion();
+                                double nota = data.get(i).nota();
+                                feedbacks.add(new feedback(id, id_usuario, id_curso, opinion, nota));
+                            }
                         }
                         setFeedbacks(feedbacks);
                     }

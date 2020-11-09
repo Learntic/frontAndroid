@@ -48,10 +48,12 @@ public class AddedFriends {
                         List<MyFriendsQuery.MyFriend> data = response.data().myFriends();
                         friends = new ArrayList<>();
                         Log.d(TAG, "Exception " + data);
-                        for (int i = 0; i<data.size(); i++){
-                            String fullname = data.get(i).fullname();
-                            String username = data.get(i).username();
-                            friends.add(new friend(fullname,username,0,""));
+                        if(data!=null) {
+                            for (int i = 0; i < data.size(); i++) {
+                                String fullname = data.get(i).fullname();
+                                String username = data.get(i).username();
+                                friends.add(new friend(fullname, username, 0, ""));
+                            }
                         }
                         setFriends(friends);
                     }
