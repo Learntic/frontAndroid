@@ -1,0 +1,7 @@
+query courseTopics($entero: EnteroInput!){
+  courseTopics(idCurso: $entero){
+    topic_id
+    topic_description
+    topic_name
+  }
+}

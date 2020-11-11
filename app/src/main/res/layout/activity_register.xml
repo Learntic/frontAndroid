@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Register"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:textStyle="bold"
+        android:textColor="#154360"
+        android:textSize="30dp"
+        android:layout_marginBottom="80dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/user_data"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@id/name"
+            android:hint="Usuario"
+            android:shadowColor="#1f618d"
+            android:textColor="#1f618d"
+            android:textColorHighlight="#1f618d"
+            android:textColorHint="#1f618d"
+            android:textColorLink="#1f618d" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@id/age"
+            android:hint="Nombre completo"
+            android:shadowColor="#1f618d"
+            android:textColor="#1f618d"
+            android:textColorHighlight="#1f618d"
+            android:textColorHint="#1f618d"
+            android:textColorLink="#1f618d" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/age_data"
+            android:hint="Edad"
+            android:shadowColor="#1f618d"
+            android:textColor="#1f618d"
+            android:textColorHighlight="#1f618d"
+            android:textColorHint="#1f618d"
+            android:textColorLink="#1f618d"
+            android:inputType="number"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/age_data"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/confPas"
+            android:hint="Contraseña"
+            android:shadowColor="#1f618d"
+            android:textColor="#1f618d"
+            android:textColorHighlight="#1f618d"
+            android:textColorHint="#1f618d"
+            android:textColorLink="#1f618d" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/confPas"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Confirma Contraseña"
+            android:shadowColor="#1f618d"
+            android:textColor="#1f618d"
+            android:textColorHighlight="#1f618d"
+            android:textColorHint="#1f618d"
+            android:textColorLink="#1f618d" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/age_data"
+            android:background="@drawable/ic_login_bk">
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txt_register"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:inputType="textPersonName"
+            android:text="Tienes una cuenta? Entra"
+            android:textColor="#6C6C6C" />
+
+        <Button
+            android:id="@+id/button_DoUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="Ingresar"
+            android:textColor="#ffff"
+            android:background="@drawable/button_sable_blue"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

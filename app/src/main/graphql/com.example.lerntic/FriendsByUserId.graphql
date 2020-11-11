@@ -1,0 +1,8 @@
+query myFriends($token: String!, $id: String!){
+  myFriends(token: $token, id: $id) {
+    fullname
+    username
+    age
+    error
+  }
+}

@@ -1,0 +1,8 @@
+mutation updateUser($id:String!, $user:updateUserInput!, $token:String!){
+    updateUser(id:$id, user:$user, token:$token){
+        username
+        fullname
+        email
+        age
+    }
+}
