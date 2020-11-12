@@ -32,7 +32,7 @@ public class Game extends AppCompatActivity {
         setContentView(R.layout.activity_game);
     }
     public void imprimir(){
-        UnityPlayer.UnitySendMessage("User","setUsername",username);
+        UnityPlayer.UnitySendMessage("getExternalData","setUsername",username);
         System.out.println("la felicidad te espera");
 
     }
