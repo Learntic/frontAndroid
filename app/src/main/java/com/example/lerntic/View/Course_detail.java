@@ -91,7 +91,7 @@ public class Course_detail extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Game.class);
-                intent.putExtra("Username",User.getUsername());
+                intent.putExtra("Username","camilo internet");//importante revisar esto/////////////
                 startActivity(intent);
             }
         });
