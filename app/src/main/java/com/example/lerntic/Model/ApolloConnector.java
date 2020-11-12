@@ -6,7 +6,7 @@ import okhttp3.OkHttpClient;
 
 public class ApolloConnector {
 
-    private static final String BASE_URL = "http://3.92.219.195:5000/graphql";
+    private static final String BASE_URL = "http://3.221.124.186:80/graphql";
 
     public static ApolloClient setupApollo(){
         OkHttpClient okHttpClient = new OkHttpClient.Builder().build();
