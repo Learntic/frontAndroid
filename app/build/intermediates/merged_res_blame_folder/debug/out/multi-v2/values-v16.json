@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\huber\\.gradle\\caches\\transforms-2\\files-2.1\\e9eb43c069a93c072e1b59061c8adffe\\core-1.3.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\pc1\\.gradle\\caches\\transforms-2\\files-2.1\\e9eb43c069a93c072e1b59061c8adffe\\core-1.3.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\huber\\.gradle\\caches\\transforms-2\\files-2.1\\4c8791fcf18c57dfd3fd503f973d7808\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\pc1\\.gradle\\caches\\transforms-2\\files-2.1\\4c8791fcf18c57dfd3fd503f973d7808\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

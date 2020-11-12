@@ -90,14 +90,13 @@ public class Course_detail extends AppCompatActivity {
         evaluacionB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Game.class);
                 String userToSend = "";
                 if (Course.get_course_id()==1){
                     userToSend = User.getUsername()+" internet";
                 }else{
                     userToSend = User.getUsername()+" apps";
                 }
-                System.out.println("USER TO SEND "+userToSend);
+                Intent intent = new Intent(getApplicationContext(), Game.class);
                 intent.putExtra("Username",userToSend);
                 startActivity(intent);
             }
