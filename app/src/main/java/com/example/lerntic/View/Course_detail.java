@@ -51,7 +51,7 @@ public class Course_detail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_course_detail);
 
-        String username = getIntent().getStringExtra("Username");
+        final String username = getIntent().getStringExtra("Username");
         String token = getIntent().getStringExtra("Token");
         String id = getIntent().getStringExtra("Id");
         int course_id = getIntent().getIntExtra("course_id",0);
@@ -97,6 +97,7 @@ public class Course_detail extends AppCompatActivity {
                 }else{
                     userToSend = User.getUsername()+" apps";
                 }
+                System.out.println("USER TO SEND "+userToSend);
                 intent.putExtra("Username",userToSend);
                 startActivity(intent);
             }

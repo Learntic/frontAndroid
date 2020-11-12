@@ -20,15 +20,18 @@ public class AddFriend {
     public String friendUid;
     public Context context ;
     public boolean res;
+    boolean response = false;
 
     public AddFriend(user u, Context context, String friendUid) {
         this.u = u;
         this.context = context;
         this.friendUid = friendUid;
-        addFriend(context);
+        addFriend();
     }
 
-    public synchronized void addFriend(final Context context) {
+    public synchronized void addFriend() {
+
+        System.out.println("USER: "+u.getid()+" FRIEND: "+friendUid);
 
         FriendshipInput friendshipInput = FriendshipInput
                 .builder()
@@ -40,6 +43,7 @@ public class AddFriend {
                 AddFriendMutation
                         .builder()
                         .data(friendshipInput)
+                        .token(u.getToken())
                         .build())
                 .enqueue(new ApolloCall.Callback<AddFriendMutation.Data>() {
 
@@ -47,22 +51,15 @@ public class AddFriend {
                     public void onResponse(@NotNull Response<AddFriendMutation.Data> response) {
                         Log.d(TAG, "addFriend response " + response.data());
                         if (response.data() == null){
-                            Toast.makeText(context, "Error agregando amigo",
-                                    Toast.LENGTH_SHORT).show();
                             setRes(false);
                         }else {
-                            System.out.println("agregando amigo");
-                            Toast.makeText(context, "Amigo agregado",
-                                    Toast.LENGTH_SHORT).show();
                             setRes(true);
                         }
                     }
 
                     @Override
                     public void onFailure(@NotNull ApolloException e) {
-                        Log.d(TAG, "Register Exception " + e);
-                        Toast.makeText(context, "Error agregando amigo",
-                                Toast.LENGTH_SHORT).show();
+                        Log.d(TAG, "addFriend Exception " + e);
                         setRes(false);
                     }
                 });
@@ -71,10 +68,15 @@ public class AddFriend {
 
     public void setRes(boolean res){
         this.res = res;
+        this.response = true;
     }
 
     public boolean getRes() {
         return res;
+    }
+
+    public boolean getresponse() {
+        return response;
     }
 
 

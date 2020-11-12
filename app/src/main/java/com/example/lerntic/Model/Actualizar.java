@@ -1,6 +1,7 @@
 package com.example.lerntic.Model;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.apollographql.apollo.ApolloCall;
 import com.apollographql.apollo.api.Response;
@@ -16,6 +17,7 @@ public class Actualizar {
     private final String TAG = "actualizar";
     public user User;
     public Context context ;
+    boolean Recibir = false;
 
     public Actualizar(user user, Context context) {
         this.User = user;
@@ -25,6 +27,10 @@ public class Actualizar {
 
     public user getUser() {
         return User;
+    }
+
+    public boolean getRecibir() {
+        return Recibir;
     }
 
     public void getUserMutation() {
@@ -53,6 +59,7 @@ public class Actualizar {
 
                     @Override
                     public void onResponse(@NotNull Response<UpdateUserMutation.Data> response) {
+                        Log.d(TAG, "Response " + response.data());
                         if (response.data() == null){
                             User.setToken("");
                             User.setUsername("");
@@ -79,6 +86,7 @@ public class Actualizar {
     }
     public void next(user user){
         this.User = user;
+        this.Recibir = true;
     }
 
 

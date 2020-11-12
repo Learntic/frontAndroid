@@ -19,7 +19,8 @@ public class Adapter_people extends  RecyclerView.Adapter<Adapter_people.ViewHol
     private View.OnClickListener listener;
 
     public Adapter_people(ArrayList<People> dataList) {
-        DataList = dataList;
+        this.DataList = dataList;
+        System.out.println(DataList);
     }
 
     @NonNull
@@ -57,7 +58,7 @@ public class Adapter_people extends  RecyclerView.Adapter<Adapter_people.ViewHol
         public ViewHolderDatos(@NonNull View itemView) {
             super(itemView);
 
-            name = itemView.findViewById(R.id.txt_name_friend);
+            name = itemView.findViewById(R.id.txt_name_people);
         }
 
         public void asignarDatos(People people) {

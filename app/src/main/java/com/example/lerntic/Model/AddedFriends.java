@@ -23,6 +23,7 @@ public class AddedFriends {
     public ArrayList<friend> friends;
     public Context context ;
     public user User;
+    boolean Recived = false;
 
     public AddedFriends(user User, Context context) {
         this.User = User;
@@ -67,10 +68,15 @@ public class AddedFriends {
 
     public void setFriends(ArrayList<friend> friends) {
         this.friends = friends;
+        this.Recived = true;
     }
 
     public ArrayList<friend>  getfriends() {
         return friends;
+    }
+
+    public boolean  getRecive() {
+        return Recived;
     }
 
 }

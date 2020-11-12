@@ -20,9 +20,10 @@ import java.util.List;
 public class NotFriends {
 
     private final String TAG = "NotFriends";
-    public ArrayList<People> people;
+    public ArrayList<People> peoplelist;
     public Context context ;
     public user User;
+    boolean end = false;
 
     public NotFriends(user User, Context context) {
         this.User = User;
@@ -46,17 +47,17 @@ public class NotFriends {
                     @Override
                     public void onResponse(@NotNull Response<NotMyFriendsQuery.Data> response) {
                         List<NotMyFriendsQuery.NotMyFriend> data = response.data().notMyFriends();
-                        people = new ArrayList<>();
                         Log.d(TAG, "Response " + data);
                         if(data!=null) {
+                            peoplelist = new ArrayList<>();
                             for (int i = 0; i < data.size(); i++) {
                                 String fullname = data.get(i).fullname();
                                 String username = data.get(i).username();
                                 String uid = data.get(i).uid();
-                                people.add(new People(fullname, username, uid, ""));
+                                peoplelist.add(new People(fullname, username, uid, ""));
                             }
                         }
-                        setPeople(people);
+                        setPeople(peoplelist);
                     }
 
                     @Override
@@ -66,12 +67,17 @@ public class NotFriends {
                 });
     }
 
-    public void setPeople(ArrayList<People> people) {
-        this.people = people;
+    public void setPeople(ArrayList<People> peoplelist) {
+        this.peoplelist = peoplelist;
+        this.end = true;
     }
 
     public ArrayList<People>  getPeople() {
-        return people;
+        return peoplelist;
+    }
+
+    public boolean  getRecived() {
+        return end;
     }
 
 }

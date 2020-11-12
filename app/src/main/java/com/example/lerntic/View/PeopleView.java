@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -102,6 +103,7 @@ public class PeopleView extends AppCompatActivity {
 
         DataList = friends_controller.ShowNotfriends(username,token,id,getApplicationContext());
 
+        System.out.println("PEOPLE VIEW ="+DataList);
         Adapter_people adapter = new Adapter_people(DataList);
         recycler.setAdapter(adapter);
 
@@ -109,12 +111,17 @@ public class PeopleView extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String friendUid = DataList.get(recycler.getChildAdapterPosition(view)).getUid();
-                friends_controller.addFriend(username, token, id, getApplicationContext(), friendUid);
-                Intent intent = new Intent(getApplicationContext(), PeopleView.class);
-                intent.putExtra("Username",User.getUsername());
-                intent.putExtra("Token",User.getToken());
-                intent.putExtra("Id",User.getid());
-                startActivity(intent);
+                boolean response = friends_controller.addFriend(User.getUsername(), User.getToken(), User.getid(), getApplicationContext(), friendUid);
+                if (response){
+                    Intent intent = new Intent(getApplicationContext(), PeopleView.class);
+                    intent.putExtra("Username",User.getUsername());
+                    intent.putExtra("Token",User.getToken());
+                    intent.putExtra("Id",User.getid());
+                    startActivity(intent);
+                }else{
+                    Toast.makeText(getApplicationContext(), "Error agregando amigo",
+                            Toast.LENGTH_SHORT).show();
+                }
             }
         });
 

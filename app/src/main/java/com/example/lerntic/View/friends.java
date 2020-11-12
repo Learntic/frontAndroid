@@ -101,8 +101,6 @@ public class friends extends AppCompatActivity {
 
         DataList = friends_controller.Showfriends(username,token,id,getApplicationContext());
 
-
-
         Adapter_Friends adapter = new Adapter_Friends(DataList);
         recycler.setAdapter(adapter);
 

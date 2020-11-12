@@ -1,6 +1,7 @@
 package com.example.lerntic.Model;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.apollographql.apollo.ApolloCall;
 import com.apollographql.apollo.api.Response;
@@ -14,6 +15,7 @@ public class Consultar {
     private final String TAG = "consultar";
     public user User;
     public Context context ;
+    boolean Recived = false;
 
     public Consultar(user user,Context context) {
         this.User = user;
@@ -41,6 +43,7 @@ public class Consultar {
 
                     @Override
                     public void onResponse(@NotNull Response<GetUserQuery.Data> response) {
+                        Log.d(TAG, "Response " + response.data());
                         if (response.data() == null){
                             User.setToken("");
                             User.setUsername("");
@@ -66,6 +69,11 @@ public class Consultar {
     }
     public void next(user user){
         this.User = user;
+        this.Recived = true;
+    }
+
+    public boolean getRecived(){
+        return Recived;
     }
 
 

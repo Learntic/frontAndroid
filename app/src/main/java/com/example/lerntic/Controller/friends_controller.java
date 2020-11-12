@@ -20,37 +20,45 @@ public class friends_controller {
     public AddFriend addFriend;
     public user User = new user();
     private ArrayList<friend> friends;
-    private ArrayList<People> Notfriends;
+    private ArrayList<People> NotfriendsList;
+    boolean NotRecived = true;
 
     public friends_controller() { }
 
     public ArrayList<friend> Showfriends(String username, String token,String id, Context context) {
+        NotRecived = true;
         User = new user(username,token,"",id);
         addedFriends = new AddedFriends(User,context);
         friends = addedFriends.getfriends();
-        while(friends==null){
+        while(NotRecived){
             friends = addedFriends.getfriends();
+            NotRecived = !addedFriends.getRecive();
         }
         return friends;
     }
 
     public ArrayList<People> ShowNotfriends(String username, String token,String id, Context context) {
+        NotRecived = true;
         User = new user(username,token,"",id);
         notFriends = new NotFriends(User,context);
-        Notfriends = notFriends.getPeople();
-        while(Notfriends == null){
-            Notfriends = notFriends.getPeople();
+        NotfriendsList = notFriends.getPeople();
+        while(NotRecived){
+            NotfriendsList = notFriends.getPeople();
+            NotRecived = !notFriends.getRecived();
         }
-        return Notfriends;
+        System.out.println("NOTFRIENDS "+NotfriendsList.get(0).getFullname());
+        return NotfriendsList;
     }
 
     public boolean addFriend(String username, String token,String id, Context context, String friendUid){
+        NotRecived = true;
         User = new user(username,token,"",id);
         addFriend = new AddFriend(User, context, friendUid);
-        addFriend.addFriend(context);
         boolean res = addFriend.getRes();
-        while(res == false)
-            addFriend.addFriend(context);
+        while(NotRecived){
+            res = addFriend.getRes();
+            NotRecived = !addFriend.getresponse();
+        }
         return  res;
     }
 }

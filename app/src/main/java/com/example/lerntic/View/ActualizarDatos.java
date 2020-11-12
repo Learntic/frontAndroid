@@ -101,9 +101,9 @@ public class ActualizarDatos extends AppCompatActivity {
         UserData = userData_controller.getData(User.getUsername(),User.getid(),User.getToken(), getApplicationContext());
 
         fullName.setText(UserData.getName());
-        age.setText(UserData.getAge());
+        age.setText(String.valueOf(UserData.getAge()));
         if (UserData.getEmail()==null){
-            UserData.setEmail("-");
+            UserData.setEmail("email");
         }
         email.setText(UserData.getEmail());
 
@@ -119,6 +119,7 @@ public class ActualizarDatos extends AppCompatActivity {
 
                 UserData = userData_controller.actualizar(UserData, getApplicationContext());
 
+                System.out.println(UserData);
                 if (UserData.getid().equals("-1")){
                     Toast.makeText(getApplicationContext(), "Error en la Actualizacion",
                             Toast.LENGTH_SHORT).show();
@@ -126,7 +127,7 @@ public class ActualizarDatos extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Actualizacion realizada correctamente",
                             Toast.LENGTH_SHORT).show();
                     fullName.setText(UserData.getName());
-                    age.setText(UserData.getAge());
+                    age.setText(String.valueOf(UserData.getAge()));
                     if (UserData.getEmail()==null){
                         UserData.setEmail("-");
                     }
