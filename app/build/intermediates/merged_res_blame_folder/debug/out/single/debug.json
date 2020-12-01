@@ -32,12 +32,12 @@
         "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_comprobar.png.flat",
         "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\drawable\\comprobar.png"
+    },
+    {
+        "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_profile_icon.png.flat",
@@ -54,6 +54,10 @@
     {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_write_feedback.xml.flat",
         "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_write_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_chat_row_to.xml.flat",
+        "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\layout\\chat_row_to.xml"
     },
     {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_people.xml.flat",
@@ -96,6 +100,10 @@
         "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_all_activities.xml"
     },
     {
+        "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_back.xml.flat",
+        "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\drawable\\btn_back.xml"
+    },
+    {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
@@ -116,16 +124,16 @@
         "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_login_bk.xml.flat",
         "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_login_bk.xml"
-    },
-    {
-        "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_login_bk.png.flat",
@@ -152,12 +160,16 @@
         "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_own_courses.xml"
     },
     {
+        "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_friends.xml.flat",
+        "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_friends.xml"
+    },
+    {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_friends.xml.flat",
-        "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_friends.xml"
+        "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_chat_row_from.xml.flat",
+        "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\layout\\chat_row_from.xml"
     },
     {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
@@ -182,6 +194,10 @@
     {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_friend.xml.flat",
         "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\layout\\item_friend.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_linear_layuout_back.xml.flat",
+        "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\drawable\\linear_layuout_back.xml"
     },
     {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_usuario.png.flat",
@@ -212,8 +228,16 @@
         "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat2.xml.flat",
+        "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_chat2.xml"
+    },
+    {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_temario.xml.flat",
         "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\layout\\item_temario.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\src\\main\\res\\layout\\activity_chat.xml"
     },
     {
         "merged": "C:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",

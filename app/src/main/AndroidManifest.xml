@@ -15,7 +15,9 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:replace="android:icon,android:theme">
-        <activity android:name=".View.Edit_Profile"/>
+        <activity android:name=".View.Chat2"></activity>
+        <activity android:name=".View.Chat" />
+        <activity android:name=".View.Edit_Profile" />
         <activity android:name=".View.Game" />
         <activity android:name=".View.ActualizarDatos" />
         <activity android:name=".View.PeopleView" />

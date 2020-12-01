@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-#Wed Nov 11 22:21:16 COT 2020
-base.0=C\:\\Users\\huber\\OneDrive\\Escritorio\\Materias 2020-2\\Arquitectura de Software\\Front\\frontAndroid\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-=======
-#Wed Nov 11 20:27:16 COT 2020
+#Tue Nov 24 10:18:37 COT 2020
 base.0=C\:\\Users\\pc1\\Desktop\\front\\frontAndroid\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
->>>>>>> a4f70efba364cfcea26debdbd384d37901f9afc4
 path.0=classes.dex
 renamed.0=classes.dex

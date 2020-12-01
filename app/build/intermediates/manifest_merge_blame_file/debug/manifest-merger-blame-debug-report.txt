@@ -18,66 +18,66 @@
 12-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:7:22-76
 13
 14    <supports-screens
-14-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:13:5-18:40
+14-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:13:5-18:40
 15        android:anyDensity="true"
-15-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:14:9-34
+15-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:14:9-34
 16        android:largeScreens="true"
-16-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:15:9-36
+16-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:15:9-36
 17        android:normalScreens="true"
-17-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:16:9-37
+17-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:16:9-37
 18        android:smallScreens="true"
-18-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:17:9-36
+18-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:17:9-36
 19        android:xlargeScreens="true" />
-19-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:18:9-37
+19-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:18:9-37
 20
 21    <uses-feature android:glEsVersion="0x00020000" />
-21-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:20:5-54
-21-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:20:19-51
+21-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:20:5-54
+21-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:20:19-51
 22    <uses-feature
-22-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:21:5-23:36
+22-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:21:5-23:36
 23        android:name="android.hardware.vulkan.version"
-23-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:22:9-55
+23-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:22:9-55
 24        android:required="false" />
-24-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:23:9-33
+24-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:23:9-33
 25
 26    <uses-permission
-26-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:26:5-28:38
+26-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:26:5-28:38
 27        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-27-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:27:9-65
+27-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:27:9-65
 28        android:maxSdkVersion="18" />
-28-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:28:9-35
+28-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:28:9-35
 29    <uses-permission
-29-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:29:5-31:38
+29-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:29:5-31:38
 30        android:name="android.permission.READ_EXTERNAL_STORAGE"
-30-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:30:9-64
+30-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:30:9-64
 31        android:maxSdkVersion="18" />
-31-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:31:9-35
+31-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:31:9-35
 32
 33    <uses-feature
-33-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:33:5-35:36
+33-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:33:5-35:36
 34        android:name="android.hardware.touchscreen"
-34-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:34:9-52
+34-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:34:9-52
 35        android:required="false" />
-35-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:35:9-33
+35-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:35:9-33
 36    <uses-feature
-36-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:36:5-38:36
+36-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:36:5-38:36
 37        android:name="android.hardware.touchscreen.multitouch"
-37-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:37:9-63
+37-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:37:9-63
 38        android:required="false" />
-38-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:38:9-33
+38-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:38:9-33
 39    <uses-feature
-39-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:39:5-41:36
+39-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:39:5-41:36
 40        android:name="android.hardware.touchscreen.multitouch.distinct"
-40-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:40:9-72
+40-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:40:9-72
 41        android:required="false" />
-41-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:41:9-33
+41-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:41:9-33
 42
 43    <application
-43-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:9:5-40:19
+43-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:9:5-42:19
 44        android:allowBackup="true"
 44-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:10:9-35
 45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-45-->[androidx.core:core:1.3.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\e9eb43c069a93c072e1b59061c8adffe\core-1.3.1\AndroidManifest.xml:24:18-86
+45-->[androidx.core:core:1.3.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\ffebca85b1ead50eca613475f7b9b819\core-1.3.1\AndroidManifest.xml:24:18-86
 46        android:debuggable="true"
 47        android:icon="@mipmap/ic_launcher"
 47-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:11:9-43
@@ -92,117 +92,169 @@
 52-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:15:9-40
 53        android:usesCleartextTraffic="true" >
 53-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:16:9-44
-54        <activity android:name="com.example.lerntic.View.Edit_Profile" />
-54-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:18:9-54
-54-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:18:19-52
-55        <activity android:name="com.example.lerntic.View.Game" />
+54        <activity android:name="com.example.lerntic.View.Chat2" />
+54-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:18:9-57
+54-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:18:19-45
+55        <activity android:name="com.example.lerntic.View.Chat" />
 55-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:19:9-47
 55-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:19:19-44
-56        <activity android:name="com.example.lerntic.View.ActualizarDatos" />
-56-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:20:9-58
-56-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:20:19-55
-57        <activity android:name="com.example.lerntic.View.PeopleView" />
-57-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:21:9-53
-57-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:21:19-50
-58        <activity android:name="com.example.lerntic.View.course_detail_noreg" />
-58-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:22:9-62
-58-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:22:19-59
-59        <activity android:name="com.example.lerntic.View.Course_detail" />
-59-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:23:9-56
-59-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:23:19-53
-60        <activity android:name="com.example.lerntic.View.Achievements" />
-60-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:24:9-55
-60-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:24:19-52
-61        <activity android:name="com.example.lerntic.View.AllActivities" />
+56        <activity android:name="com.example.lerntic.View.Edit_Profile" />
+56-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:20:9-55
+56-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:20:19-52
+57        <activity android:name="com.example.lerntic.View.Game" />
+57-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:21:9-47
+57-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:21:19-44
+58        <activity android:name="com.example.lerntic.View.ActualizarDatos" />
+58-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:22:9-58
+58-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:22:19-55
+59        <activity android:name="com.example.lerntic.View.PeopleView" />
+59-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:23:9-53
+59-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:23:19-50
+60        <activity android:name="com.example.lerntic.View.course_detail_noreg" />
+60-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:24:9-62
+60-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:24:19-59
+61        <activity android:name="com.example.lerntic.View.Course_detail" />
 61-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:25:9-56
 61-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:25:19-53
-62        <activity android:name="com.example.lerntic.View.Profile" />
-62-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:26:9-50
-62-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:26:19-47
-63        <activity android:name="com.example.lerntic.View.OwnCourses" />
-63-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:27:9-53
-63-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:27:19-50
-64        <activity android:name="com.example.lerntic.Controller.Quices" />
-64-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:28:9-55
-64-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:28:19-52
-65        <activity android:name="com.example.lerntic.View.Register" />
-65-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:29:9-51
-65-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:29:19-48
-66        <activity android:name="com.example.lerntic.View.friends" />
-66-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:30:9-50
-66-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:30:19-47
-67        <activity android:name="com.unity3d.player.UnityPlayerActivity" />
-67-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:31:9-75
-67-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:31:19-72
-68        <activity android:name="com.example.lerntic.View.WriteFeedback" />
-68-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:32:9-56
-68-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:32:19-53
-69        <activity android:name="com.example.lerntic.View.MainActivity" >
-69-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:33:9-39:20
-69-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:33:19-52
-70            <intent-filter>
-70-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:34:13-38:29
-71                <action android:name="android.intent.action.MAIN" />
-71-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:35:17-69
-71-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:35:25-66
-72
-73                <category android:name="android.intent.category.LAUNCHER" />
-73-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:37:17-77
-73-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:37:27-74
-74            </intent-filter>
-75        </activity>
-76        <activity
-76-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:47:9-60:20
-77            android:name="co.arqui.learnticTest.UnityPlayerActivity"
-77-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:48:13-69
-78            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-78-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:49:13-194
-79            android:hardwareAccelerated="false"
-79-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:50:13-48
-80            android:label="@string/app_name"
-80-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:51:13-45
-81            android:launchMode="singleTask"
-81-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:52:13-44
-82            android:screenOrientation="fullSensor" >
-82-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:53:13-51
+62        <activity android:name="com.example.lerntic.View.Achievements" />
+62-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:26:9-55
+62-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:26:19-52
+63        <activity android:name="com.example.lerntic.View.AllActivities" />
+63-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:27:9-56
+63-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:27:19-53
+64        <activity android:name="com.example.lerntic.View.Profile" />
+64-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:28:9-50
+64-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:28:19-47
+65        <activity android:name="com.example.lerntic.View.OwnCourses" />
+65-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:29:9-53
+65-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:29:19-50
+66        <activity android:name="com.example.lerntic.Controller.Quices" />
+66-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:30:9-55
+66-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:30:19-52
+67        <activity android:name="com.example.lerntic.View.Register" />
+67-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:31:9-51
+67-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:31:19-48
+68        <activity android:name="com.example.lerntic.View.friends" />
+68-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:32:9-50
+68-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:32:19-47
+69        <activity android:name="com.unity3d.player.UnityPlayerActivity" />
+69-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:33:9-75
+69-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:33:19-72
+70        <activity android:name="com.example.lerntic.View.WriteFeedback" />
+70-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:34:9-56
+70-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:34:19-53
+71        <activity android:name="com.example.lerntic.View.MainActivity" >
+71-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:35:9-41:20
+71-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:35:19-52
+72            <intent-filter>
+72-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:36:13-40:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:37:17-69
+73-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:37:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:39:17-77
+75-->C:\Users\pc1\Desktop\front\frontAndroid\app\src\main\AndroidManifest.xml:39:27-74
+76            </intent-filter>
+77        </activity>
+78
+79        <service
+79-->[com.google.firebase:firebase-database:19.5.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\3debfd6e6ac255530435c546d80d7724\jetified-firebase-database-19.5.1\AndroidManifest.xml:29:9-35:19
+80            android:name="com.google.firebase.components.ComponentDiscoveryService"
+80-->[com.google.firebase:firebase-database:19.5.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\3debfd6e6ac255530435c546d80d7724\jetified-firebase-database-19.5.1\AndroidManifest.xml:30:13-84
+81            android:directBootAware="true"
+81-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\2030944d313217f6bf2eeb086ab2214d\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+82            android:exported="false" >
+82-->[com.google.firebase:firebase-database:19.5.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\3debfd6e6ac255530435c546d80d7724\jetified-firebase-database-19.5.1\AndroidManifest.xml:31:13-37
 83            <meta-data
-83-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:54:13-56:40
-84                android:name="unityplayer.UnityActivity"
-84-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:55:17-57
-85                android:value="true" />
-85-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:56:17-37
-86            <meta-data
-86-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:57:13-59:40
-87                android:name="android.notch_support"
-87-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:58:17-53
-88                android:value="true" />
-88-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:59:17-37
-89        </activity>
-90
-91        <meta-data
-91-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:62:9-64:68
-92            android:name="unity.build-id"
-92-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:63:13-42
-93            android:value="d8c3f597-dc04-4a37-afe5-c47824103292" />
-93-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:64:13-65
-94        <meta-data
-94-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:65:9-67:33
-95            android:name="unity.splash-mode"
-95-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:66:13-45
-96            android:value="0" />
-96-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:67:13-30
-97        <meta-data
-97-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:68:9-70:36
-98            android:name="unity.splash-enable"
-98-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:69:13-47
-99            android:value="True" />
-99-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:70:13-33
+83-->[com.google.firebase:firebase-database:19.5.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\3debfd6e6ac255530435c546d80d7724\jetified-firebase-database-19.5.1\AndroidManifest.xml:32:13-34:85
+84                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+84-->[com.google.firebase:firebase-database:19.5.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\3debfd6e6ac255530435c546d80d7724\jetified-firebase-database-19.5.1\AndroidManifest.xml:33:17-109
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-database:19.5.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\3debfd6e6ac255530435c546d80d7724\jetified-firebase-database-19.5.1\AndroidManifest.xml:34:17-82
+86        </service>
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\0301d2cbe0683a894d52302663b985ef\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\0301d2cbe0683a894d52302663b985ef\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\0301d2cbe0683a894d52302663b985ef\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\0301d2cbe0683a894d52302663b985ef\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+92
+93        <provider
+93-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\2030944d313217f6bf2eeb086ab2214d\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+94            android:name="com.google.firebase.provider.FirebaseInitProvider"
+94-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\2030944d313217f6bf2eeb086ab2214d\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+95            android:authorities="com.example.lerntic.firebaseinitprovider"
+95-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\2030944d313217f6bf2eeb086ab2214d\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+96            android:directBootAware="true"
+96-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\2030944d313217f6bf2eeb086ab2214d\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+97            android:exported="false"
+97-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\2030944d313217f6bf2eeb086ab2214d\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+98            android:initOrder="100" />
+98-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\2030944d313217f6bf2eeb086ab2214d\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+99
 100        <meta-data
-100-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:71:9-73:50
-101            android:name="notch.config"
-101-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:72:13-40
-102            android:value="portrait|landscape" />
-102-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\11e5da818d1205b15e5c8cfce78c9283\jetified-New Unity Project-debug\AndroidManifest.xml:73:13-47
-103    </application>
-104
-105</manifest>
+100-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\b37114556b55b09812bcbe5300dc7881\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+101            android:name="com.google.android.gms.version"
+101-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\b37114556b55b09812bcbe5300dc7881\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+102            android:value="@integer/google_play_services_version" />
+102-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\pc1\.gradle\caches\transforms-2\files-2.1\b37114556b55b09812bcbe5300dc7881\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+103
+104        <activity
+104-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:47:9-60:20
+105            android:name="co.arqui.learnticTest.UnityPlayerActivity"
+105-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:48:13-69
+106            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+106-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:49:13-194
+107            android:hardwareAccelerated="false"
+107-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:50:13-48
+108            android:label="@string/app_name"
+108-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:51:13-45
+109            android:launchMode="singleTask"
+109-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:52:13-44
+110            android:screenOrientation="fullSensor" >
+110-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:53:13-51
+111            <meta-data
+111-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:54:13-56:40
+112                android:name="unityplayer.UnityActivity"
+112-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:55:17-57
+113                android:value="true" />
+113-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:56:17-37
+114            <meta-data
+114-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:57:13-59:40
+115                android:name="android.notch_support"
+115-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:58:17-53
+116                android:value="true" />
+116-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:59:17-37
+117        </activity>
+118
+119        <meta-data
+119-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:62:9-64:68
+120            android:name="unity.build-id"
+120-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:63:13-42
+121            android:value="d8c3f597-dc04-4a37-afe5-c47824103292" />
+121-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:64:13-65
+122        <meta-data
+122-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:65:9-67:33
+123            android:name="unity.splash-mode"
+123-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:66:13-45
+124            android:value="0" />
+124-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:67:13-30
+125        <meta-data
+125-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:68:9-70:36
+126            android:name="unity.splash-enable"
+126-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:69:13-47
+127            android:value="True" />
+127-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:70:13-33
+128        <meta-data
+128-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:71:9-73:50
+129            android:name="notch.config"
+129-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:72:13-40
+130            android:value="portrait|landscape" />
+130-->[:New Unity Project-debug] C:\Users\pc1\Desktop\front\frontAndroid\New Unity Project-debug\build\.transforms\448509b59003f16b0cfc77ebdc4a98fe\jetified-New Unity Project-debug\AndroidManifest.xml:73:13-47
+131    </application>
+132
+133</manifest>

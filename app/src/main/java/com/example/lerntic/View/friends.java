@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.example.lerntic.Controller.Adapter_Courses;
 import com.example.lerntic.Controller.Adapter_Friends;
@@ -103,6 +104,17 @@ public class friends extends AppCompatActivity {
 
         Adapter_Friends adapter = new Adapter_Friends(DataList);
         recycler.setAdapter(adapter);
+
+        adapter.SetOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               Intent intent = new Intent(getApplicationContext(), Chat2.class);
+                intent.putExtra("userNameB", DataList.get(recycler.getChildAdapterPosition(v)).getUsername());
+                intent.putExtra("userNameA",User.getUsername());
+                startActivity(intent);
+
+            }
+        });
 
     }
 }

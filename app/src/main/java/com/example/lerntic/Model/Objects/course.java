@@ -31,7 +31,7 @@ public class course {
         this.course_id = course_id;
     }
 
-    public String get_course_description() {
+    public String  get_course_description() {
         return course_description;
     }
 

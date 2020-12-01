@@ -41,13 +41,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //User = controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
-               User = controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
+                User = controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
                 if (User.getid().equals("-1")){
                     Toast.makeText(getApplicationContext(), "Error en login",
                             Toast.LENGTH_SHORT).show();
                 }else{
                     openOwnCourses();
                 }
+               /* Intent intent = new Intent(getApplicationContext(), Chat2.class);
+                intent.putExtra("userNameA","camilo");
+                intent.putExtra("userNameB","cristian");
+                startActivity(intent);*/
 
             }
         });

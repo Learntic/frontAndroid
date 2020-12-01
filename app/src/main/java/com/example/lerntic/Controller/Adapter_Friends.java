@@ -13,8 +13,9 @@ import com.example.lerntic.R;
 
 import java.util.ArrayList;
 
-public class Adapter_Friends extends  RecyclerView.Adapter<Adapter_Friends.ViewHolderDatos> {
+public class Adapter_Friends extends  RecyclerView.Adapter<Adapter_Friends.ViewHolderDatos> implements View.OnClickListener {
     ArrayList<friend> DataList;
+    private View.OnClickListener listener;
 
     public Adapter_Friends(ArrayList<friend> dataList) {
         DataList = dataList;
@@ -24,6 +25,7 @@ public class Adapter_Friends extends  RecyclerView.Adapter<Adapter_Friends.ViewH
     @Override
     public Adapter_Friends.ViewHolderDatos onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_friend, null,false);
+        view.setOnClickListener(this);
         return new Adapter_Friends.ViewHolderDatos(view);
     }
 
@@ -35,6 +37,17 @@ public class Adapter_Friends extends  RecyclerView.Adapter<Adapter_Friends.ViewH
     @Override
     public int getItemCount() {
         return DataList.size();
+    }
+
+    public void SetOnClickListener(View.OnClickListener listener){
+        this.listener = listener;
+    }
+
+    @Override
+    public void onClick(View v) {
+        if(listener!=null){
+            listener.onClick(v);
+        }
     }
 
     public class ViewHolderDatos extends RecyclerView.ViewHolder{
