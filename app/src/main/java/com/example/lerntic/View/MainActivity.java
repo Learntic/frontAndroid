@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                User = controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
+               //User = controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
                 User = controller_login.SignIn(user.getText().toString(),pass.getText().toString(),getApplicationContext());
                 if (User.getid().equals("-1")){
                     Toast.makeText(getApplicationContext(), "Error en login",
@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     openOwnCourses();
                 }
+
             }
         });
 
