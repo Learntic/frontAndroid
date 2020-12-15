@@ -28,6 +28,9 @@
         <activity android:name=".View.friends" />
         <activity android:name="com.unity3d.player.UnityPlayerActivity" />
         <activity android:name=".View.WriteFeedback" />
+        <activity android:name=".View.ActualizarDatos" />
+        <activity android:name=".View.PeopleView" />
+
         <activity android:name=".View.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

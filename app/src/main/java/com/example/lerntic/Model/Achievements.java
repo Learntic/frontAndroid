@@ -45,14 +45,9 @@ public class Achievements {
                 .enqueue(new ApolloCall.Callback<GetAchievementsByUsernamesQuery.Data>() {
                     @Override
                     public void onResponse(@NotNull Response<GetAchievementsByUsernamesQuery.Data> response) {
-                        List<GetAchievementsByUsernamesQuery.GetAchievementsByUsername> data = response.data().GetAchievementsByUsernames();
-                        Log.d(TAG, "Achiv " + data);
+                        Log.d(TAG, "Achiv " + response);
                         achievementsL = new ArrayList<>();
-                        for (int i = 0; i < data.get(0).achievements().size(); i++) {
-                            String description = data.get(0).achievements().get(i).description();
-                            System.out.println(description);
-                            achievementsL.add(new Achievement(description));
-                        }
+                        achievementsL.add(new Achievement("None"));
                         setAchievements(achievementsL);
                     }
                     @Override

@@ -51,6 +51,10 @@ public class OwnCourses extends AppCompatActivity {
 
         User = new user(username,token,"",id);
 
+        System.out.println("---------------OwnCourses------------------");
+        System.out.println(User.getUsername());
+        System.out.println("----------------------------------------");
+
         //----------Botton MENU
         home = findViewById(R.id.menu_home);
         courses = findViewById(R.id.menu_cours);

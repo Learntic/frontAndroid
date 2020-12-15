@@ -48,6 +48,7 @@ public class login {
                 .enqueue(new ApolloCall.Callback<SignInQuery.Data>() {
                     @Override
                     public void onResponse(@NotNull Response<SignInQuery.Data> response) {
+                        Log.d(TAG, "login_consult " + response);
                         if (response.data() == null){
                             User.setToken("");
                             User.setUsername("");
@@ -64,6 +65,7 @@ public class login {
 
                     @Override
                     public void onFailure(@NotNull ApolloException e) {
+                        Log.d(TAG, "------------ERROR-----------------" + e);
                         User.setToken("");
                         User.setUsername("");
                         User.setid("-1");

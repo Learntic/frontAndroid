@@ -31,10 +31,9 @@
             android:text="Su información de perfil es la siguiente:" />
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/user_data"
+            android:id="@+id/view2"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_above="@+id/age_data"
             android:hint="Nombre"
             android:shadowColor="#1f618d"
             android:textColor="#1f618d"
@@ -43,30 +42,27 @@
             android:textColorLink="#1f618d" />
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/age_data"
+            android:id="@+id/view3"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_above="@+id/confPas"
             android:hint="Edad"
+            android:inputType="number"
             android:shadowColor="#1f618d"
             android:textColor="#1f618d"
             android:textColorHighlight="#1f618d"
             android:textColorHint="#1f618d"
-            android:textColorLink="#1f618d"
-            android:inputType="number"/>
-
+            android:textColorLink="#1f618d"  />
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/email_data"
+            android:id="@+id/view4"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_above="@+id/confPas"
             android:hint="Correo"
             android:shadowColor="#1f618d"
             android:textColor="#1f618d"
             android:textColorHighlight="#1f618d"
             android:textColorHint="#1f618d"
-            android:textColorLink="#1f618d" />
+            android:textColorLink="#1f618d"  />
 
         <Space
             android:layout_width="match_parent"
@@ -79,12 +75,12 @@
             android:text="Puede modificar cualquier campo que desee, para aplicarlos precione actualizar" />
 
         <Button
-            android:id="@+id/button_DoUpdate"
+            android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:background="@drawable/button_sable_blue"
             android:text="Actualizar"
-            android:textColor="#ffff" />
+            android:textColor="#ffff"  />
 
 
     </LinearLayout>

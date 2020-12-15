@@ -22,10 +22,9 @@
         android:padding="20dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/user_data"
+            android:id="@+id/user"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_above="@id/name"
             android:hint="Usuario"
             android:shadowColor="#1f618d"
             android:textColor="#1f618d"
@@ -37,7 +36,7 @@
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_above="@id/age"
+            android:layout_above="@id/user"
             android:hint="Nombre completo"
             android:shadowColor="#1f618d"
             android:textColor="#1f618d"
@@ -49,20 +48,20 @@
             android:id="@+id/age"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_above="@+id/age_data"
+            android:layout_above="@id/name"
             android:hint="Edad"
+            android:inputType="number"
             android:shadowColor="#1f618d"
             android:textColor="#1f618d"
             android:textColorHighlight="#1f618d"
             android:textColorHint="#1f618d"
-            android:textColorLink="#1f618d"
-            android:inputType="number"/>
+            android:textColorLink="#1f618d" />
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/age_data"
+            android:id="@+id/password_reg"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_above="@+id/confPas"
+            android:layout_above="@id/age"
             android:hint="Contraseña"
             android:shadowColor="#1f618d"
             android:textColor="#1f618d"
@@ -84,7 +83,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_below="@+id/age_data"
+            android:layout_below="@+id/password_reg"
             android:background="@drawable/ic_login_bk">
 
         </LinearLayout>

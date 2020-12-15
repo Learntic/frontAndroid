@@ -49,8 +49,11 @@ public class CourseTemario {
                 .enqueue(new ApolloCall.Callback<CourseTopicsQuery.Data>() {
                     @Override
                     public void onResponse(@NotNull Response<CourseTopicsQuery.Data> response) {
+                        Log.d(TAG, "CourseTemario Response" + response);
+                        System.out.println("----------------------TEMARIOS--------------------");
+                        System.out.println(response.data().courseTopics());
                         List<CourseTopicsQuery.CourseTopic> data = response.data().courseTopics();
-                        Log.d(TAG, "Exception " + data);
+                        Log.d(TAG, "CourseTemario data" + data);
                         temarios = new ArrayList<>();
                         for (int i = 0; i<data.size(); i++){
                             int topic_id = data.get(i).topic_id();

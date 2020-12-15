@@ -31,6 +31,9 @@ public class UserData_controller {
         while(User.getUsername() == null){
             User = consultar.getUser();
         }
+        System.out.println(User.getName());
+        System.out.println(User.getAge());
+        System.out.println(User.getEmail());
         return User;
     }
 }

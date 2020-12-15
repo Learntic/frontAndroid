@@ -62,6 +62,10 @@ public class Course_detail extends AppCompatActivity {
         User = new user(username,token,"",id);
         Course = new course(course_id,course_description,course_name,course_score);
 
+        System.out.println("---------------Course_detail------------------");
+        System.out.println(User.getUsername());
+        System.out.println("----------------------------------------");
+
         TextView textView = (TextView) findViewById(R.id.txt_name_courseIns_detail);
         textView.setText(String.format("Curso: %s", Course.get_name()));
 

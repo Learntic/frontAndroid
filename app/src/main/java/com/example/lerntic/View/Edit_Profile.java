@@ -23,7 +23,7 @@ public class Edit_Profile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edit__profile);
+        setContentView(R.layout.activity_edit_profile);
         String username = getIntent().getStringExtra("Username");
         String token = getIntent().getStringExtra("Token");
         String id = getIntent().getStringExtra("Id");

@@ -37,7 +37,7 @@ public class ActualizarDatos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edit__profile);
+        setContentView(R.layout.activity_edit_profile);
 
         String username = getIntent().getStringExtra("Username");
         String token = getIntent().getStringExtra("Token");
@@ -45,6 +45,10 @@ public class ActualizarDatos extends AppCompatActivity {
 
         User = new user(username,token,"",id);
         UserData = new user(username,token,"",id);
+
+        System.out.println("---------------ActualizarDatos------------------");
+        System.out.println(User.getUsername());
+        System.out.println("----------------------------------------");
 
         //----------Botton MENU
         home = findViewById(R.id.menu_home);
@@ -93,15 +97,15 @@ public class ActualizarDatos extends AppCompatActivity {
         });
         //---------------------
 
-        fullName = findViewById(R.id.user_data);
-        age = findViewById(R.id.age_data);
-        email = findViewById(R.id.email_data);
-        botonActualizar =  findViewById(R.id.button_DoUpdate);
+        fullName = findViewById(R.id.view2);
+        age = findViewById(R.id.view3);
+        email = findViewById(R.id.view4);
+        botonActualizar =  findViewById(R.id.button);
 
         UserData = userData_controller.getData(User.getUsername(),User.getid(),User.getToken(), getApplicationContext());
 
         fullName.setText(UserData.getName());
-        age.setText(UserData.getAge());
+        System.out.println("Age___"+UserData.getAge());
         if (UserData.getEmail()==null){
             UserData.setEmail("-");
         }

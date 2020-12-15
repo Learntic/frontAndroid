@@ -27,10 +27,10 @@ public class Register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        user = findViewById(R.id.user_data);
+        user = findViewById(R.id.user);
         userName = findViewById(R.id.name);
         userAge =(EditText) findViewById(R.id.age);
-        password = findViewById(R.id.age_data);
+        password = findViewById(R.id.password_reg);
         pasConfirm = findViewById(R.id.confPas);
         boton = findViewById(R.id.button_DoUpdate);
 
