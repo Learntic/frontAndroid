@@ -18,8 +18,6 @@ import com.xwray.groupie.GroupAdapter
 import com.xwray.groupie.GroupieViewHolder
 import com.xwray.groupie.Item
 
-
-
 class Chat2 : AppCompatActivity() {
     private var TextNameChat: TextView? = null
     private var btnBack: Button? = null
